@@ -6,7 +6,6 @@
       {
         "id": "db497cb15234ae52",
         "type": "tabs",
-        "dimension": 59.395973154362416,
         "children": [
           {
             "id": "427387a584ed4416",
@@ -14,25 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/2. Typcasting.md",
+                "file": "Software design 2/New code.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f721bd9513cb08d7",
-        "type": "tabs",
-        "dimension": 40.604026845637584,
-        "children": [
-          {
-            "id": "0422a6014ad2df0c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -85,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "f3ec877e7cfaa7bd",
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/2. Typcasting.md",
+                "file": "Software design 2/New code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/2. Typcasting.md",
+                "file": "Software design 2/New code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,11 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/2. Typcasting.md"
+                "file": "Software design 2/New code.md"
               }
             }
+          },
+          {
+            "id": "91eff42498d15ed5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -162,23 +155,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0982165d3e9b481",
+  "active": "427387a584ed4416",
   "lastOpenFiles": [
+    "Software design 2/Sorting Searching and Big O.md",
+    "Software design 2/New code.md",
+    "2024-08-22.md",
+    "2024-08-24.md",
+    "2024-W34.md",
+    "Untiled 1",
+    "Untitled",
+    "Untitled.md",
+    "2Kronos/Untitled/Untitled",
+    "2Kronos/New knowledge",
+    "2Kronos/Python",
+    "2Kronos/JavaScript",
+    "2Kronos",
+    "JavaScript",
+    "Operating Systems 2",
+    "Software design 2",
     "Python/2. Typcasting.md",
     "Test/hello.md",
-    "Untitled.md",
     "Untitled 1.md",
     "Test/Untitled.canvas",
-    "Test/Untitled",
-    "Test",
     "Python/1. Varibale.md",
-    "2024-08-22.md",
     "Test note.md",
     "Test note 2.md",
     "Test note 4.md",
     "Test note 3.md",
     "Welcome.md",
-    "Python",
     "Untitled.canvas"
   ]
 }
