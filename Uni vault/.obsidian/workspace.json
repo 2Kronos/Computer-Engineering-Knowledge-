@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/New code.md",
+                "file": "Software design 2/Sorting/Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#typecasting",
+                "query": "tag:#Bi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/New code.md",
+                "file": "Software design 2/Sorting/Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/New code.md",
+                "file": "Software design 2/Sorting/Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/New code.md"
+                "file": "Software design 2/Sorting/Code.md"
               }
             }
           },
@@ -152,19 +152,23 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "427387a584ed4416",
   "lastOpenFiles": [
-    "Software design 2/Sorting Searching and Big O.md",
+    "Software design 2/Sorting/Sorting Searching and Big O.md",
+    "Software design 2/Sorting/Code.md",
+    "2024-08-27.md",
     "Software design 2/New code.md",
+    "Software design 2/Sorting",
     "2024-08-22.md",
+    "Software design 2/New code 1.md",
     "2024-08-24.md",
     "2024-W34.md",
     "Untiled 1",
     "Untitled",
-    "Untitled.md",
     "2Kronos/Untitled/Untitled",
     "2Kronos/New knowledge",
     "2Kronos/Python",
@@ -172,7 +176,6 @@
     "2Kronos",
     "JavaScript",
     "Operating Systems 2",
-    "Software design 2",
     "Python/2. Typcasting.md",
     "Test/hello.md",
     "Untitled 1.md",
