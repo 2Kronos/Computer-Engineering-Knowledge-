@@ -13,7 +13,68 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Sorting/Code.md",
+                "file": "Software design 2/Sorting/Explanation code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b988c9a17a4b56ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software design 2/Sorting/Full Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2a4533445583328",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ecd8ef30f786fdb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e59f5a5e559c51d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software design 2/Sorting/Explanation code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cd2d954698bde743",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13e5a5c71c715842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software design 2/Sorting/Example walk through.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/Sorting/Code.md",
+                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/Sorting/Code.md",
+                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/Sorting/Code.md"
+                "file": "Software design 2/Sorting/Sorting Searching and Big O.md"
               }
             }
           },
@@ -156,10 +217,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "427387a584ed4416",
+  "active": "e2a4533445583328",
   "lastOpenFiles": [
+    "Pasted image 20240827222542.png",
+    "Software design 2/Sorting/Explanation code.md",
+    "Software design 2/Sorting/Example walk through.md",
     "Software design 2/Sorting/Sorting Searching and Big O.md",
-    "Software design 2/Sorting/Code.md",
+    "Pasted image 20240827222412.png",
+    "Software design 2/Sorting/Full Code.md",
     "2024-08-27.md",
     "Software design 2/New code.md",
     "Software design 2/Sorting",
