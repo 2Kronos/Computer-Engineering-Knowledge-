@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Sorting/Explanation code.md",
+                "file": "2Kronos/New knowledge/Winget commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Sorting/Full Code.md",
+                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,49 +35,8 @@
             "id": "e2a4533445583328",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ecd8ef30f786fdb0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e59f5a5e559c51d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software design 2/Sorting/Explanation code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "cd2d954698bde743",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "13e5a5c71c715842",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software design 2/Sorting/Example walk through.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -146,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
+                "file": "2Kronos/New knowledge/Winget commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
+                "file": "2Kronos/New knowledge/Winget commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/Sorting/Sorting Searching and Big O.md"
+                "file": "2Kronos/New knowledge/Winget commands.md"
               }
             }
           },
@@ -217,18 +176,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2a4533445583328",
+  "active": "427387a584ed4416",
   "lastOpenFiles": [
-    "Pasted image 20240827222542.png",
+    "2024-08-22.md",
+    "2Kronos/New knowledge/Winget commands.md",
+    "2Kronos/2Kronos/Welcome.md",
     "Software design 2/Sorting/Explanation code.md",
+    "2Kronos/2Kronos",
     "Software design 2/Sorting/Example walk through.md",
-    "Software design 2/Sorting/Sorting Searching and Big O.md",
+    "Pasted image 20240827222542.png",
     "Pasted image 20240827222412.png",
+    "Software design 2/Sorting/Sorting Searching and Big O.md",
     "Software design 2/Sorting/Full Code.md",
     "2024-08-27.md",
     "Software design 2/New code.md",
     "Software design 2/Sorting",
-    "2024-08-22.md",
     "Software design 2/New code 1.md",
     "2024-08-24.md",
     "2024-W34.md",
@@ -240,7 +202,6 @@
     "2Kronos/JavaScript",
     "2Kronos",
     "JavaScript",
-    "Operating Systems 2",
     "Python/2. Typcasting.md",
     "Test/hello.md",
     "Untitled 1.md",

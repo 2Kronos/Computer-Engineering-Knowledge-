@@ -134,3 +134,9 @@ The `toString` method is a standard method in Java that returns a string repre
 
 1. **Calling `remainingElements`**: It calls the `remainingElements` method with `0` and `data.length - 1` as arguments, which means it outputs all elements in the array.
 2. **Return Value**: It returns the string produced by the `remainingElements` method.
+
+# Sorting code 
+
+## Selection sort code anlysis 
+
+- This class has two private instance variables  an array of ints named data, and a static Random object to generate random integers to fill the array.
