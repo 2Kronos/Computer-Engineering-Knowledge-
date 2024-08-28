@@ -57,7 +57,7 @@ return index; // return index of integer
 return -1; // integer was not found
 ```
 
-## Binary search explanation
+# Binary search explanation
 
 * **Binary search Method explanation** in 
 ```java
@@ -135,8 +135,163 @@ The `toString` method is a standard method in Java that returns a string repre
 1. **Calling `remainingElements`**: It calls the `remainingElements` method with `0` and `data.length - 1` as arguments, which means it outputs all elements in the array.
 2. **Return Value**: It returns the string produced by the `remainingElements` method.
 
-# Sorting code 
+# Explanation of Sorting code 
 
 ## Selection sort code anlysis 
 
+Full code at [[Full Code#Full Selection sort]]
+Walk through is at 
+
 - This class has two private instance variables  an array of ints named data, and a static Random object to generate random integers to fill the array.
+**Sort Method** 
+Walk through is at [[Example walk through#Sort method]]
+```java
+public void sort() {
+    int smallest;//will hold smallest element in array
+    for (int i = 0; i < data.length - 1; i++) {
+        smallest = i;
+        for (int index = i + 1; index < data.length; index++)
+            if (data[index] < data[smallest])
+                smallest = index;
+        swap(i, smallest);
+        printPass(i + 1, smallest);
+    }
+}
+```
+
+1. **Outer loop**
+```java
+for (int i = 0; i < data.length - 1; i++) {
+    smallest = i;
+```
+- The outer loop runs from the first element to the second-to-last element of the array.
+- `i` represents the current position in the array where the smallest element will be placed.
+- Initially, `smallest` is set to `i`, assuming the first element of the unsorted portion is the smallest.
+  
+2. **Inner loop**
+```java
+for (int index = i + 1; index < data.length; index++) {
+    if (data[index] < data[smallest])
+        smallest = index;
+}
+```
+- The inner loop runs from the element right after `i` to the last element of the array.
+- It compares each element in the unsorted portion with the current smallest element.
+- If a smaller element is found, `smallest` is updated to the index of this new smallest element
+3. **Swapping element** 
+```java
+printPass(i + 1, smallest);
+```
+ - After the inner loop completes, the smallest element in the unsorted portion is swapped with the element at index `i`.
+    - This places the smallest element in its correct position in the sorted portion of the array.
+4. **Printing pass**
+```java
+printPass(i + 1, smallest);
+```
+
+* - The `printPass` method is called to print the state of the array after each pass of the outer loop.
+- This helps in visualizing the sorting process step by step.
+
+
+**Swap Method**
+Example walk through at [[Example walk through#Swap Method]]
+```java
+public void swap(int first, int second) {
+    int temporary = data[first]; // store first in temporary
+    data[first] = data[second]; // replace first with second
+    data[second] = temporary; // put temporary in second
+}
+```
+ * It is void so it has no return type
+ 1. Sorting the first Element
+```java
+int temporary = data[first];
+```
+- - A temporary variable `temporary` is created to hold the value of the element at index `first`.
+2. Replacing the first element
+```java
+data[first] = data[second];
+```
+- he value of the element at index `second` is assigned to the element at index `first`.
+- This effectively moves the value of the second element to the position of the first element.
+3. Putting the temporary Values in the Second Element
+```java
+data[second] = temporary;
+```
+
+- The value stored in the `temporary` variable (originally the value of the first element) is assigned to the element at index `second`.
+- This completes the swap, as the original value of the first element is now in the position of the second element.
+
+**PrintPass Method**
+walk through at [[Example walk through#Walk through Printpass Method]]
+```java
+public void printPass(int pass, int index) {
+    System.out.print(String.format("after pass %2d:", pass));
+
+    // output elements till selected item
+    for (int i = 0; i < index; i++)
+        System.out.print(data[i] + " ");
+
+    System.out.print(data[index] + "* "); // indicate swap
+
+    // finish outputting array
+    for (int i = index + 1; i < data.length; i++)
+        System.out.print(data[i] + " ");
+
+    System.out.print("\n "); // for alignment
+
+    // indicate amount of array that is sorted
+    for (int j = 0; j < pass; j++)
+        System.out.print("-- ");
+    System.out.println("\n"); // add end line
+}
+
+```
+1. Method Signature
+```java
+public void printPass(int pass, int index)
+```
+- It takes two parameters: `pass` (the current pass number) and `index` (the index of the element that was swapped).
+- - The method is `public`, meaning it can be called from outside the class.
+
+1. **Printing the Pass Number**
+
+```java
+System.out.print(String.format("after pass %2d:", pass));
+```
+* This line prints the pass number in a formatted string.
+- `%2d` ensures the pass number is printed with a width of 2 characters, aligning the output nicely.
+3. **Printing Elements Before the Swapped Element**
+```java
+for (int i = 0; i < index; i++)
+    System.out.print(data[i] + " ");
+```
+- This loop prints all elements in the array up to (but not including) the element at `index`.
+- Each element is followed by a space for readability.
+4. **Indicating the Swapped Element:**
+    ```java
+System.out.print(data[index] + "* ");
+    ```
+-  This prints the element at `index` followed by an asterisk (`*`), indicating that this element was involved in the swap.
+5. **Priniting the Elements After the Swappped Element**
+```java
+for (int i = index + 1; i < data.length; i++)
+    System.out.print(data[i] + " ");
+```
+*  This loop prints all elements in the array after the element at `index`.
+- Each element is followed by a space for readability.
+6. **Alignment and Sorted Portion Indication**:
+    
+    Java
+    
+    ```java
+    System.out.print("\n "); // for alignment
+    
+    for (int j = 0; j < pass; j++)
+        System.out.print("-- ");
+    System.out.println("\n"); // add end line
+    ```
+    
+    - The first `System.out.print("\n ");` adds a newline and a space for alignment.
+    - The second loop prints dashes (`--`) to indicate the portion of the array that is sorted after each pass.
+    - `System.out.println("\n");` adds another newline for better readability.

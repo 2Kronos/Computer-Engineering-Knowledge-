@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db497cb15234ae52",
+        "id": "82ecce424bb2f566",
         "type": "tabs",
         "children": [
           {
-            "id": "427387a584ed4416",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2Kronos/New knowledge/Winget commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b988c9a17a4b56ff",
+            "id": "07630f70b212251b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,11 +20,52 @@
             }
           },
           {
-            "id": "e2a4533445583328",
+            "id": "b264222bc6b0680f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Software design 2/Sorting/Explanation code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "161206628224940b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e778f40077c2bbea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software design 2/Sorting/Example walk through.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ebbbc0980ab40d8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a62bf5db618dbad3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software design 2/Sorting/Full Code.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2Kronos/New knowledge/Winget commands.md",
+                "file": "Software design 2/Sorting/Example walk through.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2Kronos/New knowledge/Winget commands.md",
+                "file": "Software design 2/Sorting/Example walk through.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2Kronos/New knowledge/Winget commands.md"
+                "file": "Software design 2/Sorting/Example walk through.md"
               }
             }
           },
@@ -173,21 +202,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "427387a584ed4416",
+  "active": "e778f40077c2bbea",
   "lastOpenFiles": [
-    "2024-08-22.md",
-    "2Kronos/New knowledge/Winget commands.md",
-    "2Kronos/2Kronos/Welcome.md",
     "Software design 2/Sorting/Explanation code.md",
-    "2Kronos/2Kronos",
     "Software design 2/Sorting/Example walk through.md",
+    "Software design 2/Sorting/Full Code.md",
+    "Software design 2/Sorting/Sorting Searching and Big O.md",
+    "2Kronos/New knowledge/Winget commands.md",
+    "2024-08-22.md",
+    "2Kronos/2Kronos/Welcome.md",
+    "2Kronos/2Kronos",
     "Pasted image 20240827222542.png",
     "Pasted image 20240827222412.png",
-    "Software design 2/Sorting/Sorting Searching and Big O.md",
-    "Software design 2/Sorting/Full Code.md",
     "2024-08-27.md",
     "Software design 2/New code.md",
     "Software design 2/Sorting",

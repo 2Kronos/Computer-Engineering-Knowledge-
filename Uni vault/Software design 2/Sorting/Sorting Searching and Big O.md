@@ -26,7 +26,7 @@
 
 - Walk through at [[Example walk through#Walk through of Binary Search]]
 
-# ![[Pasted image 20240827222412.png]]Algorithm Complexity/Effciency
+# Algorithm Complexity/Effciency
 
 * `Big O` notation: indicates the worst-case run-time for an algorithm-that is, how hard an algorithm may have to work to solve a problem
 * Amount of effort usually depends on how many date elements.
@@ -53,4 +53,4 @@
 	- Repeat till sorted
 - Algorithm complexity is **O(n^2)**
 ![[Pasted image 20240827222542.png]]
-	
+Anlysis code is at [[Explanation code#Explanation of Sorting code]]
