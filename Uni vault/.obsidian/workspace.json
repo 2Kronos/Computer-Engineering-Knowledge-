@@ -4,65 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82ecce424bb2f566",
+        "id": "cf953c595e7f3771",
         "type": "tabs",
         "children": [
           {
-            "id": "07630f70b212251b",
+            "id": "28a251796eebbc5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Sorting/Sorting Searching and Big O.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b264222bc6b0680f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software design 2/Sorting/Explanation code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "161206628224940b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e778f40077c2bbea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software design 2/Sorting/Example walk through.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ebbbc0980ab40d8a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a62bf5db618dbad3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software design 2/Sorting/Full Code.md",
+                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/Sorting/Example walk through.md",
+                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/Sorting/Example walk through.md",
+                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/Sorting/Example walk through.md"
+                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md"
               }
             }
           },
@@ -202,18 +153,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "e778f40077c2bbea",
+  "active": "28a251796eebbc5c",
   "lastOpenFiles": [
-    "Software design 2/Sorting/Explanation code.md",
-    "Software design 2/Sorting/Example walk through.md",
+    "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
+    "2024-08-24.md",
+    "Signal Processing",
+    "2024-08-22.md",
     "Software design 2/Sorting/Full Code.md",
+    "Software design 2/Sorting/Example walk through.md",
+    "Software design 2/Sorting/Explanation code.md",
     "Software design 2/Sorting/Sorting Searching and Big O.md",
     "2Kronos/New knowledge/Winget commands.md",
-    "2024-08-22.md",
     "2Kronos/2Kronos/Welcome.md",
     "2Kronos/2Kronos",
     "Pasted image 20240827222542.png",
@@ -222,10 +176,8 @@
     "Software design 2/New code.md",
     "Software design 2/Sorting",
     "Software design 2/New code 1.md",
-    "2024-08-24.md",
     "2024-W34.md",
     "Untiled 1",
-    "Untitled",
     "2Kronos/Untitled/Untitled",
     "2Kronos/New knowledge",
     "2Kronos/Python",
