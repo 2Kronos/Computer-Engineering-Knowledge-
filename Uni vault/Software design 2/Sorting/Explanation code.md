@@ -1,6 +1,6 @@
 ## Explanation of Linear search
 
-* Full code at [[Full Code#Linear search]]
+* Full code at [[Software design 2/Sorting/Full Code#Linear search]]
 ```java
 public class LinearArray {
 
@@ -139,7 +139,7 @@ The `toString` method is a standard method in Java that returns a string repre
 
 ## Selection sort code anlysis 
 
-Full code at [[Full Code#Full Selection sort]]
+Full code at [[Software design 2/Sorting/Full Code#Full Selection sort]]
 Walk through is at 
 
 - This class has two private instance variables  an array of ints named data, and a static Random object to generate random integers to fill the array.

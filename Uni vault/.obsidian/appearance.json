@@ -1,1 +1,6 @@
-{}
+{
+  "enabledCssSnippets": [
+    "underline"
+  ],
+  "theme": "obsidian"
+}

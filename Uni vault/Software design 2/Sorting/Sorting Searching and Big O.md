@@ -20,7 +20,7 @@
 	- Repeat until either search key is found or search fails
 - It requires array to be sorted (typically in ascending order)
   
-- Full code at [[Full Code#Fulll Binary search]]
+- Full code at [[Software design 2/Sorting/Full Code#Fulll Binary search]]
   
 - Explanation of the code at [[Explanation code#Binary search explanation]]
 

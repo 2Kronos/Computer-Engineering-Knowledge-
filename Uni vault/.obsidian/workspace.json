@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
+                "file": "Software design 2/Strings/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Bi",
+                "query": "tag:#Catchingdata",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
+                "file": "Software design 2/Strings/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
+                "file": "Software design 2/Strings/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md"
+                "file": "Software design 2/Strings/Notes.md"
               }
             }
           },
@@ -136,13 +136,21 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "b6725e63bc901d59",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -159,20 +167,31 @@
   },
   "active": "28a251796eebbc5c",
   "lastOpenFiles": [
-    "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
-    "2024-08-24.md",
-    "Signal Processing",
     "2024-08-22.md",
-    "Software design 2/Sorting/Full Code.md",
-    "Software design 2/Sorting/Example walk through.md",
+    "Software design 2/Strings/Notes.md",
+    "2024-09-02.md",
+    "Software design 2/Strings",
+    "Software design 2/Intro/Untitled",
+    "Software design 2/OOP/NOTES.md",
+    "Software design 2/Intro/Notes.md",
+    "Software design 2/OOP",
+    "Software design 2/Intro/Full code.md",
+    "Software design 2/Intro/Code Analysis.md",
     "Software design 2/Sorting/Explanation code.md",
+    "Software design 2/Sorting/Full Code.md",
     "Software design 2/Sorting/Sorting Searching and Big O.md",
+    "Software design 2/Intro",
+    "Software design 2/Sorting/Example walk through.md",
+    "2024-08-24.md",
+    "Pasted image 20240827222542.png",
+    "2024-08-27.md",
+    "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
+    "2024-09-01.md",
+    "Signal Processing",
     "2Kronos/New knowledge/Winget commands.md",
     "2Kronos/2Kronos/Welcome.md",
     "2Kronos/2Kronos",
-    "Pasted image 20240827222542.png",
     "Pasted image 20240827222412.png",
-    "2024-08-27.md",
     "Software design 2/New code.md",
     "Software design 2/Sorting",
     "Software design 2/New code 1.md",
@@ -180,10 +199,6 @@
     "Untiled 1",
     "2Kronos/Untitled/Untitled",
     "2Kronos/New knowledge",
-    "2Kronos/Python",
-    "2Kronos/JavaScript",
-    "2Kronos",
-    "JavaScript",
     "Python/2. Typcasting.md",
     "Test/hello.md",
     "Untitled 1.md",
@@ -191,9 +206,6 @@
     "Python/1. Varibale.md",
     "Test note.md",
     "Test note 2.md",
-    "Test note 4.md",
-    "Test note 3.md",
-    "Welcome.md",
     "Untitled.canvas"
   ]
 }
