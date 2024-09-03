@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Strings/Notes.md",
+                "file": "2024-09-03.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/Strings/Notes.md",
+                "file": "2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/Strings/Notes.md",
+                "file": "2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/Strings/Notes.md"
+                "file": "2024-09-03.md"
               }
             }
           },
@@ -167,8 +167,9 @@
   },
   "active": "28a251796eebbc5c",
   "lastOpenFiles": [
-    "2024-08-22.md",
     "Software design 2/Strings/Notes.md",
+    "2024-09-03.md",
+    "2024-08-22.md",
     "2024-09-02.md",
     "Software design 2/Strings",
     "Software design 2/Intro/Untitled",
@@ -205,7 +206,6 @@
     "Test/Untitled.canvas",
     "Python/1. Varibale.md",
     "Test note.md",
-    "Test note 2.md",
     "Untitled.canvas"
   ]
 }
