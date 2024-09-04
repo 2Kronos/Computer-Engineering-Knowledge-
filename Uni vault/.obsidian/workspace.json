@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-03.md",
+                "file": "Digital systems/chapter 13/Chapter notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-03.md",
+                "file": "Digital systems/chapter 13/Chapter notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-03.md",
+                "file": "Digital systems/chapter 13/Chapter notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-03.md"
+                "file": "Digital systems/chapter 13/Chapter notes.md"
               }
             }
           },
@@ -167,8 +167,25 @@
   },
   "active": "28a251796eebbc5c",
   "lastOpenFiles": [
-    "Software design 2/Strings/Notes.md",
+    "Pasted image 20240904172644.png",
+    "Pasted image 20240904170748.png",
+    "Pasted image 20240904164636.png",
+    "Pasted image 20240904163719.png",
+    "Pasted image 20240904163350.png",
+    "Pasted image 20240904163104.png",
+    "Pasted image 20240904163030.png",
+    "Pasted image 20240904162719.png",
+    "Pasted image 20240904162219.png",
+    "Digital systems/Ch.md",
+    "Pasted image 20240904000227.png",
+    "Pasted image 20240903234720.png",
+    "Digital systems/chapter 13/Chapter notes.md",
+    "Digital systems/Chapter 14",
+    "Digital systems/chapter 13",
+    "2Kronos/New knowledge/Winget commands.md",
+    "Digital systems",
     "2024-09-03.md",
+    "Software design 2/Strings/Notes.md",
     "2024-08-22.md",
     "2024-09-02.md",
     "Software design 2/Strings",
@@ -184,28 +201,19 @@
     "Software design 2/Intro",
     "Software design 2/Sorting/Example walk through.md",
     "2024-08-24.md",
-    "Pasted image 20240827222542.png",
     "2024-08-27.md",
     "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
     "2024-09-01.md",
     "Signal Processing",
-    "2Kronos/New knowledge/Winget commands.md",
     "2Kronos/2Kronos/Welcome.md",
     "2Kronos/2Kronos",
-    "Pasted image 20240827222412.png",
     "Software design 2/New code.md",
     "Software design 2/Sorting",
     "Software design 2/New code 1.md",
     "2024-W34.md",
-    "Untiled 1",
-    "2Kronos/Untitled/Untitled",
-    "2Kronos/New knowledge",
     "Python/2. Typcasting.md",
     "Test/hello.md",
-    "Untitled 1.md",
     "Test/Untitled.canvas",
-    "Python/1. Varibale.md",
-    "Test note.md",
     "Untitled.canvas"
   ]
 }
