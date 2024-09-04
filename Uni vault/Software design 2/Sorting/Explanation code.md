@@ -144,7 +144,7 @@ Walk through is at
 
 - This class has two private instance variables  an array of ints named data, and a static Random object to generate random integers to fill the array.
 **Sort Method** 
-Walk through is at [[Example walk through#Sort method]]
+Walk through is at [[SD2 Sorting Example walk through#Sort method]]
 ```java
 public void sort() {
     int smallest;//will hold smallest element in array
@@ -194,7 +194,7 @@ printPass(i + 1, smallest);
 
 
 **Swap Method**
-Example walk through at [[Example walk through#Swap Method]]
+Example walk through at [[SD2 Sorting Example walk through#Swap Method]]
 ```java
 public void swap(int first, int second) {
     int temporary = data[first]; // store first in temporary
@@ -223,7 +223,7 @@ data[second] = temporary;
 - This completes the swap, as the original value of the first element is now in the position of the second element.
 
 **PrintPass Method**
-walk through at [[Example walk through#Walk through Printpass Method]]
+walk through at [[SD2 Sorting Example walk through#Walk through Printpass Method]]
 ```java
 public void printPass(int pass, int index) {
     System.out.print(String.format("after pass %2d:", pass));

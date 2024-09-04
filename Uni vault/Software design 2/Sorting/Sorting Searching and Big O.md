@@ -24,7 +24,7 @@
   
 - Explanation of the code at [[Explanation code#Binary search explanation]]
 
-- Walk through at [[Example walk through#Walk through of Binary Search]]
+- Walk through at [[SD2 Sorting Example walk through#Walk through of Binary Search]]
 
 # Algorithm Complexity/Effciency
 

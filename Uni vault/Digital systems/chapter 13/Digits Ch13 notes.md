@@ -148,11 +148,16 @@ Here are the important points:
 
 - **Quadrature Amplitude Modulation (QAM)**: Combines PSK and ASK to send information.
 - **Quadrature**: Refers to a 90° phase difference.
-- **Modulation State/Symbol**: Each combination of phase and amplitude represents a combination of two or more bits.
+- **Modulation State/Symbol**: <u>Each combination of phase and amplitude represents a combination of two or more bits</u>.
 - **8-QAM**: Uses eight modulation states to represent unique three-bit combinations.
 - **Amplitude and Phase Combinations**: Two different amplitudes with a quadrature phase difference between each pair, resulting in eight different amplitude/phase combinations.
 - **M-QAM Variations**: Higher M values like 16-QAM, 64-QAM, and 256-QAM use more amplitude levels and/or phases to represent larger bit groups (e.g., 64-QAM can represent 6-bit groups, 256-QAM can represent 8-bit groups).
-
+  This also applies to ASK and FSQ
+- 4-QAM $2^2$ = 3 bits
+- 8-QAM $2^3$ = 3 bits
+- 16-QAM $2^4$ = 4 bits
+- 64-QAM $2^6$ = 6 bits
+- 256-QAM $2^8$ = 8 bits
 ## Constilation Maps
 
 - The axis are phase changes(PSK)
@@ -221,5 +226,33 @@ In the example the below there is only a phase shift it is  4-PSK(4 possible pha
 
 - One of the device can put volatge on the wire and the others can just read the data off
 - The wire is called a bus
-- In the below this is a serial bus (from one device to all the other devices) there are mechanism that  will choose which device pust data on the bus 
+- In the below this is a serial bus (from one device to all the other devices) there are mechanism that  will choose which device puts data on the bus 
 
+![[Pasted image 20240904191900.png]]
+
+### The bus 
+- A bus enables device communication and data transmission.
+- It consists of wires, connectors, and electrical specs.
+- Buses can be internal or external.
+- Key properties include wire number, configuration, length, signal format, voltage, clock frequency, data speed, and error detection.
+- Devices must be compatible with the bus and can act as both senders and receivers.
+- Buses can be either parallel or serial. A parallel bus carries data bits simultaneously, and a serial bus carries data bits sequentially one at a time.
+
+### General Bus characteristics 
+
+- **Width**: The number of bits that a bus can transmit at one time. The width of typical buses can vary from 1 bit for a serial bus up to 64 bits for a parallel bus.
+  
+- **Frequency**: The clock frequency at which a bus can operate.
+  
+- **Transfer speed**: The number of bytes per clock cycle.[Callaghan will says its in inter changable so it mean the samething ]
+  
+- **Bandwidth**: The number of bytes per clock cycle times the number of clock cycles per second; that is, transfer speed times frequency. Bus bandwidth is sometimes called throughput.
+	- This can be either in decimal form (10^6 = 1 000 000)
+	- Or Binary form  power of 2 form (2^1,046576)
+	  
+<u> But we must use bits </U>
+
+![[Pasted image 20240904194759.png]]
+
+
+### Bus Control

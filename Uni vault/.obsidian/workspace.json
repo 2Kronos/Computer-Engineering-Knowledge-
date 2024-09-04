@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital systems/chapter 13/Chapter notes.md",
+                "file": "Digital systems/Chapter 14/Digits Ch14 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital systems/chapter 13/Chapter notes.md",
+                "file": "Digital systems/Chapter 14/Digits Ch14 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital systems/chapter 13/Chapter notes.md",
+                "file": "Digital systems/Chapter 14/Digits Ch14 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital systems/chapter 13/Chapter notes.md"
+                "file": "Digital systems/Chapter 14/Digits Ch14 Notes.md"
               }
             }
           },
@@ -167,19 +167,27 @@
   },
   "active": "28a251796eebbc5c",
   "lastOpenFiles": [
+    "Digital systems/chapter 13/Digits Ch 13 Problems and Tests.md",
+    "Digital systems/chapter 13/Untitled",
+    "Digital systems/chapter 13/Digits Ch13 notes.md",
+    "Pasted image 20240904213834.png",
+    "Pasted image 20240904212347.png",
+    "Software design 2/Sorting/SD2 Sorting Example walk through.md",
+    "Software design 2/OOP/SD2 OOP NOTES.md",
+    "Software design 2/Intro/SD2 Intro Notes.md",
+    "2024-09-04.md",
+    "Pasted image 20240904194759.png",
+    "Pasted image 20240904194647.png",
+    "Pasted image 20240904194606.png",
+    "Pasted image 20240904191900.png",
+    "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
+    "2024-08-27.md",
+    "Operating Systems 2/Chapter 6",
     "Pasted image 20240904172644.png",
     "Pasted image 20240904170748.png",
     "Pasted image 20240904164636.png",
     "Pasted image 20240904163719.png",
-    "Pasted image 20240904163350.png",
-    "Pasted image 20240904163104.png",
-    "Pasted image 20240904163030.png",
-    "Pasted image 20240904162719.png",
-    "Pasted image 20240904162219.png",
-    "Digital systems/Ch.md",
-    "Pasted image 20240904000227.png",
-    "Pasted image 20240903234720.png",
-    "Digital systems/chapter 13/Chapter notes.md",
+    "Digital systems/Chapter 14/Digits Ch14 Notes.md",
     "Digital systems/Chapter 14",
     "Digital systems/chapter 13",
     "2Kronos/New knowledge/Winget commands.md",
@@ -190,8 +198,6 @@
     "2024-09-02.md",
     "Software design 2/Strings",
     "Software design 2/Intro/Untitled",
-    "Software design 2/OOP/NOTES.md",
-    "Software design 2/Intro/Notes.md",
     "Software design 2/OOP",
     "Software design 2/Intro/Full code.md",
     "Software design 2/Intro/Code Analysis.md",
@@ -199,20 +205,13 @@
     "Software design 2/Sorting/Full Code.md",
     "Software design 2/Sorting/Sorting Searching and Big O.md",
     "Software design 2/Intro",
-    "Software design 2/Sorting/Example walk through.md",
     "2024-08-24.md",
-    "2024-08-27.md",
     "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
     "2024-09-01.md",
     "Signal Processing",
     "2Kronos/2Kronos/Welcome.md",
-    "2Kronos/2Kronos",
     "Software design 2/New code.md",
-    "Software design 2/Sorting",
     "Software design 2/New code 1.md",
-    "2024-W34.md",
-    "Python/2. Typcasting.md",
-    "Test/hello.md",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]
