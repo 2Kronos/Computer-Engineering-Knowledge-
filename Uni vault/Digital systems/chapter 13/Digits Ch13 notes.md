@@ -153,7 +153,7 @@ Here are the important points:
 - **Amplitude and Phase Combinations**: Two different amplitudes with a quadrature phase difference between each pair, resulting in eight different amplitude/phase combinations.
 - **M-QAM Variations**: Higher M values like 16-QAM, 64-QAM, and 256-QAM use more amplitude levels and/or phases to represent larger bit groups (e.g., 64-QAM can represent 6-bit groups, 256-QAM can represent 8-bit groups).
   This also applies to ASK and FSQ
-- 4-QAM $2^2$ = 3 bits
+- 4-QAM $2^2$ = 2 bits
 - 8-QAM $2^3$ = 3 bits
 - 16-QAM $2^4$ = 4 bits
 - 64-QAM $2^6$ = 6 bits

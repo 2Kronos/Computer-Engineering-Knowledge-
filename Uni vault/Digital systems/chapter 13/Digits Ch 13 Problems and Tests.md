@@ -9,3 +9,6 @@ $$
 
 ![[Pasted image 20240904213834.png]]
 
+![[Pasted image 20240905122350.png]]
+
+![[Screenshot 2024-09-05 104017.png]]![[Screenshot 2024-09-05 113938.png]]

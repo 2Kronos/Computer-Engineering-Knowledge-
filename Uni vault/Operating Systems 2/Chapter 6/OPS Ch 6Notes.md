@@ -58,3 +58,6 @@
 - Min turnaround time 
 - Min waiting time 
 - Min response time
+
+# First- Come , First-Served Scheduling
+
