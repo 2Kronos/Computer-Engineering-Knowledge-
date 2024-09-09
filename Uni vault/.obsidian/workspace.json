@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
+                "file": "Software design 2/Intro/SD2 Intro Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
+                "file": "Software design 2/Intro/SD2 Intro Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
+                "file": "Software design 2/Intro/SD2 Intro Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md"
+                "file": "Software design 2/Intro/SD2 Intro Notes.md"
               }
             }
           },
@@ -167,8 +167,9 @@
   },
   "active": "28a251796eebbc5c",
   "lastOpenFiles": [
-    "Digital systems/chapter 13/Digits Ch13 notes.md",
+    "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
     "Digital systems/chapter 13/Digits Ch 13 Problems and Tests.md",
+    "Digital systems/chapter 13/Digits Ch13 notes.md",
     "Screenshot 2024-09-05 113938.png",
     "Screenshot 2024-09-05 104017.png",
     "Digital systems/Chapter 14/Digits Ch 14 problems.md",
@@ -183,7 +184,6 @@
     "Pasted image 20240905093603.png",
     "Pasted image 20240905093540.png",
     "Digital systems/Chapter 15",
-    "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
     "Digital systems/chapter 13/Untitled",
     "Pasted image 20240904213834.png",
     "Software design 2/Sorting/SD2 Sorting Example walk through.md",

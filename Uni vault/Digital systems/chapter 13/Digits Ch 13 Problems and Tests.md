@@ -11,4 +11,10 @@ $$
 
 ![[Pasted image 20240905122350.png]]
 
-![[Screenshot 2024-09-05 104017.png]]![[Screenshot 2024-09-05 113938.png]]
+![[Screenshot 2024-09-05 104017.png]]![[Screenshot 2024-09-05 113938.png
+
+
+$$
+Data\ 64\ bytes =\ 64\ \times\ 8 =\ 512 \\
+\text{Preamble}
+$$
