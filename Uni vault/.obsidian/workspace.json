@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Intro/SD2 Intro Notes.md",
+                "file": "Personal/House.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/Intro/SD2 Intro Notes.md",
+                "file": "Personal/House.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/Intro/SD2 Intro Notes.md",
+                "file": "Personal/House.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/Intro/SD2 Intro Notes.md"
+                "file": "Personal/House.md"
               }
             }
           },
@@ -167,8 +167,12 @@
   },
   "active": "28a251796eebbc5c",
   "lastOpenFiles": [
-    "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
     "Digital systems/chapter 13/Digits Ch 13 Problems and Tests.md",
+    "Personal/House.md",
+    "2024-08-24.md",
+    "Software design 2/Intro/SD2 Intro Notes.md",
+    "Personal",
+    "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
     "Digital systems/chapter 13/Digits Ch13 notes.md",
     "Screenshot 2024-09-05 113938.png",
     "Screenshot 2024-09-05 104017.png",
@@ -188,7 +192,6 @@
     "Pasted image 20240904213834.png",
     "Software design 2/Sorting/SD2 Sorting Example walk through.md",
     "Software design 2/OOP/SD2 OOP NOTES.md",
-    "Software design 2/Intro/SD2 Intro Notes.md",
     "2024-09-04.md",
     "2024-08-27.md",
     "Operating Systems 2/Chapter 6",
@@ -208,8 +211,6 @@
     "Software design 2/Sorting/Explanation code.md",
     "Software design 2/Sorting/Full Code.md",
     "Software design 2/Sorting/Sorting Searching and Big O.md",
-    "Software design 2/Intro",
-    "2024-08-24.md",
     "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
     "2024-09-01.md",
     "Test/Untitled.canvas",
