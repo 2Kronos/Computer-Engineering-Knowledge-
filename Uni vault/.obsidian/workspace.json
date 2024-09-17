@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cf953c595e7f3771",
+        "id": "0822735849f7959b",
         "type": "tabs",
         "children": [
           {
-            "id": "28a251796eebbc5c",
+            "id": "cf17f3a312c40846",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/House.md",
+                "file": "2024-09-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/House.md",
+                "file": "2024-09-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/House.md",
+                "file": "2024-09-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/House.md"
+                "file": "2024-09-17.md"
               }
             }
           },
@@ -162,14 +162,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workspaces:Manage workspace layouts": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "28a251796eebbc5c",
+  "active": "cf17f3a312c40846",
   "lastOpenFiles": [
+    "2Kronos/Python/Py N (Unrestrict).md",
+    "2Kronos/Python/Py N (Pip commands).md",
+    "2024-09-17.md",
+    "2Kronos/Projects/Python.md",
+    "2Kronos/Python/Py N(venv).md",
     "Digital systems/chapter 13/Digits Ch 13 Problems and Tests.md",
-    "Personal/House.md",
+    "Signals/Test 1 Corrections.md",
+    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
+    "Pasted image 20240916230518.png",
+    "2024-09-03.md",
+    "Signals",
+    "2024-09-02.md",
+    "2024-08-27.md",
     "2024-08-24.md",
+    "2024-08-22.md",
+    "2024-09-04.md",
+    "2024-09-16.md",
+    "2Kronos/Untitled/Untitled.md",
+    "2Kronos/Projects",
+    "Personal/House.md",
     "Software design 2/Intro/SD2 Intro Notes.md",
     "Personal",
     "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
@@ -186,33 +204,16 @@
     "Digital systems/Chapter 15/Digits Ch 15 notes.md",
     "Pasted image 20240905093612.png",
     "Pasted image 20240905093603.png",
-    "Pasted image 20240905093540.png",
     "Digital systems/Chapter 15",
     "Digital systems/chapter 13/Untitled",
-    "Pasted image 20240904213834.png",
     "Software design 2/Sorting/SD2 Sorting Example walk through.md",
     "Software design 2/OOP/SD2 OOP NOTES.md",
-    "2024-09-04.md",
-    "2024-08-27.md",
     "Operating Systems 2/Chapter 6",
     "Digital systems/Chapter 14",
     "Digital systems/chapter 13",
     "2Kronos/New knowledge/Winget commands.md",
     "Digital systems",
-    "2024-09-03.md",
-    "Software design 2/Strings/Notes.md",
-    "2024-08-22.md",
-    "2024-09-02.md",
     "Software design 2/Strings",
-    "Software design 2/Intro/Untitled",
-    "Software design 2/OOP",
-    "Software design 2/Intro/Full code.md",
-    "Software design 2/Intro/Code Analysis.md",
-    "Software design 2/Sorting/Explanation code.md",
-    "Software design 2/Sorting/Full Code.md",
-    "Software design 2/Sorting/Sorting Searching and Big O.md",
-    "Signal Processing/CHAPTER 10 DT LTI SYSTEMS.md",
-    "2024-09-01.md",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]
