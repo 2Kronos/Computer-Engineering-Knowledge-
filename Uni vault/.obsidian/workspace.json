@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-17.md",
+                "file": "Software design 2/Generic collections/SD2 N Definitions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-17.md",
+                "file": "Software design 2/Generic collections/SD2 N Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-17.md",
+                "file": "Software design 2/Generic collections/SD2 N Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-17.md"
+                "file": "Software design 2/Generic collections/SD2 N Definitions.md"
               }
             }
           },
@@ -168,52 +168,52 @@
   },
   "active": "cf17f3a312c40846",
   "lastOpenFiles": [
+    "Software design 2/Generic collections/SD2 N (Generic class and methods).md",
+    "Software design 2/Generic collections/SD2 N Definitions.md",
+    "2024-09-03.md",
+    "Software design 2/SD2 New code.md",
+    "Digital systems/Chapter 15/Digits Ch 15 notes.md",
+    "Digital systems/Chapter 15/Digits CH 15 problems.md",
+    "Signals/Test 1 Corrections.md",
+    "Digital systems/Chapter 14/Digits Ch14 Notes.md",
+    "Digital systems/Chapter 14/Digits Ch 14 problems.md",
+    "Digital systems/chapter 13/Digits Ch13 notes.md",
+    "Digital systems/chapter 13/Digits Ch 13 Problems and Tests.md",
+    "2Kronos/New knowledge/Winget commands.md",
+    "2Kronos/New knowledge/2K NK (Debugging with vscode).md",
+    "Software design 2/Generic collections.zip",
+    "Software design 2/Generic collections/SD2 N Generic (Stack).md",
+    "2024-09-17.md",
+    "Software design 2/Generic collections",
+    "Software design 2/Sorting/Explanation code.md",
+    "Software design 2/Sorting/SD2 Sorting Example walk through.md",
+    "2Kronos/Python/PY N (Sympy).md",
+    "2Kronos/Python/Py N(venv).md",
     "2Kronos/Python/Py N (Unrestrict).md",
     "2Kronos/Python/Py N (Pip commands).md",
-    "2024-09-17.md",
     "2Kronos/Projects/Python.md",
-    "2Kronos/Python/Py N(venv).md",
-    "Digital systems/chapter 13/Digits Ch 13 Problems and Tests.md",
-    "Signals/Test 1 Corrections.md",
     "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
     "Pasted image 20240916230518.png",
-    "2024-09-03.md",
     "Signals",
     "2024-09-02.md",
     "2024-08-27.md",
     "2024-08-24.md",
     "2024-08-22.md",
-    "2024-09-04.md",
-    "2024-09-16.md",
-    "2Kronos/Untitled/Untitled.md",
     "2Kronos/Projects",
-    "Personal/House.md",
-    "Software design 2/Intro/SD2 Intro Notes.md",
     "Personal",
-    "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
-    "Digital systems/chapter 13/Digits Ch13 notes.md",
     "Screenshot 2024-09-05 113938.png",
     "Screenshot 2024-09-05 104017.png",
-    "Digital systems/Chapter 14/Digits Ch 14 problems.md",
     "WhatsApp Image 2024-09-05 at 11.26.44_1d6bdc91.jpg",
     "WhatsApp Image 2024-09-05 at 11.05.17_efbf3752.jpg",
-    "Digital systems/Chapter 14/Digits Ch14 Notes.md",
     "Pasted image 20240905122350.png",
-    "Digital systems/Chapter 15/problems.md",
     "Pasted image 20240905122317.png",
-    "Digital systems/Chapter 15/Digits Ch 15 notes.md",
     "Pasted image 20240905093612.png",
     "Pasted image 20240905093603.png",
     "Digital systems/Chapter 15",
     "Digital systems/chapter 13/Untitled",
-    "Software design 2/Sorting/SD2 Sorting Example walk through.md",
-    "Software design 2/OOP/SD2 OOP NOTES.md",
     "Operating Systems 2/Chapter 6",
     "Digital systems/Chapter 14",
     "Digital systems/chapter 13",
-    "2Kronos/New knowledge/Winget commands.md",
-    "Digital systems",
-    "Software design 2/Strings",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]

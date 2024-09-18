@@ -67,4 +67,5 @@ A virtual environment in Python is a self-contained directory that contains a Py
         ```
         
 
-
+6. You will have to unrestrict certain policies
+[[Py N (Unrestrict)]]

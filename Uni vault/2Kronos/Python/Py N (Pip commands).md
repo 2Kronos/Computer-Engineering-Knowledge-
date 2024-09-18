@@ -67,3 +67,5 @@ Here’s a breakdown of the most important pip commands:
      ```
 
 **Pip on Windows** functions similarly to Linux/macOS, but Windows users often need to be cautious about adding Python and pip to their PATH during installation, so these commands work from any directory in the command line.
+
+- Here it in action [[PY N (Sympy)]] and [[Py N(venv)]]

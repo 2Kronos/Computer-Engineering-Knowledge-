@@ -1,3 +1,6 @@
+<u>Problems located at </u>
+
+[[Digits Ch 13 Problems and Tests]]
 
 # Ch 13.1 Data Transmission media
 ### Wire Connections
