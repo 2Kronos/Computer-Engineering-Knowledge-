@@ -19,10 +19,22 @@ import sympy
 from sympy import symbols, factor, expand
 ```
 
-
+To get in factor form use 
 ```python
 expression = 2*( x + y)
 print(factor(expression)
 ```
+- Result
+```result
+2*(X+Y)
+```
 
-- To write in normal expand use the 
+  To get in expanded for use 
+```java 
+expression3 = x*( x + y)
+print(expand(expression3))
+```
+- Result 
+```result
+x**2 + x*y
+```

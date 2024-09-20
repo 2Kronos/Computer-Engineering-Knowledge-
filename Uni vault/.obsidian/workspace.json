@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Generic collections/SD2 N Definitions.md",
+                "file": "2024-09-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/Generic collections/SD2 N Definitions.md",
+                "file": "2024-09-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/Generic collections/SD2 N Definitions.md",
+                "file": "2024-09-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/Generic collections/SD2 N Definitions.md"
+                "file": "2024-09-20.md"
               }
             }
           },
@@ -168,8 +168,13 @@
   },
   "active": "cf17f3a312c40846",
   "lastOpenFiles": [
-    "Software design 2/Generic collections/SD2 N (Generic class and methods).md",
+    "Operating Systems 2/Chapter 6/OPS CH5 Notes.md",
+    "2024-09-20.md",
+    "2Kronos/Python/Signals/PY N (Sympy).md",
+    "2Kronos/Python/Signals",
+    "2Kronos/Python/Signals/Py N (Pip commands).md",
     "Software design 2/Generic collections/SD2 N Definitions.md",
+    "Software design 2/Generic collections/SD2 N (Generic class and methods).md",
     "2024-09-03.md",
     "Software design 2/SD2 New code.md",
     "Digital systems/Chapter 15/Digits Ch 15 notes.md",
@@ -187,18 +192,14 @@
     "Software design 2/Generic collections",
     "Software design 2/Sorting/Explanation code.md",
     "Software design 2/Sorting/SD2 Sorting Example walk through.md",
-    "2Kronos/Python/PY N (Sympy).md",
-    "2Kronos/Python/Py N(venv).md",
-    "2Kronos/Python/Py N (Unrestrict).md",
-    "2Kronos/Python/Py N (Pip commands).md",
+    "2Kronos/Python/Signals/Py N(venv).md",
+    "2Kronos/Python/Signals/Py N (Unrestrict).md",
     "2Kronos/Projects/Python.md",
     "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
     "Pasted image 20240916230518.png",
     "Signals",
     "2024-09-02.md",
     "2024-08-27.md",
-    "2024-08-24.md",
-    "2024-08-22.md",
     "2Kronos/Projects",
     "Personal",
     "Screenshot 2024-09-05 113938.png",
@@ -213,7 +214,6 @@
     "Digital systems/chapter 13/Untitled",
     "Operating Systems 2/Chapter 6",
     "Digital systems/Chapter 14",
-    "Digital systems/chapter 13",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]
