@@ -17,7 +17,7 @@ int[] integer Array
 - Ability of an object to take any form
 - Ability of an object to have different set of data
 - Achieving polymorphism using generic methods to perform operation on diffrent types of database 
-- Further explanation at [[SD2 N Definitions]]
+- Further explanation at [[SD2 (D) Generic]]
 
 
 <u>Compactness</u>
@@ -118,21 +118,56 @@ class client : Main class
 - If we want a powerful method we can have an overloaded generic method with out fixed arguments and different method parameters
 - When compiling when the compiler looks for the methods and we have generic and non-generic method it will take the generic method first because it does not have a erasure which is an extra step for the compiler
 
+---------------------------------------------------------------------
+- We can also take two generic types at once
+
+```java
+private static <T, V> void shout (T item1, V item 2)
+```
+
+- If you want to return something replace `void` with generic type `T `
 ## Generic Class
 
-<u>Stack</u>
+### <u>Stack</u>
 
 - Stores temporarily the function calls and function parameters
-- Stack requires us to deal with generiic types
+- Stack requires us to deal with generic types
 - CPU + Memory: Stack meory
 
 <u>Raw types</u>
 
-- You can use a raw ty
+- You can use a raw type 
+- ininstance (Object) of a generic class where the type parameter has not been specified
 
-<u>Wild type</u>
+### <u>Wild card</u>
+- You use a wild card  when we do not know what exactly the generic type will be.
+- `?
+- Can also have a bounded wild card simiilar to generic classes
+`< ? extends animal>`
 
-# Notes
+- In Java, **wildcards** are used in generics to represent an unknown type. They are particularly useful when you want to specify that a method can operate on a generic type, but you don’t know or care what the actual type is. Wildcards are represented by the `?` symbol.
+### Types of Wildcards
 
-- Alternate way to achieve polymorphism
-- 
+1. **Unbounded Wildcards (`?`)**: Represents any type.
+2. **Bounded Wildcards**:
+    - **Upper Bounded Wildcards (`? extends Type`)**: Represents a type that is a subtype of `Type`.
+    - **Lower Bounded Wildcards (`? super Type`)**: Represents a type that is a supertype of `Type`.
+Example at [[SD2 (CE) Generic class]]
+
+
+-----------------------------------------------
+
+```java
+public class Printer < T extends Aanimal & Serializable>
+```
+
+- How to implement a class and interface
+
+-----------------------------------------------
+
+## Generic and inheritance
+
+- A generic class can be derived from a nongeneric class (e.g. nongeneric Object class is a direct or indirect superclass of every generic class) 
+-  A generic class can be derived from another generic class (e.g. generic class Stack is a subclass of generic class Vector)
+- A nongeneric class can be derived from a generic class (e.g. nongeneric class Properties is a subclass of generic class Hashtable)
+- A generic method in a subclass can override a generic method in a superclass if both methods have the same signature

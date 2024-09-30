@@ -61,6 +61,11 @@ In Java, a **stack** is a linear data structure that follows the **Last-In-First
 3. **Peek**: Returns the top element without removing it.
 4. **Empty**: Checks if the stack is empty.
 5. **Search**: Searches for an element and returns its position from the top of the stack.
+## Use of stacks 
+- Undo/Redo features in text editors
+- moving back forward/through browser history
+- backtracking algotithms(maze, file, directories)
+- Calling functions (call stack)
 
 ### Example:
 

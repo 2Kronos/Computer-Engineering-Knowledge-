@@ -1,0 +1,3 @@
+- If you get less than 50% for the prac then prac 2 will be reassessments 
+- There should be text explaning your work all the calculations
+- In the test we will be asked to do the Z-transfrom for the alpha system 

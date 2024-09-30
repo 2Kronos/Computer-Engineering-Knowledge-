@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-20.md",
+                "file": "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c06cbe9f7210d6a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-20.md",
+                "file": "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-20.md",
+                "file": "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-20.md"
+                "file": "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md"
               }
             }
           },
@@ -161,59 +173,59 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "cf17f3a312c40846",
   "lastOpenFiles": [
-    "Operating Systems 2/Chapter 6/OPS CH5 Notes.md",
-    "2024-09-20.md",
-    "2Kronos/Python/Signals/PY N (Sympy).md",
-    "2Kronos/Python/Signals",
-    "2Kronos/Python/Signals/Py N (Pip commands).md",
-    "Software design 2/Generic collections/SD2 N Definitions.md",
-    "Software design 2/Generic collections/SD2 N (Generic class and methods).md",
-    "2024-09-03.md",
-    "Software design 2/SD2 New code.md",
-    "Digital systems/Chapter 15/Digits Ch 15 notes.md",
-    "Digital systems/Chapter 15/Digits CH 15 problems.md",
-    "Signals/Test 1 Corrections.md",
-    "Digital systems/Chapter 14/Digits Ch14 Notes.md",
-    "Digital systems/Chapter 14/Digits Ch 14 problems.md",
-    "Digital systems/chapter 13/Digits Ch13 notes.md",
-    "Digital systems/chapter 13/Digits Ch 13 Problems and Tests.md",
-    "2Kronos/New knowledge/Winget commands.md",
-    "2Kronos/New knowledge/2K NK (Debugging with vscode).md",
-    "Software design 2/Generic collections.zip",
-    "Software design 2/Generic collections/SD2 N Generic (Stack).md",
-    "2024-09-17.md",
-    "Software design 2/Generic collections",
-    "Software design 2/Sorting/Explanation code.md",
-    "Software design 2/Sorting/SD2 Sorting Example walk through.md",
+    "Signals/Tests/Test 2.zip",
+    "Signals/Tests/Test 2/Pasted image 20240930235508.png",
+    "Signals/Tests/Test 2/Pasted image 20240930212803.png",
+    "Pasted image 20240930235508.png",
+    "Signals/Tests/Test 1 Corrections.md",
+    "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
+    "Software design 2/Data structures/SD2 (N) Generic structure.md",
+    "Pasted image 20240930212803.png",
+    "Signals/Tests/Test 2",
+    "Signals/Tests",
+    "Signals/Signal class 30 September.md",
     "2Kronos/Python/Signals/Py N(venv).md",
+    "2Kronos/Python/Signals/PY N (Sympy).md",
     "2Kronos/Python/Signals/Py N (Unrestrict).md",
-    "2Kronos/Projects/Python.md",
+    "2Kronos/Python/Signals/Py N (Pip commands).md",
+    "2Kronos/2kronos repair/Repair knowledge.md",
+    "2Kronos/New knowledge/2K NK (Debugging with vscode).md",
+    "2Kronos/2kronos repair",
+    "2Kronos/New knowledge/Untitled",
+    "2024-09-16.md",
+    "2024-09-17.md",
+    "2024-09-24.md",
+    "2024-09-25.md",
+    "Digital systems/Prac/Digits Prac5.md",
+    "Digital systems/Prac/Untitled.md",
+    "2Kronos/New knowledge/Fabric A.I.md",
+    "Software design 2/Data structures/SD2 (SN) Data structures.md",
+    "Software design 2/Data structures.zip",
+    "Software design 2/Data structures/Pasted image 20240925190241.png",
+    "Pasted image 20240925190241.png",
+    "Software design 2/Data structures/2.md",
+    "Software design 2/Collection/SD 2 (Collection.md",
+    "Software design 2/Collection/SD2 (N) Collection.md",
+    "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
+    "Software design 2/Data structures",
+    "Pasted image 20240924223739.png",
+    "Software design 2/Generic classes/SD2 (N) Generic class and methods.md",
+    "Software design 2/Generic classes/SD2 (D) Generic.md",
+    "Software design 2/Generic classes/SD2 (CE) Generic class.md",
+    "Software design 2/Collection",
+    "Pasted image 20240923162009.png",
+    "Digital systems/Prac",
+    "2Kronos/Python/Signals",
+    "Software design 2/Generic collections.zip",
     "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
     "Pasted image 20240916230518.png",
-    "Signals",
-    "2024-09-02.md",
-    "2024-08-27.md",
-    "2Kronos/Projects",
-    "Personal",
-    "Screenshot 2024-09-05 113938.png",
-    "Screenshot 2024-09-05 104017.png",
-    "WhatsApp Image 2024-09-05 at 11.26.44_1d6bdc91.jpg",
-    "WhatsApp Image 2024-09-05 at 11.05.17_efbf3752.jpg",
-    "Pasted image 20240905122350.png",
-    "Pasted image 20240905122317.png",
-    "Pasted image 20240905093612.png",
-    "Pasted image 20240905093603.png",
-    "Digital systems/Chapter 15",
-    "Digital systems/chapter 13/Untitled",
-    "Operating Systems 2/Chapter 6",
-    "Digital systems/Chapter 14",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]
