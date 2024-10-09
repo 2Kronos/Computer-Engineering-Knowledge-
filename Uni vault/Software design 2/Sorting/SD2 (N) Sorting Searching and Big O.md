@@ -1,14 +1,15 @@
-- Searching algorithms use either **linear** and **Binary** search
+- Searching algorithms use either ==linear== and ==Binary search==
 * Sorting algorithms **selection sort, insertion sort, Merge sort**
 # Searching
 ## Linear Searching 
 * Sequential search of a **Search key** in an array of data
 	-  Each array element is compared to the **Search key** until it is found or we have reached the end of an array
 	- Finding the search key returns the index of  element.
-	- If there are **duplicate** values in the array, index of only **first element** is 
+	- If there are **duplicate** values in the array, index of only **first element** returned 
 	  
 * Array of random numbers full code can be viewed in [[]]
-* Explanation of the code [[Explanation code#Explanation of Linear search]]
+* Explanation of the code [[SD2 (ExplaC) Sorting#Explanation of Linear search]]
+
 ## Binary Search
 
 * Involves searching the array by disecting the array into two halves
@@ -20,11 +21,23 @@
 	- Repeat until either search key is found or search fails
 - It requires array to be sorted (typically in ascending order)
   
-- Full code at [[Software design 2/Sorting/Full Code#Fulll Binary search]]
+- Full code at [[SD2 Sorting Full Code#Fulll Binary search]]
   
-- Explanation of the code at [[Explanation code#Binary search explanation]]
+- Explanation of the code at [[SD2 (ExplaC) Sorting#Binary search explanation]]
 
-- Walk through at [[SD2 Sorting Example walk through#Walk through of Binary Search]]
+- Walk through at [[SD2 (ExapleW) Sorting#Walk through of Binary Search]]
+```Simplify
+----Method class----
+Method to generate random number
+Method to search for the data
+Methid to print array as a string using toString
+
+----Driver class------
+creating the size of the array
+code to print out if the intger is found
+code to print if the integer is not found
+code to quit the seearch (-1)
+```
 
 # Algorithm Complexity/Effciency
 
@@ -53,4 +66,17 @@
 	- Repeat till sorted
 - Algorithm complexity is **O(n^2)**
 ![[Pasted image 20240827222542.png]]
-Anlysis code is at [[Explanation code#Explanation of Sorting code]]
+Anlysis code is at [[SD2 (ExplaC) Sorting#Explanation of Sorting code]]
+
+
+## Insertion sort
+
+- simple insufficient
+- Ascending order
+- comparing the elements to the elements before each other and putting the smallest first
+- Code explanation at [[SD2 (ExplaC) Sorting#Insertion sort Explanation]]
+
+
+# Summary
+
+[[#Summary]

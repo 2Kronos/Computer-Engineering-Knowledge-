@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf17f3a312c40846",
+            "id": "f692ea98ccca5751",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software design 2/Multithreading/Class notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c06cbe9f7210d6a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
+                "file": "Software design 2/Generic classes/SD2 (N) Generic class and methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f3ec877e7cfaa7bd",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software design 2/Multithreading/Class notes.md",
+                "file": "Software design 2/Generic classes/SD2 (N) Generic class and methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software design 2/Multithreading/Class notes.md",
+                "file": "Software design 2/Generic classes/SD2 (N) Generic class and methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software design 2/Multithreading/Class notes.md"
+                "file": "Software design 2/Generic classes/SD2 (N) Generic class and methods.md"
               }
             }
           },
@@ -178,54 +167,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cf17f3a312c40846",
+  "active": "f692ea98ccca5751",
   "lastOpenFiles": [
+    "Software design 2/Generic classes/SD2 (D) Generic.md",
+    "Software design 2/Generic classes/SD2 (N) Generic class and methods.md",
+    "Software design 2/Generic classes/SD2 (CE) Generic class.md",
+    "Software design 2/Collection/SD2 (N) Collection.md",
+    "Software design 2/Collection/SD 2 (CodeEx) Collection.md",
+    "Software design 2/Collection/SD2 (FuCo)b Collection.md",
+    "Software design 2/Collection/SD2 (S) Summary.md",
+    "Software design 2/Data structures/SD2 (N) Generic structure.md",
+    "2024-09-03.md",
+    "2024-09-02.md",
+    "Pasted image 20240905122317.png",
+    "Pasted image 20240925190241.png",
+    "Pasted image 20240930235508.png",
+    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
+    "Pasted image 20240905093603.png",
+    "2024-09-25.md",
+    "Software design 2/Sorting/SD2 (S) Search, sort Big 0.md",
+    "Software design 2/Collection/Untitled",
+    "Software design 2/Sorting/SD2 Sorting Full Code.md",
+    "Software design 2/Sorting/SD2 (ExapleW) Sorting.md",
+    "Software design 2/Sorting/SD2 (ExplaC) Sorting.md",
+    "Software design 2/Sorting/SD2 (N) Sorting Searching and Big O.md",
+    "Ethics/Presentation.md",
+    "Ethics/Electrical installation guideline.md",
+    "Software design 2/Strings/Notes.md",
+    "Software design 2/Data structures/SD2 (SN) Data structures.md",
+    "Software design 2/Multithreading/Class notes.md",
+    "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
+    "Software design 2/Sorting/Untitled",
+    "Digital systems/Prac/Prac 6.md",
+    "Digital systems/Prac/Digits Prac5.md",
     "2Kronos/Python/Signals/Py N(venv).md",
     "2Kronos/Python/Signals/PY N (Sympy).md",
-    "2Kronos/Python/Signals/Py N (Pip commands).md",
-    "Software design 2/Multithreading/Class notes.md",
-    "Software design 2/Multithreading/Code examples.md",
-    "Software design 2/Multithreading/Definition.md",
-    "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
     "Software design 2/Multithreading",
     "Signals/Tests/Test 2/Pasted image 20240930235508.png",
     "Signals/Tests/Test 2/Pasted image 20240930212803.png",
-    "Signals/Practicals.md",
-    "2Kronos/New knowledge/2K NKWinget commands.md",
-    "2Kronos/New knowledge/2k NK Fabric A.I.md",
-    "2Kronos/New knowledge/2K NK (Debugging with vscode).md",
     "2Kronos/Untitled",
-    "Signals/Tests/Test 1 Corrections.md",
-    "Ethics/Presentation.md",
     "Ethics",
     "Signals/Tests/Test 2.zip",
-    "Pasted image 20240930235508.png",
-    "Software design 2/Data structures/SD2 (N) Generic structure.md",
     "Pasted image 20240930212803.png",
     "Signals/Tests/Test 2",
     "Signals/Tests",
-    "Signals/Signal class 30 September.md",
-    "2Kronos/Python/Signals/Py N (Unrestrict).md",
-    "2Kronos/2kronos repair/Repair knowledge.md",
     "2Kronos/2kronos repair",
     "2Kronos/New knowledge/Untitled",
-    "2024-09-16.md",
-    "2024-09-17.md",
-    "2024-09-24.md",
-    "2024-09-25.md",
-    "Digital systems/Prac/Digits Prac5.md",
-    "Digital systems/Prac/Untitled.md",
-    "Software design 2/Data structures/SD2 (SN) Data structures.md",
-    "Software design 2/Data structures.zip",
     "Software design 2/Data structures/Pasted image 20240925190241.png",
-    "Pasted image 20240925190241.png",
-    "Software design 2/Data structures/2.md",
-    "Software design 2/Collection/SD 2 (Collection.md",
-    "Software design 2/Data structures",
     "Pasted image 20240924223739.png",
-    "Pasted image 20240923162009.png",
-    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
-    "Pasted image 20240916230518.png",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]

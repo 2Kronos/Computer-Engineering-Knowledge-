@@ -91,3 +91,37 @@ Let’s say we have an array `[64, 25, 12, 22, 11]` and we are on the first pa
     - `--`  (indicating the first element is now sorted)
 
 This method helps visualize the sorting process by showing the state of the array after each pass and highlighting the elements involved in swaps.
+
+# Walk through insertion
+ample Walkthrough
+
+Let’s go through an example with a small array: `[34, 8, 64, 51, 32, 21]`.
+
+1. **First Pass (`next = 1`)**:
+    
+    - `insert = 8`
+    - `moveItem = 1`
+    - Compare `8` with `34` (element at `moveItem - 1`):
+        - `34 > 8`, so shift `34` to the right.
+        - `moveItem` becomes 0.
+    - Insert `8` at position 0.
+    - Array after first pass: `[8, 34, 64, 51, 32, 21]`.
+2. **Second Pass (`next = 2`)**:
+    
+    - `insert = 64`
+    - `moveItem = 2`
+    - Compare `64` with `34`:
+        - `34 < 64`, so no shifting needed.
+    - Insert `64` at position 2.
+    - Array after second pass: `[8, 34, 64, 51, 32, 21]`.
+3. **Third Pass (`next = 3`)**:
+    
+    - `insert = 51`
+    - `moveItem = 3`
+    - Compare `51` with `64`:
+        - `64 > 51`, so shift `64` to the right.
+        - `moveItem` becomes 2.
+    - Compare `51` with `34`:
+        - `34 < 51`, so no more shifting needed.
+    - Insert `51` at position 2.
+    - Array after third pass: `[8, 34, 51, 64, 32, 21]`.
