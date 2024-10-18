@@ -5,11 +5,13 @@
 - CPU–I/O Burst Cycle – Process execution consists of a cycle of CPU execution and I/O wait
 	- CPU burst followed by I/O burst 
 	- CPU burst distribution is of main concern
+![[Pasted image 20241017221530.png]]
 
 ## CPU Shedular 
 
-- Whenever the CPU becomes idle, the operating system must select one of the proccess in the ready ques to be executed 
-- Short-term scheduler selects from among the processes in ready queue, and allocates the CPU to one of them
+- Whenever the ==CPU becomes idle==, the operating system must select one of the proccess in the ready ques to be executed 
+- Short-term scheduler selects from among the processes in ready queue, and==allocates the CPU to one of them
+![[Pasted image 20241017221636.png]]
 
 <u> CPU scheduling decisions may take place when a process: </u>
 
@@ -34,7 +36,7 @@
     
     - Can occur if a process depends on an updated value to continue, but the process updating the value is preempted and cannot be resumed.
 
-### Dispather(Component involoving sccheduling)
+### Dispather(Component involving scheduling)
 
 - Dispatcher module gives control of the CPU to the process selected by the short-term scheduler; this involves:
 
@@ -43,13 +45,13 @@
 	- jumping to the proper location in the user program to restart that program
 - Dispatch latency – time it takes for the dispatcher to stop one process and start another running
 
-## Scheduling Critewria
+## Scheduling Criteria
 
 - `CPU utilization` – keep the CPU as busy as possible
 - `Throughput` –Number  of processes that complete their execution per time unit 
-- Turnaround time – amount of time to execute a particular process 
-- Waiting time – amount of time a process has been waiting in the ready queue 
-- Response time – amount of time it takes from when a request was submitted until the first response is produced, not output (for time-sharing environment)
+- `Turnaround time` – amount of time to execute a particular process 
+- `Waiting time` – amount of time a process has been waiting in the ready queue 
+- `Response time` – amount of time it takes from when a request was submitted until the first response is produced, not output (for time-sharing environment)
   
 <u> Scheduling algorithem optimization criteria </u>
 
@@ -76,7 +78,8 @@
 
 ## Shortest Job firts(SJF) Scheduling Algorithm
 
-  
+  - A **CPU burst** refers to the amount of time a process spends executing on the CPU before it either completes or needs to perform an I/O operation. In many scheduling algorithms, including the **Shortest Job First (SJF) Scheduling Algorithm**, CPU bursts are used to determine how long a process will occupy the CPU.
+  -
 - **Process Length**: Associates each process with the length of its next CPU burst.
   
 - Use these lengths to schedule the process with the shortest time.
@@ -85,9 +88,11 @@
   
 - **Terminology**: A more accurate term would be the shortest-next-CPU-burst algorithm, as it depends on the next CPU burst length rather than the total length of the process.
 - Optimal
-- Smallets avverage waiting time
-- **Abstacle** Knowing the next CPU request
+- ==Smallest average== waiting time
+- **Obstacle** Knowing the next CPU request
 
+- $t_n$ = actual length of the $n^{th}$ CPU burst
+- $t_{n+1}$ = predicted value of the next CPU burst
 
 ## Priority scheduling 
 
@@ -113,14 +118,43 @@
 
 - So the average  turnaround time for a set of process does not necessarily improve as the time quatum
 
-## Multilevel que
+## Multilevel queue
 
-look in the notes
+-  Ready queue is partitioned into ==separate queues==, eg: 
+	- foreground (interactive)
+	 - background (batch) 
+ - Process permanently in a given queue 
+ - ==Each queue== has its own ==scheduling algorithm:== 
+	- foreground – RR 
+	- background – FCFS 
+- Scheduling must be done between the queues: 
+	- ==Fixed priority scheduling;== (i.e., serve all from foreground then from background). Possibility of starvation. 
+	- ==Time slice== – each queue gets a certain amount of CPU time which it can schedule amongst its processes; i.e., 80% to foreground in RR 
+	- 20% to background in FCFS
 
+<u> Priority based upon process type</u>
+
+- System processes
+- Interactive processes
+- Interactive editing processes
+- Batch processes
+- Student processes
+
+# Multilevel Feedback Queue
+
+- A process can move between the various queues; ==aging can be implemented this way==
+- Multilevel-feedback-queue scheduler defined by the following parameters:
+	- number of queues 
+	- scheduling algorithms for each queue 
+	- method used to determine ==when to upgrade a process 
+	- method used to determine ==when to demote a process 
+	- method used to determine which queue a process will enter when that process needs service
+
+![[Pasted image 20241017193401.png]]
 ## Thread Scheduling
 
 
-- **User-level threads** are scheduled by the thread library using **process contention scope (PCS)**, where threads within the same process compete for CPU time.
+- **User-level threads** are scheduled by the ==thread library== using **process contention scope (PCS)**, where threads within the same process compete for CPU time.
   
 - **Kernel-level threads** are scheduled by the operating system using **system contention scope (SCS)**, where all threads in the system compete for CPU time.
   
@@ -136,7 +170,17 @@ look in the notes
 
 ## Multi-Processor Scheduling
 
-multiprocessor now applies to the following system architectures: 
+- CPU scheduling more complex when multiple CPUs are available 
+- Homogeneous processors (within a multiprocessor) 
+- Asymmetric multiprocessing (only one processor accesses the system data structures, alleviating the need for data sharing) 
+- Symmetric multiprocessing (SMP) – each processor is self scheduling, all processes in common ready queue, or each has its own private queue of ready processes 
+	- Currently, most common 
+- Processor affinity – process has affinity for processor on which it is currently running 
+	- soft affinity 
+	- hard affinity 
+	- Variations including processor sets
+
+<u>multiprocessor now applies to the following system architectures: </u>
 - Multicore CPUs 
 - Multithreaded cores 
 -  NUMA systems
@@ -155,3 +199,16 @@ multiprocessor now applies to the following system architectures:
 - Synchronization - Ensuring proper synchronization between threads or processes that share data to prevent race conditions and other concurrency issues.
 
 - NUMA Awareness - If the system has a Non-Uniform Memory Access (NUMA) architecture, the scheduler must also consider memory access patterns to optimize performance
+
+## Multicore Processors
+
+Multiple threads per core also growing 
+- Takes advantage of memory stall to make progress on another thread while memory retrieve happen
+
+
+
+
+
+
+
+
