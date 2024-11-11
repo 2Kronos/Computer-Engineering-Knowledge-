@@ -67,8 +67,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Catchingdata",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
+                "file": "Signals/Tests/Test 2/Signal (T2 2024).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OPS Ch 6Notes"
+              "title": "Backlinks for Signal (T2 2024)"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
+                "file": "Signals/Tests/Test 2/Signal (T2 2024).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OPS Ch 6Notes"
+              "title": "Outgoing links from Signal (T2 2024)"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md"
+                "file": "Signals/Tests/Test 2/Signal (T2 2024).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of OPS Ch 6Notes"
+              "title": "Outline of Signal (T2 2024)"
             }
           },
           {
@@ -181,7 +181,7 @@
             }
           },
           {
-            "id": "4033516b312160f6",
+            "id": "df8783c218161763",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -214,52 +214,52 @@
   },
   "active": "28ce652327dda7d2",
   "lastOpenFiles": [
-    "Pasted image 20241017221636.png",
-    "Pasted image 20241017221530.png",
-    "Operating Systems 2/Chapter 6/OPS CH5 Notes.md",
-    "Software design 2/Collection/SD2 (FuCo)b Collection.md",
-    "Software design 2/Collection/SD 2 (CodeEx) Collection.md",
-    "Software design 2/Multithreading/Class notes.md",
-    "Software design 2/Strings/Notes.md",
-    "Pasted image 20241017193401.png",
+    "Operating Systems 2/Chapter 5/5a & 5b/5a.1.md",
+    "Operating Systems 2/Chapter 5/5a & 5b/5a.2.md",
     "Operating Systems 2/Chapter 6/OPS Ch 6Notes.md",
-    "2024-10-16.md",
-    "Ethics/Ethics.md",
-    "Ethics/Presentation.md",
-    "Ethics/Electrical installation guideline.md",
-    "2Kronos/Python/Signals/Py N(venv).md",
-    "2Kronos/Python/Signals/Py N (Pip commands).md",
-    "Signals/Tests/Test 2/Signal Test 2 PAMPHILE.md",
-    "Signals/Tests/Test 1 Corrections.md",
-    "Digital systems/Chapter 15/Digits Ch 15 notes.md",
+    "Operating Systems 2/Multiple choice.md",
+    "Operating Systems 2/Chapter 5/ConMutalSynch/Note 1.md",
+    "Operating Systems 2/Chapter 5/5a & 5b/5b.4.md",
+    "Operating Systems 2/Chapter 5/5a & 5b/5b.3.md",
+    "Operating Systems 2/Chapter 5/5a & 5b/5b.2.md",
+    "Operating Systems 2/Chapter 5/5a & 5b/5b.md",
+    "Operating Systems 2/Chapter 5/ConMutalSynch/Note 4.md",
+    "Operating Systems 2/Chapter 5/ConMutalSynch/Note 3.md",
+    "Operating Systems 2/Chapter 5/ConMutalSynch/Note 2.md",
+    "Operating Systems 2/Chapter 5/5a & 5b/Untitled",
+    "Operating Systems 2/Chapter 5/5a & 5b",
+    "Operating Systems 2/Chapter 5/ConMutalSynch/Note 5.md",
+    "Operating Systems 2/Chapter 5/ConMutalSynch",
+    "Operating Systems 2/Chapter 5/Untitled.md",
+    "Pasted image 20241110234031.png",
+    "Personal/House.md",
     "Digital systems/Chapter 15/Digits CH 15 problems.md",
-    "Digital systems/Prac/Digits Prac5.md",
-    "Digital systems/Prac/Prac 6.md",
-    "Digital systems/Prac/Prac 1.md",
-    "Digital systems/Prac/Untitled.md",
-    "Untitled",
-    "Software design 2/Generic classes/SD2 (N) Generic class and methods.md",
-    "Software design 2/Generic classes/SD2 (D) Generic.md",
-    "Software design 2/Generic classes/SD2 (CE) Generic class.md",
-    "Software design 2/Collection/SD2 (N) Collection.md",
-    "Software design 2/Collection/SD2 (S) Summary.md",
-    "Pasted image 20240905122317.png",
-    "Pasted image 20240925190241.png",
-    "Pasted image 20240930235508.png",
-    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
-    "Pasted image 20240905093603.png",
-    "Software design 2/Collection/Untitled",
-    "Software design 2/Sorting/Untitled",
-    "Software design 2/Multithreading",
-    "Signals/Tests/Test 2/Pasted image 20240930235508.png",
-    "Signals/Tests/Test 2/Pasted image 20240930212803.png",
-    "2Kronos/Untitled",
-    "Ethics",
-    "Signals/Tests/Test 2.zip",
-    "Pasted image 20240930212803.png",
-    "Signals/Tests/Test 2",
-    "Signals/Tests",
-    "2Kronos/2kronos repair",
+    "Pasted image 20241110224312.png",
+    "Pasted image 20241110192450.png",
+    "Pasted image 20241110161039.png",
+    "Pasted image 20241110160958.png",
+    "Pasted image 20241110160332.png",
+    "Pasted image 20241110154615.png",
+    "Pasted image 20241110154413.png",
+    "Pasted image 20241110153557.png",
+    "2Kronos/New knowledge/Ip address.md",
+    "Pasted image 20241109124534.png",
+    "Operating Systems 2/Chapter 6/OPS CH5 Notes.md",
+    "2024-11-09.md",
+    "2Kronos/New knowledge/2K NKWinget commands.md",
+    "2Kronos/New knowledge/2k NK Fabric A.I.md",
+    "2Kronos/New knowledge/2K NK (Debugging with vscode).md",
+    "Operating Systems 2/Chapter 5",
+    "2Kronos/Machine learning/STEPS.md",
+    "Software design 2/Strings/String Notes.md",
+    "2Kronos/Machine learning",
+    "Software design 2/Strings/SD2 Regular sum.md",
+    "Software design 2/Strings/SD2 String (Sum).md",
+    "Ethics/EXAM/Untitled",
+    "Ethics/EXAM",
+    "A. Exam check list",
+    "Signals/Tests/Test 1",
+    "Software design 2/Recursion",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]

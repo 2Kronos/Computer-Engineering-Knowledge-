@@ -12,3 +12,4 @@
 - There are certain algorithms availablr to escape conditions such as starrvation etc
 
 - We will be looking atanother quantifier knowns as monitors
+

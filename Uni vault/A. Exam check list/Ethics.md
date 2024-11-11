@@ -1,0 +1,8 @@
+- [x] Definitions
+- [x] Professionalism
+- [x] Macro vs Micro Ethics
+- [x] OSH act: employer and employees  
+- [x] Eng management: problems  
+- [x] ECSA rules and examples  
+- [x] Management: dimensions of a task  
+- [x] Case studies
