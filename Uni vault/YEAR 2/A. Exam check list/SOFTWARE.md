@@ -1,0 +1,17 @@
+
+- [x] 2022 Sup Test 1
+- [x] 2022 Sup Test 2
+- [x] 2022 Test2 memo
+- [x] 2022_FISA_memo
+- [x] 2022_Test_1_memo 1
+- [x] 2023 FISA
+- [x] 2023 Test 2
+- [x] 2023_Test_1
+- [x] 2024_sick test 2
+- [x] Collection
+- [x] Strings
+- [x] Generic classes and methods
+- [x] File streams
+- [x] Searching and sorting
+- [x] Custom data structures
+- [x] Multithreading 

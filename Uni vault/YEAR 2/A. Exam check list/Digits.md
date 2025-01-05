@@ -1,0 +1,7 @@
+- [x] 2024 VIC T1 
+- [ ] 2023 Mintle t1
+- [ ] 2024 VIC T2
+- [ ] 2023 Mintle T2
+- [ ] 2024 VIC T3
+- [ ] 2023 Mintle T3
+- [ ] Special questions 
