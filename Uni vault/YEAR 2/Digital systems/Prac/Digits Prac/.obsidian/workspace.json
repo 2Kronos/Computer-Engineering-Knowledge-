@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "c9e14fea0bdc6958",
+    "type": "split",
+    "children": [
+      {
+        "id": "02a630bd343d77e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de5e8b03b2f0ebdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pracs/Prac test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2494f64e615e7553",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c5d6f8c3cc67ec2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e019a5791def7e41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "199488f1fd91c8d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "42f19e987d049324",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3c0ed18ef5be3a65",
+    "type": "split",
+    "children": [
+      {
+        "id": "d677593f25b10e86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b1b2c6350218ece",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pracs/Prac test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1527256628baaae2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pracs/Prac test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a85390771e668def",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8dabf246efc37193",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pracs/Prac test.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "de5e8b03b2f0ebdd",
+  "lastOpenFiles": [
+    "Pracs/Prac 3.md",
+    "Pracs/Prac test.md",
+    "Pracs/Prac 1.md",
+    "Pracs/Prac 2.md",
+    "Pasted image 20241010104858.png",
+    "Pasted image 20241010104048.png",
+    "Pasted image 20241010045244.png",
+    "Pasted image 20241010043742.png",
+    "Untitled.md",
+    "Pracs/Prac 2",
+    "Welcome.md",
+    "Pracs",
+    "Pasted image 20241009223356.png"
+  ]
+}

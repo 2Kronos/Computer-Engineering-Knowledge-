@@ -1,6 +1,6 @@
 @echo off
 :: Navigate to the project directory
-cd /d "C:\Users\n1cit\OneDrive - Cape Peninsula University of Technology\Documents\2KRONOS\Obsidian Uni vaults"
+cd /d "C:\Users\n1cit\OneDrive - Cape Peninsula University of Technology\Documents\2KRONOS\VAULT"
 if %ERRORLEVEL% neq 0 (
     echo Failed to navigate to the project directory.
     exit /b %ERRORLEVEL%
