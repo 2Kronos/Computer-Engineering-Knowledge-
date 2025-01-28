@@ -1,6 +1,8 @@
 # Parts of an Arduino 
 
-![[Pasted image 20250128084633.png]]
+![Image](https://github.com/user-attachments/assets/8c2238d8-153f-4f50-ae5e-3409b35c5fff)
+
+
 
 ·        Digital pins use these pins with digitalRead(), digitalwrite() and analogWrite(). AnologWrite works only pins with the PWM symbol.
 
