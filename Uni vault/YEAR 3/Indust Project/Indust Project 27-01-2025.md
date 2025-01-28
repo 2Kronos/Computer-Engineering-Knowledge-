@@ -1,0 +1,3 @@
+- Find a project early
+- Broadley defined project, that covers a few areas/Modules of your studies
+- 

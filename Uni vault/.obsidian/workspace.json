@@ -8,17 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f692ea98ccca5751",
+            "id": "57b006e20382b103",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 2/Software design 2/Collection/SD 2 (CodeEx) Collection.md",
+                "file": "YEAR 3/Network System/NetSystem 27-01-2027.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SD 2 (CodeEx) Collection"
+              "title": "NetSystem 27-01-2027"
+            }
+          },
+          {
+            "id": "2eaf653cd7f6a682",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -191,20 +201,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "periodic-notes:Open today": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "f692ea98ccca5751",
+  "active": "57b006e20382b103",
   "lastOpenFiles": [
-    "YEAR 2/Digital systems/Prac/Digits Prac/Pracs/Prac test.md",
+    "YEAR 3/Network System/Designs/Design 1.md",
+    "YEAR 3/Embedded systems/Embed syst 28-01-2025.md",
+    "YEAR 3/Network System/Designs",
+    "Pasted image 20250128084633.png",
+    "2Kronos/Machine learning/STEPS.md",
+    "YEAR 3/Embedded systems",
+    "YEAR 3/Indust Project/Indust Project 27-01-2025.md",
+    "2Kronos/New knowledge/How computers multiply.md",
+    "2Kronos/New knowledge/Ip address.md",
+    "2025-01-27.md",
+    "Pasted image 20241024032350.png",
+    "YEAR 3/Indust Project",
+    "YEAR 2/A. Exam check list/SOFTWARE.md",
+    "YEAR 2/A. Exam check list/Signal.md",
+    "YEAR 2/A. Exam check list/Ethics.md",
+    "YEAR 2/A. Exam check list/Digits.md",
     "D.Notes/F.P.md",
+    "2024-12-18.md",
+    "YEAR 3/Network System/NetSystem 27-01-2027.md",
+    "YEAR 2/Software design 2/Collection/SD 2 (CodeEx) Collection.md",
+    "YEAR 3/Network System",
+    "YEAR 2/Digital systems/Prac/Digits Prac/Pracs/Prac test.md",
     "YEAR 2/Personal/House.md",
     "YEAR 3",
     "YEAR 2/Operating Systems 2/Chapter 5/Definitions.md",
     "YEAR 2/Operating Systems 2/Chapter 5/ConMutalSynch/Note 2.md",
-    "2024-12-18.md",
     "YEAR 2/Operating Systems 2/Chapter 5/5a & 5b/5b.3.md",
     "YEAR 2/Operating Systems 2/Chapter 5/5a & 5b/5b.md",
     "YEAR 2/Operating Systems 2/Chapter 5/5a & 5b/5a.2.md",
@@ -212,38 +241,19 @@
     "YEAR 2/Digital systems/Chapter 15/Digits Ch 15 notes.md",
     "YEAR 2/Digital systems/Chapter 15/Digits CH 15 problems.md",
     "YEAR 2/Digital systems/Chapter 14/Digits Ch 14 problems.md",
-    "YEAR 2/Digital systems/Chapter 14/Digits Ch14 Notes.md",
-    "2Kronos/Machine learning/STEPS.md",
-    "2Kronos/Python/Signals/Py N(venv).md",
     "2Kronos/JavaScript/Learning Journey",
     "2Kronos/Python/Learning Journey",
-    "2Kronos/Python/Signals/Py N (Unrestrict).md",
-    "2Kronos/Python/Signals/PY N (Sympy).md",
-    "2Kronos/Python/Signals/Py N (Pip commands).md",
-    "2Kronos/Projects/Python.md",
     "D.Notes",
     "Pasted image 20241110234031.png",
     "Pasted image 20241114145816.png",
-    "YEAR 2/Digital systems/Test/Digits Test 2 Vic.md",
     "YEAR 2",
-    "2024-08-24.md",
-    "2024-09-02.md",
-    "2024-09-03.md",
-    "2024-08-27.md",
-    "2024-09-04.md",
     "Pasted image 20241114170427.png",
     "Pasted image 20241114165339.png",
     "Pasted image 20241114165228.png",
     "Pasted image 20241114165157.png",
     "Pasted image 20241114163605.png",
     "Pasted image 20241114163526.png",
-    "Pasted image 20241114162855.png",
-    "Pasted image 20241114162743.png",
     "Operating Systems 2/Chapter 5/5a & 5b/Untitled",
-    "YEAR 2/Operating Systems 2/Chapter 5/5a & 5b",
-    "YEAR 2/Operating Systems 2/Chapter 5/ConMutalSynch",
-    "YEAR 2/Operating Systems 2/Chapter 5",
-    "2Kronos/Machine learning",
     "Test/Untitled.canvas",
     "Untitled.canvas"
   ]
