@@ -1,6 +1,6 @@
 # Parts of an Arduino 
 ### Purpose of the Input Pins on Arduino Uno:
-=======
+
 ![Image](https://github.com/user-attachments/assets/8c2238d8-153f-4f50-ae5e-3409b35c5fff)
 
 ### Purpose of the Input Pins on Arduino Uno:
