@@ -1,13 +1,10 @@
 # Parts of an Arduino 
-
-<<<<<<< HEAD
-![[Pasted image 20250128084633.png]]
 ### Purpose of the Input Pins on Arduino Uno:
 =======
 ![Image](https://github.com/user-attachments/assets/8c2238d8-153f-4f50-ae5e-3409b35c5fff)
 
 
->>>>>>> 63a65c5891cb628ece7f5a830d4b4fc7885b1ad2
+
 
 - **Reading Signals from the External World**:  
     The input pins on the Arduino Uno are designed to receive and interpret signals or data from various sensors and devices, enabling the board to react to its environment.
