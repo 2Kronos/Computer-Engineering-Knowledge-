@@ -3,8 +3,7 @@
 =======
 ![Image](https://github.com/user-attachments/assets/8c2238d8-153f-4f50-ae5e-3409b35c5fff)
 
-
-
+### Purpose of the Input Pins on Arduino Uno:
 
 - **Reading Signals from the External World**:  
     The input pins on the Arduino Uno are designed to receive and interpret signals or data from various sensors and devices, enabling the board to react to its environment.
@@ -34,6 +33,8 @@
     
 3. **Interrupt Capabilities**:  
     Pins 2 and 3 support hardware interrupts. Interrupts allow the Arduino to react immediately to changes in input, such as detecting motion or a signal pulse, without waiting for the next program cycle.
+    
+
 ### Complementing Inputs with PWM:
 
 - The PWM output pins (3, 5, 6, 9, 10, and 11) generate precise analog-like signals, while the input pins collect real-world data to influence these outputs.
@@ -41,7 +42,6 @@
     - Use an analog temperature sensor connected to an analog input pin.
     - Based on the temperature, adjust the brightness of an LED or the speed of a fan connected to a PWM pin using `analogWrite()`.
 
-<<<<<<< HEAD
 ### Built-in Features:
 
 - **Built-in LED (Pin 13)**:
@@ -49,6 +49,3 @@
     - For example, it can flash to show sensor activity or signal program execution stages.
 
 The **input functionality** of the Arduino Uno is critical for interactive and responsive systems, making it a core aspect of its design. Inputs gather environmental or user data, which can then be processed to produce meaningful outputs via digital pins, PWM signals, or even external communication like serial data.
-=======
-·        The L-LED. Built into the board and connected to pin 13. When pin 13 is high LED is on when pin 13 is low LED is off
->>>>>>> 63a65c5891cb628ece7f5a830d4b4fc7885b1ad2
