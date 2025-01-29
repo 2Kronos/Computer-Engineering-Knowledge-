@@ -1,6 +1,7 @@
 # 1.1
 
-![[Pasted image 20250129014119.png]]
+![Image](https://github.com/user-attachments/assets/56dd4ac6-e308-418a-bb5c-7758087c5734)
+
 ## Code 
 
 ```C
