@@ -55,7 +55,7 @@ void loop()
 
 # 1.2 Two led flashing in sync 
 
-![[Pasted image 20250130232743.png]]
+![image](https://github.com/user-attachments/assets/c5056150-89c6-431b-9fdd-49aa76f49c15)
 
 - Now we will use another led but we will use pin 10 to control it(Same set up as the first).
 
