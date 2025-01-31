@@ -1,0 +1,1 @@
+Read input from the potentiometer and print it to the serial monitor 
