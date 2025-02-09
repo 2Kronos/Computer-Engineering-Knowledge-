@@ -10,5 +10,6 @@
   "spellcheckDictionary": [
     "\t  -"
   ],
-  "showLineNumber": false
+  "showLineNumber": false,
+  "readableLineLength": false
 }
