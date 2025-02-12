@@ -20,7 +20,8 @@
 - Institutional access nets
 - Mobile access nets
 
-![[Pasted image 20250209192656.png]]
+![Image](https://github.com/user-attachments/assets/0ab16732-363f-4848-b759-fc9308887ee1)
+
 
 ### Wireless access networks
 
