@@ -78,7 +78,7 @@ Client              Server
 
 Once the three-way handshake is complete, a reliable TCP connection is established, and data can be exchanged between the client and server. This process ensures that both parties agree on the initial sequence numbers and are ready to communicate.
 
-Explanation of the Three-Way Handshake Process in the Code
+# Explanation of the Three-Way Handshake Process in the Code
 Server Creates Welcoming Socket (TCPServer.py):
 
 The server creates a TCP socket and binds it to a port (12000), then starts listening for incoming connections.
