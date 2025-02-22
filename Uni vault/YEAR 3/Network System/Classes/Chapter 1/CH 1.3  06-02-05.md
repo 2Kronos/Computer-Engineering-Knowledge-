@@ -37,3 +37,12 @@
 
 # Alternative to packet switching: Circuit switching
 
+- **Circuit Switching Concept**: Instead of sending data in packets, a dedicated communication path (or call) is established between the source and destination.
+- **Resource Allocation**: Before the call begins, all necessary network resources (bandwidth, links) are reserved along the entire path.
+- **Guaranteed Transmission**: Since resources are pre-allocated, there is no queuing delay, and the only delay is due to signal propagation.
+- **No Data Loss**: The dedicated link ensures that no data is lost because the transmission capacity is exclusively reserved for that call.
+## Issues with Circuit swithing
+
+- **Exclusive Resource Reservation**: Once a call is established, the allocated bandwidth is reserved solely for that call.
+- **Inefficiency**: If no data is being transmitted, the reserved bandwidth remains idle and cannot be used by other calls.
+- **Wasted Bandwidth**: Unused capacity is lost since no other transmission can utilize the allocated circuit, making circuit-switched networks inefficient.
