@@ -238,3 +238,4 @@ void blinkLED(int pin, int times) {
 - Functions can take **arguments** (inputs) and **return values** (outputs).
 
 Let me know if you'd like me to clarify or expand on anything!
+
