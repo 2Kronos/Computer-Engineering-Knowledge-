@@ -37,14 +37,12 @@
             "id": "2950ce9870d477cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "YEAR 3/Indust Project/Project 1/FEASIBILITY/Presentation.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2025-03-06 14.27.44.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Presentation"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-06 14.27.44.excalidraw"
             }
           }
         ],
@@ -228,8 +226,8 @@
   },
   "active": "2950ce9870d477cb",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-06 14.27.44.excalidraw.md",
     "YEAR 3/Indust Project/Project 1/FEASIBILITY/Presentation.md",
+    "Excalidraw/Drawing 2025-03-06 14.27.44.excalidraw.md",
     "2Kronos/New knowledge/Querying an API using JS.md",
     "2Kronos/New knowledge/How do chrome web tools work.md",
     "2Kronos/New knowledge/How computers multiply.md",
