@@ -13,15 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Electric Communi/Classes/19-02-2025 CH4.md",
+                "file": "YEAR 3/Network System/Classes/Chapter 1/CH 1.3  06-02-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19-02-2025 CH4"
+              "title": "CH 1.3  06-02-05"
+            }
+          },
+          {
+            "id": "b8e77d0a8c74b144",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
+            "id": "2950ce9870d477cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YEAR 3/Indust Project/Project 1/FEASIBILITY/Presentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Presentation"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,58 +222,59 @@
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "c6bd51693ca0ea34",
+  "active": "2950ce9870d477cb",
   "lastOpenFiles": [
-    "Untitled",
+    "Excalidraw/Drawing 2025-03-06 14.27.44.excalidraw.md",
+    "YEAR 3/Indust Project/Project 1/FEASIBILITY/Presentation.md",
+    "2Kronos/New knowledge/Querying an API using JS.md",
+    "2Kronos/New knowledge/How do chrome web tools work.md",
+    "2Kronos/New knowledge/How computers multiply.md",
+    "2Kronos/New knowledge/WTF IS OPEN SSH.md",
+    "Pasted Image 20250306233350_589.png",
+    "Pasted Image 20250306233248_937.png",
+    "Pasted Image 20250306232750_469.png",
+    "download (7).jpeg",
+    "This Glove Calms Tremors in Parkinson’s Patients.jpeg",
+    "Excalidraw/basic-ux-wireframing-elements.excalidrawlib",
+    "Excalidraw/Unconfirmed 218213.crdownload",
+    "Excalidraw/simple-characters.excalidrawlib",
+    "Excalidraw/Unconfirmed 975546.crdownload",
+    "Excalidraw/flow-chart-symbols.excalidrawlib",
+    "Excalidraw/Unconfirmed 357741.crdownload",
+    "Excalidraw",
+    "YEAR 3/Indust Project/Project 1/FEASIBILITY",
+    "YEAR 3/Indust Project/Project 1/Untitled.md",
+    "YEAR 3/Network System/Classes/Chapter 1/CH 1.3  06-02-05.md",
+    "YEAR 3/Indust Project/Project 1",
+    "YEAR 3/Network System/Classes/27-01-2027.md",
+    "YEAR 3/Network System/Classes/13-02-2025.md",
+    "2025-02-26.md",
+    "2025-02-22.md",
+    "2025-02-09.md",
+    "YEAR 3/Data bases/Chapters/Chapter 1/CH 1.2 File Based-system.md",
+    "YEAR 3/Data bases/Chapters/Chapter 1/CH 1.1 Intro.md",
+    "Pasted image 20250302202956.png",
+    "2Kronos/New knowledge/2K NKWinget commands.md",
+    "2Kronos/New knowledge/Ip address.md",
+    "2Kronos/Projects/Miniing with G/Minero.md",
+    "2Kronos/Projects/Miniing with G",
+    "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 5 (18-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 4. (11-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 2 (31-01-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 3 04-02-2025.md",
+    "YEAR 3/Data bases/Classes/29-01-2025.md",
+    "YEAR 3/Data bases/Classes/17-02-2025.md",
+    "YEAR 3/Network System/Classes/Chapter 1/CH 1.2  06-02-05.md",
     "Pasted image 20250228190253.png",
     "Pasted image 20250228185906.png",
     "Pasted image 20250228184957.png",
     "Pasted image 20250228183405.png",
-    "Pasted image 20250228183357.png",
-    "YEAR 3/Electric Communi/Practical/26-02-2025.md",
-    "YEAR 3/Electric Communi/Tutorial/Frequency Modulation.md",
-    "YEAR 3/Electric Communi/Tutorial/Fundementals Concepts - Decibel and Bandwidth Tutorials.md",
-    "YEAR 3/Electric Communi/Classes/28-01-2025 CH1.md",
-    "YEAR 3/Electric Communi/Extra Knowledge/How Transistor work as an amplifier.md",
-    "YEAR 3/Electric Communi/Classes/19-02-2025 CH4.md",
-    "YEAR 3/Electric Communi/Extra Knowledge",
-    "YEAR 3/Electric Communi/Classes/Untitled.md",
-    "YEAR 3/Electric Communi/Classes/12-02-2025 CH3.md",
-    "YEAR 3/Electric Communi/Classes/05-02-2025 CH2.md",
-    "2Kronos/New knowledge/How do chrome web tools work.md",
-    "2Kronos/New knowledge/WTF IS OPEN SSH.md",
-    "2025-02-09.md",
-    "2Kronos/New knowledge/Untitled",
     "Untitled 1.canvas",
-    "2025-02-26.md",
-    "YEAR 2/Digital systems/Test/Theory.md",
-    "YEAR 3/Electric Communi/Practical/Untitled",
-    "YEAR 3/Electric Communi/Practical",
-    "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
-    "YEAR 3/Embedded systems/Designs/Project/Project.md",
-    "YEAR 3/Embedded systems/Designs/Project",
-    "YEAR 3/Embedded systems/Designs/Design 5 (18-02-2025).md",
-    "YEAR 3/Embedded systems/Notes/25-02-2025.md",
-    "YEAR 3/Embedded systems/Notes/Notes.md",
-    "YEAR 3/Embedded systems/Notes/Language Reference.md",
-    "YEAR 3/Embedded systems/Designs/Home work.md",
-    "YEAR 3/Embedded systems/Designs/Design 4. (11-02-2025).md",
-    "YEAR 3/Network System/Classes/Chapter 1/CH 1.3  06-02-05.md",
-    "YEAR 3/Network System/Classes/Chapter 1/CH 1.2  06-02-05.md",
-    "YEAR 3/Network System/Classes/Chapter 1/CH 1.1 29-01-2025.md",
-    "YEAR 3/Data bases/Practice",
-    "YEAR 3/Network System/Practice",
-    "YEAR 3/Embedded systems/Practice",
-    "YEAR 3/Electric Communi/Practice",
-    "Pasted image 20250222155726.png",
-    "Pasted image 20250222155228.png",
-    "YEAR 3/Network System/Tuts/Unconfirmed 867060.crdownload",
-    "Pasted image 20250222141230.png",
-    "Pasted image 20250222134116.png",
-    "Pasted image 20250222133953.png",
     "Untitled.canvas",
     "Test/Untitled.canvas"
   ]
