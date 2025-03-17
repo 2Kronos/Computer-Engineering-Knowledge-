@@ -9,10 +9,11 @@ I’m excited to present my project: the **Gesture-Controlled Robotic Arm**, an 
 
 - Traditional robotic arms rely on complex controls like joysticks or coding.
 - Some environments are too hazardous for direct human intervention.
+- 
 
 #### **Slide 3: The Solution**
 
-- A **gesture-controlled robotic arm** mimicking hand movements.
+- A **gesture-controlled robotic arm** mimicking hand movements therefore introduces hand free operations
 - A sensor-equipped glove sends wireless commands to the robotic arm.
 - **Easy, intuitive, and accessible** for all users.
 
