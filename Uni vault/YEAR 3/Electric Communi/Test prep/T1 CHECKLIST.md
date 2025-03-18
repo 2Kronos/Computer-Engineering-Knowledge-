@@ -6,8 +6,8 @@ Here's your Markdown checklist for test preparation based on the topics in the i
 
 ## ✅ Gain – Measurement and Calculation
 - [ ] Understand how to measure gain in a broadcast system.
-	- [ ] Why is it important to measure it.
-	- [ ] When should you determine the gain 
+	- [x] Why is it important to measure it.
+	- [x] When should you determine the gain 
 	      
 - [ ] When to use instruments (Ammeter, Voltmeter, Multimeter, Wattmeter).
       
@@ -54,7 +54,6 @@ Here's your Markdown checklist for test preparation based on the topics in the i
 	- Class A amplifiers are the most linear but inefficient, while Class B and AB offer a balance between efficiency and linearity.
 	  
 - [ ] Compute and explain the impact of the Q factor for frequency selective components.
-      
 - [ ] describe the role and function of frequency selective components in communication systems.
 
 ---
