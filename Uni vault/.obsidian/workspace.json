@@ -8,76 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1b6cd3868f54093a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YEAR 3/Network System/Classes/Chapter 1/CH 1.3  06-02-05.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CH 1.3  06-02-05"
-            }
-          },
-          {
-            "id": "2950ce9870d477cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YEAR 3/Network System/Classes/Chapter 1/CH 1.3  06-02-05.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CH 1.3  06-02-05"
-            }
-          },
-          {
-            "id": "b8e77d0a8c74b144",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",
-                "viewState": {
-                  "x": 55.62086912251107,
-                  "y": -45.66713633637352,
-                  "zoom": 1
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "44ed294a3e11fc01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-03-19.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-03-19"
-            }
-          },
-          {
             "id": "9d8a526960d41ac5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Network System/Classes/Chapter 2/Ch 2.4 The Domain Name System (DNS).md",
+                "file": "YEAR 3/Electric Communi/Classes/05-02-2025 CH2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ch 2.4 The Domain Name System (DNS)"
+              "title": "05-02-2025 CH2"
             }
           },
           {
@@ -86,16 +27,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-02-09.md",
+                "file": "YEAR 3/Electric Communi/Test prep/T1 PREP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-09"
+              "title": "T1 PREP"
             }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "a9f671eca27bb806",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbbfd9d6b2fb9537",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YEAR 3/Electric Communi/Test prep/T1 CHECKLIST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "T1 CHECKLIST"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,16 +235,23 @@
   },
   "active": "9d8a526960d41ac5",
   "lastOpenFiles": [
+    "YEAR 3/Electric Communi/Classes/05-02-2025.md",
+    "YEAR 3/Electric Communi/Classes/05-02-2025 CH2.md",
+    "YEAR 3/Electric Communi/Test prep/T1 PREP.md",
+    "YEAR 3/Electric Communi/Test prep/T1 CHECKLIST.md",
+    "2025-02-09.md",
     "YEAR 3/Network System/Classes/Chapter 2/Ch 2.7 Socket programming.md",
+    "Excalidraw/Drawing 2025-03-19 21.24.36.excalidraw.md",
+    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.3 Email.md",
+    "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",
+    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.2.2.md",
+    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.1 Principles of network applications.md",
+    "YEAR 3/Network System/Classes/Chapter 1/CH 1.3  06-02-05.md",
+    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.4 The Domain Name System (DNS).md",
     "YEAR 3/Network System/Classes/Chapter 1/Ch 1.6 Networks Under attack.md",
     "YEAR 3/Network System/Classes/27-01-2027.md",
     "YEAR 3/Network System/Classes/13-02-2025.md",
-    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.4 The Domain Name System (DNS).md",
-    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.3 Email.md",
-    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.2.2.md",
     "YEAR 3/Network System/Classes/Chapter 2/Ch 2.2.1 The Web and HTTP.md",
-    "Excalidraw/Drawing 2025-03-19 21.24.36.excalidraw.md",
-    "YEAR 3/Network System/Classes/Chapter 2/Ch 2.1 Principles of network applications.md",
     "YEAR 3/Network System/Classes/Chapter 1/Ch 1.5 Layering & Encapsulation.md",
     "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
     "YEAR 3/Network System/Classes/Chapter 1/CH 1.1 29-01-2025.md",
@@ -292,20 +259,13 @@
     "YEAR 3/Network System/Classes/Chapter 2",
     "YEAR 3/Network System/Classes/Chapter 1/CH 1.2  06-02-05.md",
     "Excalidraw/Drawing 2025-03-06 14.27.44.excalidraw.md",
-    "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",
-    "YEAR 3/Network System/Classes/Chapter 1/CH 1.3  06-02-05.md",
     "2025-03-19.md",
     "YEAR 3/Electric Communi/Classes/19-02-2025 CH4.md",
     "YEAR 3/Embedded systems/Designs/Design 3 04-02-2025.md",
     "YEAR 3/Embedded systems/Designs/Design 2 (31-01-2025).md",
     "YEAR 3/Network System/Classes/Drawing 2025-03-19 12.41.10.excalidraw.md",
     "Pasted image 20250319124003.png",
-    "YEAR 3/Network System/Classes/Chapter 1/Ch 1.4 Performance.md",
     "YEAR 3/Network System/Classes/Chapter 1/CH 1.4",
-    "YEAR 3/Electric Communi/Classes/05-02-2025.md",
-    "YEAR 3/Electric Communi/Classes/05-02-2025 CH2.md",
-    "YEAR 3/Electric Communi/Classes/12-02-2025 CH3.md",
-    "YEAR 3/Electric Communi/Test prep/T1 CHECKLIST.md",
     "2Kronos/Hackathon/Untitled",
     "2Kronos/Hackathon",
     "YEAR 2/Digital systems/Prac/Digits Prac/Pasted image 20241010104048.png",
