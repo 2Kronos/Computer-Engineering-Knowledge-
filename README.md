@@ -1,4 +1,6 @@
 # Computer Engineering Knowledge Repository
+  ![Image](https://github.com/user-attachments/assets/06ad0868-7829-470a-a476-87094aed6c74)
+
 
 ## Overview
 This repository serves as a structured compilation of knowledge, resources, and materials gathered throughout my studies in Computer Engineering. It is managed using Obsidian and contains extensive documentation on topics covered in both my second- and third-year modules. The contents are derived from a combination of university-prescribed materials, academic textbooks, artificial intelligence resources, and supplementary online platforms such as YouTube.
