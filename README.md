@@ -7,12 +7,19 @@ Welcome to my Computer Engineering Knowledge Repository. This repository is mana
 
 ## Table of Contents
 
-- [Database](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Data%20bases)
-- [Structure](#structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Year 2](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%202)
+- [Digital Systems](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%202/Digital%20systems)
+- [Engineering Ethics](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%202/Ethics)
+- [Operating Systems 2](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%202/Operating%20Systems%202)
+- [Signal processing](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%202/Signals)
+- [Software design 2](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%202/Software%20design%202)
+
+- [Year 3](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203)
+- [Database Systems 3](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Data%20bases)
+- [Electronic Communications 3](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Electric%20Communi)
+- [Embedded Systems 3](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Embedded%20systems)
+- [Industrial design](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Indust%20Project)
+- [Network Systems 3](#license)
 
 ## Introduction
 
