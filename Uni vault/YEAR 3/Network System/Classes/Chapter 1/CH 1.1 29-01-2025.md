@@ -10,6 +10,7 @@
 ![Pasted image 20250130234715](https://github.com/user-attachments/assets/b51b5b09-92f9-42ed-8f28-c605aad89b09)
 
 
+
 <u> Textbook: Computer Networking: A Top-Down Approach</u> 
 - Available as online resource where you can listen to the textbook
 
@@ -44,7 +45,7 @@
 - <u>Internet</u>: 
 	- Interconnected ISP
 - <u>Protocols</u> : 
-	- Control sending, recieving messages 
+	- Are **rules** that govern how data is transmitted, received, and interpreted across a network. Each layer in the **5-layer model** (Application, Transport, Network, Data Link, Physical) has its own protocols to ensure smooth communication. 
 	- In the slide Skype will be known as propriety protocol as it owned by a private company
 	- e.g. HTTP, TCP, IP etc
 - <u> Internet Standards</u> 
