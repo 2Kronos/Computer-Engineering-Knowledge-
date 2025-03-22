@@ -20,7 +20,7 @@ The repository is systematically organized to facilitate ease of navigation and 
 - [Electronic Communications 3](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Electric%20Communi)
 - [Embedded Systems 3](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Embedded%20systems)
 - [Industrial Design](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Indust%20Project)
-- [Network Systems 3](#license)
+- [Network Systems 3](https://github.com/2Kronos/Obsidian-Vault/tree/master/Uni%20vault/YEAR%203/Network%20System)
 
 ## Content and Resources
 This repository comprises the following key sections:
