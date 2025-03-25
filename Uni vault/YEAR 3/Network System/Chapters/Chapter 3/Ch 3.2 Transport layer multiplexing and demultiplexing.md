@@ -14,7 +14,9 @@
     - Example: Multiple applications send messages through their sockets to TCP, which funnels them into IP for delivery.
 
 ### **How demultiplexing works**
-![[Screenshot 2025-03-23 181701.png]]
+![Image](https://github.com/user-attachments/assets/6c78d0e2-caa3-443b-afea-d86edb122493)
+
+
 
 
 1. **Multiplexing (Sender Side)**:
@@ -105,7 +107,9 @@
     - UDP does not distinguish between different clients based on source IP or port; it only uses the **destination port number** for demultiplexing
 
 ### **Example 
-![[Screenshot 2025-03-23 181701 1.png]]
+![Image](https://github.com/user-attachments/assets/6c78d0e2-caa3-443b-afea-d86edb122493)
+
+
 
 1. **Scenario**:
     
@@ -176,7 +180,8 @@
     - Each socket is associated with a different **client process**
 ### **Example**
 
-![[pic 2 1.png]]
+![Screenshot 2025-03-23 182941](https://github.com/user-attachments/assets/3f97224f-dcea-43d4-ac2b-8db46b57093a)
+
 
 1. **TCP Socket Identification**:
     
