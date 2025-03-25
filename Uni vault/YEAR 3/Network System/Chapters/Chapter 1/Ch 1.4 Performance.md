@@ -33,8 +33,7 @@
 	    - `D`-The **physical distance** between the sender and receiver.  
 	    - `S`-The **propagation speed** of the medium (e.g., fiber, copper).  
 	  - Unlike transmission delay, it is independent of the packet size or transmission rate.
-	    
-										$D_{DROP}= \frac{d}{s}$
+	$D_{DROP}= \frac{d}{s}$
 - <u>Nodal processing</u>  $D_{NODAL}$
 
 $D_{NODAL}=D_{PROC}+D_{QUEUE}+D_{TRANS}+D_{DROP}$
