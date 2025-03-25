@@ -25,7 +25,8 @@
     - The **number of bits in the packet (L)**.  
     - The **transmission rate of the link (R)**.  
   - Calculated as:  
-									    $D_{TRANS} = \frac{L}{R}$
+
+$D_{TRANS} = \frac{L}{R}$
 
 - <u>Propagation Delay</u>  $D_{DROP}$
 	  - The time it takes for a **single bit** to travel from the **sending side** of a link to the **receiving side**.  
@@ -34,7 +35,7 @@
 	    - `S`-The **propagation speed** of the medium (e.g., fiber, copper).  
 	  - Unlike transmission delay, it is independent of the packet size or transmission rate.
 	$D_{DROP}= \frac{d}{s}$
-- <u>Nodal processing</u>  $D_{NODAL}$
+-  $D_{NODAL}$
 
 $D_{NODAL}=D_{PROC}+D_{QUEUE}+D_{TRANS}+D_{DROP}$
 
@@ -44,7 +45,7 @@ $D_{NODAL}=D_{PROC}+D_{QUEUE}+D_{TRANS}+D_{DROP}$
 
 
 - **Traffic Intensity**:  
-  - Defined as the ratio of **arrival rate of bits (λ)** to the **transmission rate of bits (R)**.  
+  - Defined as the ratio of **arrival rate of bits $a\times L$** to the **transmission rate of bits (R)**.  
   - Formula:  
     
     $\text{Traffic Intensity} = \frac{a \cdot L}{R}$

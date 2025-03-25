@@ -102,3 +102,71 @@
 - **Improved user-perceived performance**: Faster loading times for cached content.
     
 - **Reduced network resource usage**: Less data transmitted over the network.
+
+
+---
+
+### **Comparison of HTTP/1, HTTP/2, and HTTP/3**
+
+#### **1. HTTP/1 (HTTP/1.0 and HTTP/1.1)**
+
+- **First version widely used on the web**
+    
+- **HTTP/1.0**: Each request requires a new TCP connection.
+    
+- **HTTP/1.1**: Introduced **persistent connections**, allowing multiple requests over the same TCP connection.
+    
+- **Limitations**:
+    
+    - **Head-of-line blocking**: Requests are processed **one by one** in order.
+        
+    - **Latency issues** due to sequential request handling.
+        
+    - **High TCP connection overhead**, especially for multiple requests.
+        
+
+#### **2. HTTP/2**
+
+- **Introduced multiplexing**, allowing multiple requests to be sent in parallel over a single TCP connection.
+    
+- **Header compression (HPACK)** reduces data overhead.
+    
+- **Prioritization of requests** for faster loading.
+    
+- **Limitations**:
+    
+    - Still uses **TCP**, meaning **packet loss** affects all requests in a connection.
+        
+    - **TCP head-of-line blocking** still occurs if packet loss happens.
+        
+
+#### **3. HTTP/3**
+
+- **Uses QUIC instead of TCP**, improving speed and security.
+    
+- **Eliminates head-of-line blocking** at the transport layer.
+    
+- **Built-in encryption (TLS 1.3)**, making it more secure by default.
+    
+- **Faster connection establishment** due to reduced handshake steps.
+    
+- **More resilient to packet loss** compared to HTTP/2.
+    
+
+### **Comparison Table:**
+
+|Feature|HTTP/1.1|HTTP/2|HTTP/3|
+|---|---|---|---|
+|**Connection**|Persistent TCP|Persistent TCP|QUIC (UDP-based)|
+|**Multiplexing**|❌ No|✅ Yes|✅ Yes|
+|**Head-of-line blocking**|✅ Yes (TCP-level)|✅ Yes (TCP-level)|❌ No (QUIC avoids it)|
+|**Encryption**|Optional|Optional|Always Encrypted (TLS 1.3)|
+|**Speed**|Slowest|Faster than HTTP/1.1|Fastest|
+
+### **Conclusion**
+
+- **HTTP/1.1**: Improved efficiency over HTTP/1.0 but suffers from sequential request handling.
+    
+- **HTTP/2**: Introduced multiplexing but still suffers from TCP-related delays.
+    
+- **HTTP/3**: Uses QUIC, eliminating TCP issues, providing faster and more reliable communication.

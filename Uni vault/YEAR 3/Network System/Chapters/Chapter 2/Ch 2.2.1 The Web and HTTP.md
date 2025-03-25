@@ -25,6 +25,18 @@
             
         - **Inconsistent state resolution**.
 ---
+# Why http uses TCP
+
+HTTP (HyperText Transfer Protocol) uses TCP (Transmission Control Protocol) because TCP provides reliable, ordered, and error-checked delivery of data between the client and server. Here’s why HTTP relies on TCP:
+
+- **Reliability**: TCP ensures that all data packets arrive at their destination without loss or corruption.
+- **Order Preservation**: TCP guarantees that packets are received in the correct order, preventing scrambled or incomplete web pages.
+- **Error Checking**: TCP detects and corrects errors in transmission, ensuring data integrity.
+- **Connection-Oriented**: HTTP requires a stable connection for request-response exchanges, which TCP provides through its three-way handshake.
+
+Since HTTP depends on accurate and complete data transfer, TCP is the ideal transport layer protocol.
+
+---
 ### **Response Time**:
 
 - Defined as the **total time** from when a user:
@@ -37,15 +49,79 @@
     
     - Includes time for DNS resolution, TCP connection setup, HTTP request/response, and rendering the base HTML.
 ---
-### **Protocol Definition**:
+### **Persistent vs. Non-Persistent HTTP**
 
-- A protocol defines:
+#### **Non-Persistent HTTP**
+
+- A **TCP connection** is opened for each request.
     
-    1. **Format**: The structure of messages exchanged between network entities.
+- Each connection handles **only one object**, then it is closed.
+    
+- Multiple objects (e.g., images, scripts) require multiple TCP connections.
+    
+- **Example Process:**
+    
+    1. User enters a URL (e.g., `www.someSchool.edu/someDepartment/home.index`).
         
-    2. **Order**: The sequence in which messages are sent and received.
+    2. The HTTP client **opens a TCP connection** to the server on port 80.
         
-    3. **Actions**: The steps taken when messages are sent, received, or other events occur.
+    3. The client sends an **HTTP request** for the object.
+        
+    4. The server **accepts the request**, processes it, and sends a response.
+        
+    5. The client receives the **HTML file** and parses it, finding references to other objects (e.g., images).
+        
+    6. The process **repeats** for each referenced object (e.g., 10 JPEG images).
+        
+- **Response Time Formula for Non-Persistent HTTP:**
+    
+    $Response Time= 2RTT + \text{File Transmission Time}$
+    
+    
+    Where:
+    
+    - **RTT (Round Trip Time)**: Time for a small packet to travel from client to server and back.
+        
+    - **2RTT** includes:
+        
+        1. **1 RTT** to initiate the TCP connection.
+            
+        2. **1 RTT** for the HTTP request and response.
+            
+
+#### **Persistent HTTP (HTTP 1.1)**
+
+- The **TCP connection remains open** after the initial request.
+    
+- **Multiple objects** are sent over a **single connection**, reducing overhead.
+    
+- The **client sends multiple requests** without needing new connections.
+    
+- **Reduces response time** since only **one RTT** is needed for all objects.
+    
+- **Benefits Over Non-Persistent HTTP:**
+    
+    - Reduces **2 RTTs per object** requirement.
+        
+    - Less **OS overhead** due to fewer TCP connections.
+        
+    - Browsers **parallelize** object fetching for faster loading.
+        
+
+### **Key Differences:**
+
+|Feature|Non-Persistent HTTP|Persistent HTTP (HTTP 1.1)|
+|---|---|---|
+|TCP Connection|One per object|Reused for multiple objects|
+|Response Time|**2RTT + transmission** per object|**1 RTT for all objects**|
+|Efficiency|High overhead, slower|Lower overhead, faster|
+|OS Overhead|High (multiple TCP connections)|Low (fewer connections)|
+
+### **Conclusion**
+
+- **Non-Persistent HTTP** requires a new TCP connection for each object, increasing response time.
+    
+- **Persistent HTTP (HTTP 1.1)** keeps the connection open, reducing delays and improving efficiency.
 
 ----
 ### **HTTP Statelessness and Cookies**:
