@@ -1,4 +1,3 @@
-Here’s a **simpler** explanation of the network attacks:
 
 ### **1. Packet Interception (Packet Sniffing)**
 

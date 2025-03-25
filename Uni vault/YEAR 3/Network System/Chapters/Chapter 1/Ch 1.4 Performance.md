@@ -2,7 +2,7 @@
 
 
 
-- <u>Processing Delay</u>:  
+- <u>Processing Delay</u>:  $D_{PROC}$
 	  - Refers to the time taken to process a packet in a network device.  
 	  - Includes tasks like:  
 	    - **Forwarding table lookup**.  
@@ -11,34 +11,38 @@
 	  - Typically very short, on the order of **microseconds or less**.
 
 
-- <u>Queuing Delay </u> 
+- <u>Queuing Delay </u>   $D_{QUEUE}$
 	  - The second component of delay in networking.  
 	  - Refers to the time a packet spends waiting in a queue at an output link before it can be transmitted.  
 	  - The duration of queuing delay depends on:  
 	    - The **congestion level** of the outgoing link.  
 	    - Higher congestion leads to longer queuing delays.
 
- <u>Transmission Delay</u>
+ <u>Transmission Delay</u>  $D_{TRANS}$
    Occurs once a packet begins transmission.  
   - Refers to the time it takes to push **all the bits of the packet** into the outgoing link.  
   - Depends on:  
     - The **number of bits in the packet (L)**.  
     - The **transmission rate of the link (R)**.  
   - Calculated as:  
-    $\text{Transmission Delay} = \frac{L}{R}$
+									    $D_{TRANS} = \frac{L}{R}$
 
-- <u>Propagation Delay</u>  
+- <u>Propagation Delay</u>  $D_{DROP}$
 	  - The time it takes for a **single bit** to travel from the **sending side** of a link to the **receiving side**.  
 	  - Depends on:  
-	    - The **physical distance** between the sender and receiver.  
-	    - The **propagation speed** of the medium (e.g., fiber, copper).  
+	    - `D`-The **physical distance** between the sender and receiver.  
+	    - `S`-The **propagation speed** of the medium (e.g., fiber, copper).  
 	  - Unlike transmission delay, it is independent of the packet size or transmission rate.
+	    
+										$D_{DROP}= \frac{d}{s}$
+- <u>Nodal processing</u>  $D_{NODAL}$
+
+$D_{NODAL}=D_{PROC}+D_{QUEUE}+D_{TRANS}+D_{DROP}$
 
 ---
 
-## Packet queuing delyay (Revisited)
+## Packet queuing delay (Revisited)
 
-Here’s the summary of the text in bullet points:
 
 - **Traffic Intensity**:  
   - Defined as the ratio of **arrival rate of bits (λ)** to the **transmission rate of bits (R)**.  
@@ -64,8 +68,6 @@ Here’s the summary of the text in bullet points:
   - Delays grow **exponentially** near full capacity.
 
 # Through put
-
-
 
 - **Throughput Limitation**:  
   - The throughput of a source-to-destination path is limited by the **capacity of the weakest link** in the path.  
@@ -95,7 +97,7 @@ Here’s the summary of the text in bullet points:
     - $(R/10)$ (shared link capacity per flow).  
   - Formula:  
     
-    $\text{Per-Connection Throughput} = \min(R_s, R_c, R/10)$$
+    $\text{Per-Connection Throughput} = \min(R_s, R_c, R/10)$
       
 
 - **Practical Insight**:  

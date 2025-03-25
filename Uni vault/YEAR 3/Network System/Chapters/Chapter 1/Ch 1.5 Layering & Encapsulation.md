@@ -42,10 +42,6 @@
 
 # Service, Layering and encapsulation
 
-Here’s the corrected and validated summary of the text in bullet points:
-
----
-
 ### **Application Layer**:  
 - Distributed pieces of an application **exchange messages** with each other.  
 - The unit of data exchanged at this layer is called a **message** (also known as a **Protocol Data Unit (PDU)**).  
@@ -86,3 +82,34 @@ Here’s the corrected and validated summary of the text in bullet points:
 - Occurs at **every layer** of the Internet protocol stack.  
 - A **fundamental concept** in networking.  
 ---
+
+# Kuros answers
+
+## Q1 
+
+1. **Protocols that are part of a distributed network application.**  
+    **Answer:** A. Application Layer
+    
+2. **Transfer of data between one process and another process (typically on different hosts).**  
+    **Answer:** E. Transport Layer
+    
+3. **Delivery of datagrams from a source host to a destination host (typically).**  
+    **Answer:** D. Network Layer
+    
+4. **Transfer of data between neighboring network devices.**  
+    **Answer:** C. Link Layer
+    
+5. **Transfer of a bit into and out of a transmission media.**  
+    **Answer:** B. Physical Layer
+    
+
+# Q2
+- **Application layer →** **B. Message**
+    
+- **Transport layer →** **A. Segment**
+    
+- **Network layer →** **D. Datagram**
+    
+- **Link layer →** **E. Frame**
+    
+- **Physical layer →** **C. Bit**

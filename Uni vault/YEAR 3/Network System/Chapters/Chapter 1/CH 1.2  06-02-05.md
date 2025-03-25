@@ -23,27 +23,41 @@
 ![Image](https://github.com/user-attachments/assets/0ab16732-363f-4848-b759-fc9308887ee1)
 
 
-### Wireless access networks
+## **Access Networks
 
-- Normally have bases station "Acces points"
+#### **Cable-Based Access**
 
-<u>Wireless Local Area Networks (WLANs)</u>
+- **Examples:** Cable modem, CMTS (Cable Modem Termination System)
+#### **Digital Subscriber Line (DSL)**
 
-- Typically cover areas within or around a building (~100 ft).
-- Use **802.11b/g/n (WiFi)** with transmission rates of **11, 54, or 450 Mbps**.
-- Provide wireless access to the Internet.
+- **Examples:** DSL modem, DSLAM (DSL Access Multiplexer)   
+#### **Home Networks**
 
-<u> Wide-Area Cellular Access Networks </u>
+- **Examples:** WiFi access point, Wired Ethernet
+#### **Wireless Access Networks**
 
-- Offered by mobile cellular network operators, covering distances of **tens of kilometers**.
-- Provide data speeds of **tens of Mbps**.
-- Use **4G cellular networks**, with **5G** as the emerging technology.
+- **Examples:** 802.11 WiFi, 4G Cellular Network
+#### **Enterprise Networks**
 
-### Access networks: enterprise networks
+- **Examples:** Ethernet switch, Institutional router
+#### **Data Center Networks**
 
-- Companies, Universities, etc
-- Mixed of wired, wireless link tech, connecti
+- **Examples:** High-bandwidth links, Server clusters
 
+### **Internet Service Providers (ISPs)** 
+
+- are companies that provide access to the internet for individuals and organizations. Here's what they do:
+
+- **Connectivity**: ISPs provide the infrastructure and services needed to connect users to the internet. This involves various technologies like DSL, fiber optics, cable, and wireless connections.
+    
+- **Data Transmission**: They facilitate the transmission of data between users and websites, ensuring that information can be sent and received efficiently.
+    
+- **IP Addresses**: ISPs assign IP addresses to users, which are unique identifiers that allow devices to communicate over the internet.
+    
+- **Access to Online Services**: They provide access to various online services, including websites, email, streaming, and more.
+    
+
+Overall, ISPs play a crucial role in making the internet accessible and functional for users.
 ## **Host: Sends packets of data
 
 <u>Host send function:</u>

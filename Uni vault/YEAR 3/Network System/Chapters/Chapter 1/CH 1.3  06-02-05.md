@@ -13,13 +13,13 @@
 	- There is a forwarding table each in each and every route is in the Internet when a packet arrives a router will look inside the package for a destination address and then look up the destination address in each forwarding table and then transmit that incoming packet on the output link that leads to that destination
 	- How are contents of the forwarding table created in the first place thats where we encounter the second key function known as routing
 - `Routing`
-- **Routing** is the global process of:
-  - Determining the **source-to-destination paths** for packets.
-  - Enabling packets to travel across networks from one point to another.
-
-- **Routing algorithms** are used to:
-  - Compute these paths efficiently.
-  - Determine the best routes based on network conditions.
+	- **Routing** is the global process of:
+	  - Determining the **source-to-destination paths** for packets.
+	  - Enabling packets to travel across networks from one point to another.
+	
+	- **Routing algorithms** are used to:
+	  - Compute these paths efficiently.
+	  - Determine the best routes based on network conditions.
 
 - **Forwarding tables** are created locally on each router:
   - These tables are essential for implementing the end-to-end forwarding path.
@@ -29,7 +29,7 @@
 
 - L bits per packet
     
-- packet transmission delay: takes L/RL/R seconds to transmit (push out) LL-bit packet into link at RR bps
+- packet transmission delay: takes L/R seconds to transmit (push out) L-bit packet into link at R bps
     
 - **store and forward**: entire packet must arrive at router before it can be transmitted on next link
     
@@ -84,16 +84,11 @@
 
 # Internet structure 
 
-Here’s the summary of the text in bullet points:
 
 - **Network Peering**: Occurs when two networks are directly interconnected.  
 - **Peering Locations**: Places where multiple networks interconnect are called **Internet Exchange Points (IXPs)** or **peering points**.  
 - **Regional Networks**: These networks may form interconnections to provide access networks closer to users' locations.  
 
-Let me know if you need further clarification! 😊
-
-
-Here’s the summary of the text in bullet points:
 
 - **Core of the Internet**:  
   - A small number of highly interconnected, large networks exist at the center.  
@@ -112,5 +107,3 @@ Here’s the summary of the text in bullet points:
   - Examples include Google and Facebook.  
   - Operate private networks to connect their data centers and services to the internet.  
   - Sometimes bypass Tier 1 and regional ISPs for direct connectivity.
-
-Let me know if you need further details! 😊
