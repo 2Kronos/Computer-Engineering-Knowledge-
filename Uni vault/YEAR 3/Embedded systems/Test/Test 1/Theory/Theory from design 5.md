@@ -93,9 +93,6 @@ Here we just copied and pasted the same for loop but we changed the LED loop to 
 - Create a function that does the brightning and dimming of leds for both directions 
 - Since inner code is the same we can create a function that just does that 
 
-```C++
-
-```
 
 >[! KEY CONCEPT]
 >Functions that will do repetitive work
