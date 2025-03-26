@@ -89,6 +89,13 @@ Here we just copied and pasted the same for loop but we changed the LED loop to 
 
 # 5.5.3 Make the code shorter remove duplicates 
 
+[!KEY CONCEPT]
+
+- **FUNCTIONS** (`setup()`, `loop()`)
+    
+- **HARDWARE CONTROL** (`pinMode`, `digitalWrite`)
+
+
 
 - Create a function that does the brightning and dimming of leds for both directions 
 - Since inner code is the same we can create a function that just does that 
@@ -104,3 +111,19 @@ Here we just copied and pasted the same for loop but we changed the LED loop to 
 >B1 for 0-255
 >B2 to use B1 value to decrease B2
 >Thus going in opposite directions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

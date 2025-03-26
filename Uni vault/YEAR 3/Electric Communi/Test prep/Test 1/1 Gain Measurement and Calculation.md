@@ -1,4 +1,3 @@
-# **1. Gain  Measurement and Calculation**
 
 <u> What is gain </u>
 In electronic communications, **gain** refers to the **amplification** of a signal's power, voltage, or current. It represents how much a circuit (such as an amplifier) increases the strength of an input signal.
@@ -118,6 +117,12 @@ $$dB\ = \ 20\ log\ \frac{V_2^2\ \sqrt R_1}{V_1^2\ \sqrt R_2}$$
 
 # 1.6 Explain how resistance affects gain calculations.
 
-- In electronic communication systems, gain can decrease over time due to resistance changes caused by temperature fluctuations, aging components, and power instability.
-    
-- Maintaining stable temperature conditions in transistor-based communication systems helps minimize thermal noise and prevent component degradation, ensuring consistent performance and reliable gain.
+- **Gain decrease causes in electronic systems:**  
+  - Resistance changes from temperature fluctuations  
+  - Aging components  
+  - Power instability  
+
+- **Stable temperature benefits:**  
+  - Reduces thermal noise  
+  - Prevents component degradation  
+  - Ensures consistent performance and reliable gain

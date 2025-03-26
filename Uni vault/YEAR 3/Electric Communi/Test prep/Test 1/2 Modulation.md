@@ -58,12 +58,12 @@ Modulation is essential for transmitting information efficiently over long dista
 
 ### **Classification of AM Variants Based on Bandwidth and Power Efficiency**
 
-|**AM Variant**|**Bandwidth Efficiency**|**Power Efficiency**|**Key Characteristics**|**Use Cases**|
-|---|---|---|---|---|
-|**DSBFC-AM** (Double Sideband Full Carrier)|🔴 **Low** (transmits both sidebands)|🔴 **Low** (carrier and both sidebands transmitted)|Full power used, occupies twice the modulating signal’s bandwidth.|Broadcasting, aviation communication.|
-|**DSBSC-AM** (Double Sideband Suppressed Carrier)|🟡 **Moderate** (both sidebands, no carrier)|🟢 **Higher than DSBFC** (saves carrier power)|Carrier suppressed, requires reinsertion at the receiver.|Communication links with carrier reinsertion.|
-|**SSBFC-AM** (Single Sideband Full Carrier)|🟢 **High** (only one sideband transmitted)|🟡 **Moderate** (carrier still present)|Saves bandwidth but still transmits the carrier signal.|Military, marine, HF communication.|
-|**SSBSC-AM** (Single Sideband Suppressed Carrier)|🟢 **Very High** (only one sideband)|🟢 **Highest** (no carrier, minimal power usage)|Most efficient, transmits only essential information.|Long-distance and HF communication.|
+| **AM Variant**                                    | **Bandwidth Efficiency**                     | **Power Efficiency**                                | **Key Characteristics**                                            | **Use Cases**                                 |
+| ------------------------------------------------- | -------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------- |
+| **DSBFC-AM** (Double Sideband Full Carrier)       | 🔴 **Low** (transmits both sidebands)        | 🔴 **Low** (carrier and both sidebands transmitted) | Full power used, occupies twice the modulating signal’s bandwidth. | Broadcasting, aviation communication.         |
+| **DSBSC-AM** (Double Sideband Suppressed Carrier) | 🟡 **Moderate** (both sidebands, no carrier) | 🟢 **Higher than DSBFC** (saves carrier power)      | Carrier suppressed, requires reinsertion at the receiver.          | Communication links with carrier reinsertion. |
+| **SSBFC-AM** (Single Sideband Full Carrier)       | 🟢 **High** (only one sideband transmitted)  | 🟡 **Moderate** (carrier still present)             | Saves bandwidth but still transmits the carrier signal.            | Military, marine, HF communication.           |
+| **SSBSC-AM** (Single Sideband Suppressed Carrier) | 🟢 **Very High** (only one sideband)         | 🟢 **Highest** (no carrier, minimal power usage)    | Most efficient, transmits only essential information.              | Long-distance and HF communication.           |
 ## 2.5 Calculate the transmit power for  all the variants given different system parameters 
 
 

@@ -26,7 +26,7 @@ $E_c$ = carrier signal
 ### Modulation index for FM
 
 
-- The **FM modulation index** $(m_f)$ describes the ratio of **maximum frequency deviation** $(\delta)$ to the **modulating signal frequency** $(fif_i)$.
+- The **FM modulation index** $(m_f)$ describes the ratio of **maximum frequency deviation** $(\delta)$ to the **modulating signal frequency** $(f_i)$.
     
 - It measures how much the **carrier frequency** varies in response to the **message signal** (intelligence signal).
     
@@ -121,12 +121,28 @@ $m_f=\frac{\delta}{f_i}$
     
 - **Amplifier Classes:**
     
-    - **Class A**: Most **linear**, minimal distortion, but **inefficient** due to continuous operation.
-        
-    - **Class B & AB**: **More efficient**, moderate linearity (AB is better).
-        
-    - **Class C**: **Highly efficient** but introduces **severe harmonic distortion** due to very low conduction angle
-	  
+    Here’s the updated table with color-coded circles for **Efficiency** and **Distortion**, along with **Linearity**:  
+
+| **Class** | **Linearity** | **Efficiency** | **Distortion** | **Description** |
+|-----------|--------------|----------------|----------------|------------------|
+| **A**     | 🟢 (High)     | 🔴 (Low)        | 🟢 (Low)        | Most linear, minimal distortion, but inefficient due to continuous operation. |
+| **B**     | 🟡 (Moderate) | 🟡 (Moderate)   | 🟡 (Moderate)   | More efficient than Class A, but suffers from crossover distortion. |
+| **AB**    | 🟡🟢 (Mod-High)| 🟢 (High)       | 🟡 (Low-Mod)    | Better linearity than Class B, reduced crossover distortion. |
+| **C**     | 🔴 (Low)      | 🟢 (Very High)  | 🔴 (High)       | Extremely efficient but introduces severe harmonic distortion. |
+
+### **Color Key:**
+- **🟢 Green** = **High** (Best)  
+- **🟡 Yellow** = **Moderate**  
+- **🔴 Red** = **Low** (Worst)  
+
+### **Meaning of Each Column:**
+1. **Linearity** → How accurately the amplifier reproduces the input signal.  
+   - *Class A* is best (🟢), *Class C* is worst (🔴).  
+2. **Efficiency** → Power conversion effectiveness (less wasted heat).  
+   - *Class C* is best (🟢), *Class A* is worst (🔴).  
+3. **Distortion** → Signal fidelity loss.  
+   - *Class A* is cleanest (🟢), *Class C* is worst (🔴).  
+
 # 3.4 Compute and explain the impact of the Q factor for frequency selective components.
 
 ### **Impact of the Q Factor**  
