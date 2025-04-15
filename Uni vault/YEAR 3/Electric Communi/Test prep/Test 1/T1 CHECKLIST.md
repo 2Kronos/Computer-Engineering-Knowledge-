@@ -40,21 +40,21 @@ Here's your Markdown checklist for test preparation based on the topics in the i
 - [x] 2.6 Understand trade-offs in choosing different AM variants.
 
 ## ✅ 3. Frequency Modulation (FM) and Amplifiers
-- [ ] 3.1 Understand the significance and impact of the modulation index in AM and FM.
-	- [ ] 3.1.1 What are they roles in the broadcast system of each AM and FM 
+- [x] 3.1 Understand the significance and impact of the modulation index in AM and FM.
+	- [x] 3.1.1 What are they roles in the broadcast system of each AM and FM 
 	      
-- [ ] 3.2 Explain the benefits of frequency modulation over amplitude modulation.
+- [x] 3.2 Explain the benefits of frequency modulation over amplitude modulation.
 	- FM has better signal quality 
 	- Reduce noise susceptibility in comparison to AM 
 	  
-- [ ] 3.3 Understand non-linearity and linearity in amplifiers with respect to amplifiers (Different classes.
+- [x] 3.3 Understand non-linearity and linearity in amplifiers with respect to amplifiers (Different classes.
 	- Non-linearity occurs when an amplifier operates outside its linear region, typically when moving between active, cut-off, and saturation modes.
 	- Distortion arises when signals are clipped or modulated non-linearly, often seen in overdriven amplifiers or low conduction angle designs.
 	- Lower conduction angles (Class C amplifiers) improve efficiency but introduce harmonic distortion.
 	- Class A amplifiers are the most linear but inefficient, while Class B and AB offer a balance between efficiency and linearity.
 	  
-- [ ] 3.4 Compute and explain the impact of the Q factor for frequency selective components.
-- [ ] 3.5 describe the role and function of frequency selective components in communication systems.
+- [x] 3.4 Compute and explain the impact of the Q factor for frequency selective components.
+- [x] 3.5 describe the role and function of frequency selective components in communication systems.
 
 ---
 

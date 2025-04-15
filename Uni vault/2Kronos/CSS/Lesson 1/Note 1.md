@@ -68,3 +68,4 @@
     - `<span>` changes the color of the word "coding" using inline CSS.
 
 - You can a div tag to do the same but a p tag automatically puts spaces between paragraphs and it is a better way to let the webpage know that some text belongs therr
+  

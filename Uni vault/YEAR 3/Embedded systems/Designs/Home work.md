@@ -2,3 +2,8 @@
 
 - Design found at
   https://www.tinkercad.com/things/cqTXNAewx44-homework?sharecode=WUXBK5s2KlP7xF5I5mEbpJPtpQQP-NVox2cijQtSHxA
+
+
+|-- 6 ---|
+| u        | 
+

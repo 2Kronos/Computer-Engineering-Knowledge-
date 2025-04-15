@@ -1,0 +1,2 @@
+- Use no shut and it must be in the ready state 
+- When using ipconfig on the middle router we want to see 3 ip addresses
