@@ -8,34 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dbb27594c59a26aa",
+            "id": "39a7d7f8d10a522b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Classes/15-04-2025.md",
+                "file": "YEAR 3/Indust Project/GA/Literature review.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15-04-2025"
+              "title": "Literature review"
             }
           },
           {
-            "id": "d585fe7c332e5669",
+            "id": "e4ba0cbdaa7ca7d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Electric Communi/LABS/LAB 1.md",
+                "file": "YEAR 3/Embedded systems/Designs/Design 7 (04-03-2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LAB 1"
+              "title": "Design 7 (04-03-2025)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +182,7 @@
             }
           },
           {
-            "id": "fada2e2927120b88",
+            "id": "8320dd7db8b2e795",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -213,54 +214,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dbb27594c59a26aa",
+  "active": "e4ba0cbdaa7ca7d6",
   "lastOpenFiles": [
-    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
-    "YEAR 3/Embedded systems/Classes/15-04-2025.md",
-    "YEAR 3/Embedded systems/Designs/Home work.md",
-    "YEAR 3/Embedded systems/Designs/RETEST.md",
-    "YEAR 3/Embedded systems/Test/Test 1/Disa question/1..md",
-    "YEAR 3/Data bases/GA/LLM.md",
-    "YEAR 3/Indust Project/GA/LLM Prompt.md",
-    "YEAR 3/Data bases/GA",
-    "YEAR 3/Data bases/Untitled.md",
-    "2Kronos/New knowledge/Untitled.md",
-    "YEAR 3/Electric Communi/Classes/12-03-2025.md",
-    "YEAR 3/Electric Communi/Classes/19-02-2025 CH4.md",
-    "YEAR 3/Electric Communi/Classes/05-02-2025 CH2.md",
-    "YEAR 3/Electric Communi/Classes/09-04-2025.md",
-    "YEAR 3/Electric Communi/Classes/12-02-2025 CH3.md",
-    "YEAR 3/Electric Communi/Classes/02-04-2025 CH 6 RECEIVERS.md",
+    "YEAR 3/Embedded systems/Designs/Design 10 15-04-2025.md",
+    "YEAR 3/Embedded systems/Designs/Design 12 (29-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 13 (06-05-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 7 (04-03-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 8.md",
+    "YEAR 3/Embedded systems/Designs/Design 9 (01-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Test 1 v1Memo (08-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Test 1 v2Memo (08-04-2025).md",
+    "YEAR 3/Embedded systems/GA/TO DO LIST.md",
+    "YEAR 3/Embedded systems/GA/Shity harvard style reference😡.md",
+    "YEAR 3/Embedded systems/GA/kjo.md",
+    "YEAR 3/Embedded systems/GA/Instruction for project.md",
+    "YEAR 3/Embedded systems/GA/Block diagram.md",
+    "YEAR 3/Embedded systems/Classes/03.md",
+    "Pasted image 20250512213347.png",
+    "Pasted image 20250508210040.png",
+    "YEAR 3/Electric Communi/Tutorial/222170972 Tut 6.md",
+    "YEAR 3/BBV2/Time table.md",
+    "YEAR 3/Electric Communi/GA/LLM OVERVIEW.md",
     "YEAR 3/Directive/TEST WEEK 1.md",
+    "2Kronos/Python/Learning Journey/Type casting.md",
+    "2Kronos/Python/Learning Journey/Linked in course",
+    "2Kronos/HERE.md",
+    "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
+    "YEAR 3/Indust Project/GA/Literature review.md",
+    "YEAR 3/Indust Project/GA/LLM Prompt.md",
+    "YEAR 3/Embedded systems/GA/Untitled",
+    "Pasted image 20250501000012.png",
+    "YEAR 3/Embedded systems/GA/LLM OVERVIEW.md",
+    "YEAR 3/Embedded systems/GA/Drawing 2025-04-30 20.27.53.excalidraw.md",
+    "YEAR 3/Embedded systems/Designs/Home work.md",
+    "YEAR 3/BBV2",
+    "YEAR 3/Electric Communi/GA",
+    "YEAR 3/Embedded systems/GA",
+    "Pasted image 20250408202738.png",
+    "YEAR 3/Data bases/GA",
     "YEAR 3/Indust Project/GA",
     "Pasted image 20240903234720.png",
-    "2025-02-09.md",
-    "Uni/Welcome.md",
-    "2025-02-22.md",
-    "2025-02-26.md",
-    "2025-03-19.md",
-    "2025-03-26.md",
     "download.jpg",
     "Chigiri Hyoma ☆.jpg",
-    "YEAR 2/Ethics/Electrical installation guideline.md",
-    "YEAR 2/A. Exam check list/Signal.md",
-    "YEAR 2/A. Exam check list/SOFTWARE.md",
-    "YEAR 2/A. Exam check list/Ethics.md",
     "YEAR 3/Embedded systems/Designing Embedded Systems with Arduino A Fundamental Technology for Makers.pdf",
     "YEAR 3/Indust Project.zip",
     "Pasted image 20250410204211.png",
     "YEAR 3/Network System/LABS",
     "Pasted image 20250409104256.png",
-    "YEAR 3/Electric Communi/LABS",
-    "YEAR 3/Electric Communi/Test prep/Test 1/TEST 1 - memo.pdf",
     "Pasted image 20250408210024.png",
-    "Pasted image 20250408205154.png",
-    "Pasted image 20250408202738.png",
-    "Pasted image 20250408202416.png",
-    "YEAR 3/Data bases/Assignments/7 APril/Untitled Diagram.drawio.crswap",
-    "YEAR 3/Data bases/Assignments/7 APril/Untitled Diagram.drawio",
-    "YEAR 3/Data bases/Assignments/7 APril/AI Approach.drawio",
-    "Pasted image 20250401090509.png",
     "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
