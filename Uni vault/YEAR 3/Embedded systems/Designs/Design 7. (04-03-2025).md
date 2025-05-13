@@ -301,4 +301,4 @@ void loop()
 	- By doing this we will be shifting 2 bits every time 
 
 ---
- 
+# 7.5 Two on two off
