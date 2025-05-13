@@ -1,6 +1,7 @@
 # **Shift register** 
 
-![[Pasted image 20250310235528.png]]
+![Pasted image 20250310235528](https://github.com/user-attachments/assets/17f2d993-e715-4ae4-aab0-894bb751d874)
+
 
 - The number will be shifted then it will be passed on 
 
@@ -65,8 +66,14 @@ Yes, the **74HC595 shift register shifts data on every rising edge** of the **Sh
 
 https://www.tinkercad.com/things/fpw2t9vZDdS-design-71
 
+<<<<<<< HEAD
 ![[Pasted image 20250508210040.png]]
 ## **Code**
+
+![Pasted image 20250508210040](https://github.com/user-attachments/assets/f1e4a4e3-fcdb-4093-a749-4565a5973506)
+
+## **Code
+
 ```C++
 
 void setup()
@@ -221,7 +228,8 @@ void loop()
 
 https://www.tinkercad.com/things/bjFzTe4CXM8-design-73
 
-![[Pasted image 20250512213347.png]]
+![Pasted image 20250512213347](https://github.com/user-attachments/assets/208733b7-d528-440a-b835-154c25f48cc2)
+
 ## **Notes**
 
 - We will show the input of the `input`, `Outout regicter clock`, `Register clock` via led in order to understand how the shift register is working
@@ -534,9 +542,6 @@ void loop()
 * We  will use just the two bits this is just to show how we are able to switch on LED at a time 
 * In our display we should keep not that the led will light up from left to right 
 
-
-
-
 ----
 
 # 7.8 Make it faster 
@@ -752,7 +757,6 @@ uses `sizeof(shiftInfo[0]) - 1` to **determine the index of the last element** i
     
 
 ---
-
 ### Why the `-1`?
 
 The `-1` is used to get the **highest valid index** for the row:
@@ -947,4 +951,3 @@ Let's go through a concrete example with the first row:
 
 
 ---
-
