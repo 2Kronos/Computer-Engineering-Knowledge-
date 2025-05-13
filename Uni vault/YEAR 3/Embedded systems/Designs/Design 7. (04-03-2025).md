@@ -1,6 +1,7 @@
 # Shift register 
 
-![[Pasted image 20250310235528.png]]
+![Pasted image 20250310235528](https://github.com/user-attachments/assets/17f2d993-e715-4ae4-aab0-894bb751d874)
+
 
 - The number will be shifted then it will be passed on 
 
@@ -65,7 +66,8 @@ Yes, the **74HC595 shift register shifts data on every rising edge** of the **Sh
 
 https://www.tinkercad.com/things/fpw2t9vZDdS-design-71
 
-![[Pasted image 20250508210040.png]]
+![Pasted image 20250508210040](https://github.com/user-attachments/assets/f1e4a4e3-fcdb-4093-a749-4565a5973506)
+
 ## **Code
 ```C++
 
@@ -221,7 +223,8 @@ void loop()
 
 https://www.tinkercad.com/things/bjFzTe4CXM8-design-73
 
-![[Pasted image 20250512213347.png]]
+![Pasted image 20250512213347](https://github.com/user-attachments/assets/208733b7-d528-440a-b835-154c25f48cc2)
+
 ## **Notes**
 
 - We will show the input of the `input`, `Outout regicter clock`, `Register clock` via led in order to understand how the shift register is working
