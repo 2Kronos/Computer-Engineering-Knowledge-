@@ -948,6 +948,7 @@ Let's go through a concrete example with the first row:
 3. Each bit is sent to pin 13, followed by a clock pulse on pin 11
 4. After all 8 bits are shifted in, pin 12 is pulsed to display them
 5. The delays control how long each row is displayed (400ms in this case)
+6. ss
 
 
 ---
