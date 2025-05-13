@@ -97,7 +97,6 @@ void loop()
 
 ### **Circuit 
 https://www.tinkercad.com/things/c6xtDkaG0QY-design-83
-
 ### **Code**
 
 ```c++
@@ -188,12 +187,116 @@ Both loops run **10 times** (once for each array element). The first populates t
 # 8.4 Shift left info in array
 
 ### **Circuit link**
+https://www.tinkercad.com/things/eHPn6KdYazb-design-84
 
 ### **Code**
+1. Creates an array of 10 integers (`intArray[10]`)
+    
+2. Fills it with random values (0–254) in `setup()`
+    
+3. Continuously prints and left-shifts the array in `loop()`
+    
 
+```C++
+long randVal;
+int intArray[10];
 
+void setup() {
+  pinMode(3, INPUT);
+  pinMode(6, INPUT);
+  pinMode(A5, INPUT);
+  Serial.begin(9600);
+  randVal = analogRead(A5);
+  randomSeed(randVal);
+  fillArrayWithRandom(); // Initialize array with random values
+}
+
+void loop() {
+  printArray();  // Print current array
+  shiftArray();  // Shift elements left
+  delay(400);
+}
+
+void fillArrayWithRandom() {
+  for(int index = 0; index < (sizeof(intArray)/2); index++) {
+    intArray[index] = random(255); // Values 0-254
+  }
+}
+
+void printArray() {
+  for(int index = 0; index < (sizeof(intArray)/2); index++) {
+    Serial.print(" ");
+    Serial.print(intArray[index]);
+  }
+  Serial.println();
+}
+
+void shiftArray() {
+  int temp = intArray[0]; // Store first element
+  
+  // Shift all elements left
+  for(int index = 0; index < (sizeof(intArray)/2 - 1); index++) {
+    intArray[index] = intArray[index + 1];
+  } 
+  
+  intArray[sizeof(intArray)/2 - 1] = temp; // Move first element to end
+}
+```
 ### **Notes**
 
+1. **Array Initialization**
+    
+    - `fillArrayWithRandom()` is called in `setup()` to generate the initial random values (0–254)
+        
+    - This runs only once at startup
+        
+2. **Printing the Array**
+    
+    - `printArray()` displays all values in one line, separated by spaces
+        
+    - Example output: `167 241 217 42 130 200 216 254 67 77`
+        
+3. **Array Shifting**
+    
+    - `shiftArray()` performs a left rotation:
+        
+        1. Stores the first element (`temp = intArray[0]`)
+            
+        2. Shifts all elements one position left
+            
+        3. Places the original first element at the end
+            
+    - Corrected behavior ensures proper rotation without duplicates/loss
+        
+4. **Loop Execution**
+    
+    - Each `loop()` iteration:
+        
+        - Prints current array
+            
+        - Shifts elements
+            
+        - Waits 400ms
+            
+
+#### **Why the Code Works**
+
+- The temporary variable (`temp`) preserves the first element during shifting
+    
+- The final assignment places it at the end, completing the rotation
+    
+- `sizeof(intArray)/2` correctly calculates array length (10 elements) because each `int` uses 2 bytes on Arduino
+    
+
+#### **Expected Output Pattern**
+
+
+
+Initial:  167 241 217 42 130 200 216 254 67 77
+After 1st shift: 241 217 42 130 200 216 254 67 77 167
+After 2nd shift: 217 42 130 200 216 254 67 77 167 241
+
+Each shift moves all elements left, wrapping the first element to the end. No values are lost or duplicated when implemented correctly.
 
 ---
 
