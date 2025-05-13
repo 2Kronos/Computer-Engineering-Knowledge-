@@ -1,32 +1,41 @@
 # 8.1 Generating random numbers 
+### **Circuit link**
 
-Here's your analysis in the requested format:
+### **Code**
 
->[!KEY CONCEPT]
->
->RANDOM NUMBER GENERATION
->
->SEEDING
+```C++
+// C++ code
+//
 
-**Detailed Concept Breakdown:**
+long randVal;
+void setup()
+{
+  pinMode(A5, INPUT);
+  Serial.begin(2000000);
+   randVal = analogRead(A5);
+  randomSeed(randVal);
+  
+    
+}
 
-1. **RANDOM NUMBER GENERATION**
-   - `random(20)` produces unpredictable values (0-19)
-   - Used to create non-repeating patterns
-   - Essential for simulations/variability
+void loop()
+{
+  randVal = random(20);
+  Serial.println(randVal);
+  delay(400);	
+}
+```
 
-2. **SEEDING**
-   - `randomSeed(randVal)` initializes the random sequence
-   - `analogRead(A5)` provides unconnected pin noise for true randomness
-   - Ensures different sequences on each power-up
+### **Notes**
 
-**Key Program Behavior:**
-- Generates a new random number every 400ms
-- Uses analog pin noise for true randomness
-- Outputs values to serial monitor at high baud rate
-- Demonstrates basic entropy collection technique
+##### Key Variables and Functions
 
-All hardware-specific details excluded. Focus is on the random number generation principles.
+- **randVal**: A long variable used to:
+    1. Store the initial analog reading from pin A5 to seed the random number generator.
+    2. Store the random numbers generated in the loop function.
+- **randomSeed(randVal)**: 
+	- Initializes the random number generator with a seed value to ensure the sequence of random numbers isn’t the same every time the Arduino restarts.
+- **random(20)**: Generates a pseudo-random number between 0 and 19 (inclusive).
 
 # 8.2 LED flashing in a random fashion
 

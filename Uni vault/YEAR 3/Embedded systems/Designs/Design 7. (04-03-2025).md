@@ -777,7 +777,7 @@ So the loop starts from index `7` (last LED) and decrements down to `0` (first L
 # 7.11 Using the 2d Array go threw each row  
 
 ### **Circuit link**
-
+https://www.tinkercad.com/things/1F0lIAbOn2N-design-711
 ### **Code**
 
 ```C++
@@ -948,7 +948,7 @@ Let's go through a concrete example with the first row:
 3. Each bit is sent to pin 13, followed by a clock pulse on pin 11
 4. After all 8 bits are shifted in, pin 12 is pulsed to display them
 5. The delays control how long each row is displayed (400ms in this case)
-6. ss
+
 
 
 ---
