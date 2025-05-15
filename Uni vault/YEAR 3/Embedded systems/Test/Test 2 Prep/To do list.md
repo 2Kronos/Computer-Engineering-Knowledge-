@@ -2,7 +2,7 @@
 
 - [x] Design 7 shift register
 - [x] Design 8 Arrays
-- [ ] Design 9 Strings
+- [x] Design 9 Strings
 - [ ] Design 10 Interuppts
 - [ ] Design 11 sensors
 - [ ] Design 12
