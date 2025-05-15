@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f3ec877e7cfaa7bd",
@@ -182,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,18 +199,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "39a7d7f8d10a522b",
+  "active": "c6bd51693ca0ea34",
   "lastOpenFiles": [
-    "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/To do list.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 7.md",
+    "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025.md",
+    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025).md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test",
-    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
     "YEAR 3/Indust Project/GA/Literature review.md",
     "YEAR 3/Embedded systems/GA/LLM OVERVIEW.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep",
@@ -220,7 +223,6 @@
     "YEAR 3/Embedded systems/Test/Test 1/Theory/Milk design.md",
     "YEAR 3/Embedded systems/Test/Test 1/Theory/8 Design theory.md",
     "YEAR 3/Embedded systems/Test/Test 1/Theory/6 Design Theory.md",
-    "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
     "YEAR 3/Electric Communi/Classes/09-04-2025.md",
     "YEAR 3/Data bases/Course/Code.md",
     "YEAR 3/Data bases/GA/LLM.md",
@@ -230,7 +232,6 @@
     "YEAR 3/Data bases/Classes/29-01-2025.md",
     "YEAR 3/Data bases/Classes/17-02-2025.md",
     "YEAR 3/Data bases/Classes/31-03-2025.md",
-    "YEAR 3/Data bases/Chapters/Chapter 1/CH 1.1 Intro.md",
     "Pasted image 20241024031513.png",
     "Pasted image 20250512213347.png",
     "Pasted image 20250508210040.png",

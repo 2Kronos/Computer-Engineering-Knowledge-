@@ -1,7 +1,7 @@
 # Theory
 
 - [x] Design 7 shift register
-- [ ] Design 8 Arrays
+- [x] Design 8 Arrays
 - [ ] Design 9 Strings
 - [ ] Design 10 Interuppts
 - [ ] Design 11 sensors
@@ -25,7 +25,7 @@
 
 # Important theory for each design 
 
-- [ ] Design 7 shift register
+- [x] Design 7 shift register
 - [ ] Design 8 Arrays
 - [ ] Design 9 Strings
 - [ ] Design 10 Interuppts

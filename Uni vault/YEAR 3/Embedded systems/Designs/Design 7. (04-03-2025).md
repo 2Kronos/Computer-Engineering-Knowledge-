@@ -235,7 +235,7 @@ https://www.tinkercad.com/things/bjFzTe4CXM8-design-73
 - We will show the input of the `input`, `Outout regicter clock`, `Register clock` via led in order to understand how the shift register is working
 - This new arrangement will enable us to see how the register clock and the register output clock work together in order to display the 4 LEDs
 
-# 7.4 Shift by 2 bits every time 
+# 7.4 Display just 2 immediately 
 
 ## **Circuit link**
 
@@ -841,11 +841,11 @@ void loop()
 
 ```Output
 Cols = 8 
-Rows = 72
+Total bits = 72
 ```
 - The code above will tell us how much bits are in one row and how many bits in total 
 	- ROW X COLUMN = 9 X 8 = 72 
-- How do we get our rows because as you can see above we cant get it we do the following calculation
+- How do we get our rows because as you can see above we cant get it. we do the following calculation
 -
 $\frac{Totalbits}{columns}= \frac{sizeof(shiftInfo)}{sizeof(shiftInfo[0])}= \frac{72}{8}=9$
 

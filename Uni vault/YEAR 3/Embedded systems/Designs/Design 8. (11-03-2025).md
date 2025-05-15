@@ -303,50 +303,186 @@ Each shift moves all elements left, wrapping the first element to the end. No va
 # 8.5 Shift right info in array
 
 ### **Circuit link**
+https://www.tinkercad.com/things/6uZsRc7z3wT-design-85
 
 ### **Code**
 
+```C++
+long randVal;
+int intArray[10];
+
+void setup() {
+  pinMode(3, INPUT);
+  pinMode(6, INPUT);
+  pinMode(A5, INPUT);
+  Serial.begin(9600);
+  randVal = analogRead(A5);
+  randomSeed(randVal);
+  fillArrayWithRandom(); // Initialize array with random values
+ 
+}
+
+void loop() {
+  printArray();  // Print current array
+  
+  shiftArrayRight();
+  delay(400);
+}
+
+void fillArrayWithRandom() {
+  for(int index = 0; index < (sizeof(intArray)/2); index++) {
+    intArray[index] = random(255); // Values 0-254
+  }
+}
+
+void printArray() {
+  for(int index = 0; index < (sizeof(intArray)/2); index++) {
+    Serial.print(" ");
+    Serial.print(intArray[index]);
+  }
+  Serial.println();
+}
+
+
+                  
+                  
+void shiftArrayRight() {
+  int temp = intArray[sizeof(intArray)/2 - 1] ; // Store first element
+  
+  // Shift all elements right
+  for(int index = (sizeof(intArray)/2 - 2); index > -1; index--) {
+    intArray[index + 1] = intArray[index];
+    //Serial.println(index);
+     
+  } 
+  
+ intArray[0] = temp;
+}
+```
+
 ### **Notes**
+
+- Start from max and go to the minimum 
+- Now we have to take the last position and put it in the first position 
+#### Explanation of `shiftArrayRight()` Function
+
+This function performs a right shift operation on the `intArray` array. Here's how it works:
+
+#### How Right Shifting Works
+
+1. **Store the Last Element**: 
+   ```c
+   int temp = intArray[sizeof(intArray)/2 - 1];
+   ```
+   - The function first stores the value of the last element in a temporary variable `temp`
+   - `sizeof(intArray)/2` calculates the number of elements (since each int is 2 bytes on Arduino)
+   - So `sizeof(intArray)/2 - 1` gives the index of the last element
+
+2. **Shift Elements Right**:
+   ```c
+   for(int index = (sizeof(intArray)/2 - 2); index > -1; index--) {
+     intArray[index + 1] = intArray[index];
+   }
+   ```
+   - The loop starts from the second-to-last element (`sizeof(intArray)/2 - 2`)
+   - It moves each element one position to the right by copying `intArray[index]` to `intArray[index + 1]`
+   - The loop continues until it reaches the first element (index 0)
+
+3. **Place Stored Element at Start**:
+   ```c
+   intArray[0] = temp;
+   ```
+   - The value that was originally the last element (stored in `temp`) is placed at the beginning of the array
+
+#### Visual Example
+
+If the original array is: `[A, B, C, D, E]`
+
+1. Store `E` in `temp`
+2. Shift:
+   - Move D to E's position
+   - Move C to D's position
+   - Move B to C's position
+   - Move A to B's position
+3. Put `temp` (E) in A's position
+
+Result: `[E, A, B, C, D]`
+
+## Key Points
+
+- The operation is O(n) complexity as it needs to move every element
+- The original last element becomes the new first element
+- All other elements move one position to the right
+- The function modifies the array in-place (no new array is created)
+
+
+Great question! Let's analyze exactly how many times the loop runs in the `shiftArrayRight()` function.
+
+#### Loop Execution Count
+
+For an array with 5 elements (like in my `[A, B, C, D, E]` example):
+
+1. **Initialization**: 
+   ```c
+   int index = (sizeof(intArray)/2 - 2) 
+   ```
+   - For 5 elements: `5 - 2 = 3` (so starts at index 3, which is the 4th element 'D')
+
+2. **Condition**: 
+   ```c
+   index > -1
+   ```
+   - The loop continues while index is greater than -1
+
+3. **Decrement**: 
+   ```c
+   index--
+   ```
+   - Index decreases by 1 each iteration
+
+#### Iteration Breakdown
+
+Starting with index = 3 (element 'D'):
+1. First iteration: index = 3 (processes 'D' → moves to position 4)
+2. Second iteration: index = 2 (processes 'C' → moves to position 3)
+3. Third iteration: index = 1 (processes 'B' → moves to position 2)
+4. Fourth iteration: index = 0 (processes 'A' → moves to position 1)
+
+Then when index = -1, the loop stops.
+
+**So the loop runs exactly 4 times for a 5-element array.**
+
+## General Formula
+
+For an array of size N:
+- The loop runs (N-1) times
+- In our example: 5 elements → 4 iterations
+
+This makes sense because:
+- We don't need to move the last element (it gets stored in temp first)
+- We need to move each of the remaining (N-1) elements one position right
+
+## In Your Original Code
+
+Your array has 10 elements (`intArray[10]`), so:
+- The loop would run 9 times (from index 8 down to 0)
+- Each time moving one element to the right
+
+This matches the pattern we saw in the 5-element example, just scaled up.
+
+## Version 2
+
+```C++
+void shiftArrayRight() {
+  int temp = intArray[sizeof(intArray)/2 - 1] ; // Store first element
+  
+  // Shift all elements right
+  for(int index = (sizeof(intArray)/2 - 1); index > 0; index--) {
+    intArray[index] = intArray[index-1];
+    //Serial.println(index);
+     
+  } 
+```
 
 ---
 
-# 8.6 begin index
-
-### **Circuit link**
-
-### **Code**
-
-### **Notes**
-
----
-
-# 8.7 Serial input
-
-### **Circuit link**
-
-### **Code**
-
-### **Notes**
-
----
-
-
-# 8.8 string to integer 
-
-### **Circuit link**
-
-### **Code**
-
-### **Notes**
-
----
-
-# 8.9 User choose starting point  
-
-### **Circuit link**
-
-### **Code**
-
-### **Notes**
-
----
