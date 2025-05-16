@@ -332,7 +332,7 @@ This pattern is commonly used for:
 - Validating command syntax in serial communication
 
 The code could be extended to extract what's between "On(" and ");" by using `substring()` with these positions.
-# 9.2. Using indexOf to display the input as an integer
+# 9.2.2 Using indexOf to display the input as an integer
 
 ### **Circuit link**
 
