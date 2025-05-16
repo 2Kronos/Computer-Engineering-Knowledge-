@@ -336,8 +336,12 @@ void loop() {
 }
 
 ```
+![1](https://github.com/user-attachments/assets/f2699880-904c-4a5e-9312-14489a366b68)
+
+
 
 ![[1.jpg]] 
+
 
   ![[2.jpg]]
 ## ✅ Knight Rider Code Learning Summary
