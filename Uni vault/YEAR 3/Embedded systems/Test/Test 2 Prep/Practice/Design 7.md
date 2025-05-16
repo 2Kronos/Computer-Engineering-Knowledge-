@@ -340,10 +340,10 @@ void loop() {
 
 
 
-![[1.jpg]] 
+ 
 
 
-  ![[2.jpg]]
+  
 ## ✅ Knight Rider Code Learning Summary
 
 ---
