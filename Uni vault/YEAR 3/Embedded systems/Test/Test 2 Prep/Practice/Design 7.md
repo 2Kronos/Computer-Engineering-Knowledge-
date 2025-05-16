@@ -337,8 +337,9 @@ void loop() {
 
 ```
 
-![[1.jpg]]![1](https://github.com/user-attachments/assets/1c3bf69f-b0db-47a5-b76e-7039ea4ac2d0)
-  
+![[1.jpg]]
+
+  ![[2.jpg]]
 ## ✅ Knight Rider Code Learning Summary
 
 ---
