@@ -358,7 +358,7 @@ void loop() {
     
 - This causes **multiple LEDs** to be ON at once — it looks like the light is **building up** instead of **moving**.
     
-
+mmmm
 #### ✅ The Solution:
 
 - Reset the array in every loop:
