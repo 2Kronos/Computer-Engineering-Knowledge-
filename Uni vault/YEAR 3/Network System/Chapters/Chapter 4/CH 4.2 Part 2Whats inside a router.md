@@ -1,6 +1,3 @@
-Got it! I'll keep the Mermaid diagram style like the first one (more detailed with clear decision points and loops) for future summaries. Below is a revised, even shorter summary of the transcript for slides 17–29 from Jim Kurose’s *Computer Networking: A Top-Down Approach* lecture on the Network Layer: Data Plane. It’s organized by slide headings, capturing all key concepts concisely for Obsidian. Acronyms are expanded (e.g., TCP as Transmission Control Protocol). I’ve included a detailed Mermaid diagram similar to the first one to clarify packet scheduling and buffer management interactions, as these are central and not in the slides.
-
----
 
 ## Input Port Queuing
 - **Cause**: Switching fabric slower than incoming links causes queuing.

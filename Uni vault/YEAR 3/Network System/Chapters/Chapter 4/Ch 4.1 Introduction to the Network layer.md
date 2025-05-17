@@ -1,7 +1,4 @@
-### **Updated Instructions for Network Layer Notes**  
-*(With full acronym definitions and verbatim Kurose explanations)*  
 
----
 
 ## **4.1 Introduction and Network Layer Service Model**  
 *(Slide heading from Kurose's presentation)*  
