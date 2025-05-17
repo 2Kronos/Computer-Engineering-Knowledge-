@@ -214,12 +214,3 @@ flowchart LR
 
 --- 
 
-**Obsidian Integration**:  
-- Paste Mermaid diagrams directly.  
-- Use `#tags` like `#LPM` or `#TCAM`.  
-- Link to related notes (e.g., `[[4.1 Network Layer Overview]]`).  
-
-Let me know if you'd like:  
-1. Anki cards for this section.  
-2. Deeper dives into Clos networks.  
-3. Buffer management details.
