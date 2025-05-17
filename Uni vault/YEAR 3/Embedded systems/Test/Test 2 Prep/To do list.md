@@ -15,7 +15,7 @@
 
 # Practice 3 Questions each
 
-- [ ] Design 7 
+- [x] Design 7 
 - [ ] Design 8 Arrays 
 - [ ] Design 9 Strings
 - [ ] Design 10 Interuppts
