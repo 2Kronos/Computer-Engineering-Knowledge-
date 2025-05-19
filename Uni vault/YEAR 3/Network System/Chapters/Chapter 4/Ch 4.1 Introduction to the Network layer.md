@@ -16,7 +16,8 @@
 
 ### **2. Data Plane vs. Control Plane**  
 **Kurose's distinction**:  
-*"The data plane handles local per-router actions like forwarding, while the control plane manages the network-wide logic of how packets flow from edge to edge."*  
+*"The data plane handles local per-router actions like forwarding, while 
+the control plane manages the network-wide logic of how packets flow from edge to edge."*  
 
 #### **Data Plane**  
 - **Definition**: *"Moving datagrams from input link to output link at a router."*  
@@ -81,18 +82,5 @@ flowchart TB
 
 ---
 
-### **Obsidian Integration Tips**  
-1. **Mermaid Diagrams**: Copy-paste the flowcharts directly.  
-2. **Acronym Glossary**:  
-    
-   - **TCP**: Transmission Control Protocol  
-   - **UDP**: User Datagram Protocol  
-   - **OSPF**: Open Shortest Path First  
-   - **BGP**: Border Gateway Protocol  
-   
-1. **Flashcard Template**:  
-   ```  
-   Q: What are the two network layer functions?  
-   A: Forwarding (local) and Routing (global).  
-   ```  
 
+=

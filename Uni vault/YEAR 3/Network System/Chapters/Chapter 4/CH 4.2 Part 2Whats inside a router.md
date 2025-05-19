@@ -67,7 +67,7 @@
 
 ## Scheduling Policies: Weighted Fair Queuing
 - **WFQ (Weighted Fair Queuing)**: Like RR, but class \( i \) has weight \( w_i \).
-- **Operation**: Guarantees \( w_i / \sum w_j \) of bandwidth (e.g., \( w_i \times R \)).
+- **Operation**: Guarantees$\( w_i / \sum w_j \)$of bandwidth (e.g., \( w_i \times R \)).
 - **Feature**: Minimum bandwidth per class.
 
 **Why It Matters**: Enables QoS (Quality of Service).

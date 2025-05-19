@@ -209,8 +209,7 @@ flowchart LR
 2. **Switching fabrics determine router performance**:  
    - Memory → Bus → Interconnection (parallelism wins).  
 3. **TCAMs enable nanosecond lookups**.  
-
-**Next**: Output port queuing & scheduling (slides 17-28).  
+ 
 
 --- 
 

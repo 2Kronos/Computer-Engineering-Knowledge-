@@ -60,11 +60,11 @@ graph TD
 
 - OpenFlow 1.0 allows matching on up to 12 header fields:
     
-    - Layer 2: MAC address, Ethernet type, etc.
+    - Link Layer 2: MAC address, Ethernet type, etc.
         
-    - Layer 3: IP src/dst, protocol, TOS (Type of Service).
+    - Network 3: IP src/dst, protocol, TOS (Type of Service).
         
-    - Layer 4: TCP/UDP src/dst ports.
+    - Transport layer 4: TCP/UDP src/dst ports.
         
 - Actions supported:
     
@@ -155,7 +155,7 @@ graph TD
 
 ## Summary: Match + Action & Programmable Forwarding
 
-- Match over multiple fields in L2, L3, L4 headers.
+- Match over multiple fields in Link, network, transport layers.
     
 - Local actions: forward, drop, modify, send to controller.
     
@@ -171,9 +171,7 @@ graph TD
         
 - SDN controller can define network-wide policies by populating flow tables.
     
-- Match + action = limited form of programmability.
-    
-    - Leads to programmable networks (e.g., via P4 programming language).
+
         
 
 ---

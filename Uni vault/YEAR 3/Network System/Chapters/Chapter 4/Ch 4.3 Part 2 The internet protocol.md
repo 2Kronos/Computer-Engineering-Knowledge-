@@ -26,6 +26,25 @@
         
     - NAT traversal is complex when external hosts initiate connections.
         
+# How NAT is implemented
+
+- **Network Address Translation (NAT)** is handled by a NAT-enabled router.
+    
+- For **outgoing datagrams**, the router:
+    
+    - Replaces the **source IP address and port** with the NAT router’s IP and a new source port.
+        
+- NAT is **transparent** to both local and remote hosts.
+    
+    - The remote host only sees the NAT IP and port and responds normally.
+        
+- The router keeps a **translation table** mapping:
+    
+    - Local source IP and port ↔ NAT IP and assigned port.
+        
+- For **incoming datagrams**, the router:
+    
+    - Replaces the **destination IP and port** with the local address and port stored in the table.
 
 ### Mermaid Diagram: NAT Workflow
 
@@ -60,26 +79,6 @@ sequenceDiagram
 - Traffic Class field: similar to IPv4's Type of Service; defines priority but policy left to ISPs.
     
 
-### Mermaid Diagram: IPv4 vs. IPv6 Header Differences
-
-```mermaid
-graph TD
-
-    IPv4[IPv4 Header] -->|Has| Checksum
-
-    IPv4 -->|Has| Fragmentation
-
-    IPv4 -->|Has| Options
-
-    IPv6[IPv6 Header] -->|Removed| Checksum
-
-    IPv6 -->|Removed| Fragmentation
-
-    IPv6 -->|Removed| Options
-
-    IPv6 -->|Added| FlowLabel[Flow Label]
-```
-
 ---
 
 ## IPv6 Datagram Format (Key Fields)
@@ -97,7 +96,26 @@ graph TD
 - Traffic Class (priority)
     
 - Flow Label (optional, for packet flows)
+
+
+- **IPv6** uses **128-bit source and destination addresses**.
     
+- It includes a **16-bit flow label field** for identifying flows, but how flows are defined is up to the **ISP's policy**.
+    
+- The **8-bit traffic class field** works like IPv4's type of service field, used for **prioritizing traffic**.
+    
+- IPv6 defines **mechanisms**, not policies, for handling flow and priority.
+    
+- Common fields with IPv4: **version, payload length, hop limit, next header, and payload**.
+    
+- **IPv6 omits** certain IPv4 fields: **checksum, fragmentation/reassembly, and options**.
+    
+- This results in a **fixed-length header**, allowing for **faster processing**.
+    
+- **Fragmentation and reassembly** are handled at the **endpoints**, not by routers.
+    
+- **Options** are supported via **upper-layer protocols** instead of header fields.
+    ![[Pasted image 20250519071229.png]]7
 
 ---
 
@@ -131,18 +149,69 @@ graph TD
     D -->|Extract IPv6| F[IPv6 Router F]
 ```
 
+
+### 🛰️ **Tunneling in Mixed IPv4/IPv6 Networks**
+
+#### 🔍 **Scenario Overview:**
+
+- **Routers A & F**: IPv6-only
+    
+- **Routers C & D**: IPv4-only
+    
+- **Routers B & E**: Dual-stack (support both IPv4 and IPv6)
+    
+- IPv6 router **A** wants to send an IPv6 datagram to IPv6 router **F**
+    
+
 ---
 
-## Address Hierarchy and Aggregation
+#### 📡 **Step-by-Step Data Flow** _(Based on Diagram)_
 
-- ISPs receive blocks from regional registries (under ICANN — Internet Corporation for Assigned Names and Numbers).
+1. **A → B (IPv6)**
     
-- They divide and assign sub-blocks to customer organizations.
+    - Standard IPv6 forwarding:
+        
+        - **src=A, dest=F**, flow label included.
+            
+        - Routed to next hop B using IPv6.
+            
+2. **B → C/D/E (IPv6 inside IPv4 tunnel)**
     
-- Hierarchical model allows route summarization (aggregation).
+    - **Challenge**: IPv6 packet must cross an **IPv4-only region**.
+        
+    - **Solution**: **Tunneling**
+        
+        - B wraps the IPv6 datagram inside an **IPv4 packet**.
+            
+        - IPv4 **outer packet**: `src=B, dest=E` (IPv4 addresses)
+            
+        - IPv6 **inner packet**: `src=A, dest=F`
+            
+        - Packet travels from **B → C → D → E** over IPv4 network.
+            
+3. **E → F (IPv6)**
     
-- Longest prefix match is used to route accurately if an organization switches ISPs.
+    - E extracts the original IPv6 datagram from the IPv4 wrapper.
+        
+    - Forwards it to F using standard IPv6.
+        
+
+---
+
+#### 🎯 **Key Concepts:**
+
+- **Tunneling** allows IPv6 datagrams to be transmitted over an IPv4 infrastructure.
     
+- The **IPv4 network acts as a tunnel**, connecting dual-stack routers.
+    
+- IPv4 is treated as a **link layer** between IPv6 endpoints.
+    
+- **Dual-stack routers (B and E)** serve as entry/exit points for the tunnel.
+    
+#### 🧠 **Takeaway:**
+
+Tunneling ensures **coexistence and interoperability** between IPv4 and IPv6 by allowing IPv6 datagrams to be **encapsulated within IPv4 packets**, enabling communication across a mixed network path.
+
 
 ### Mermaid Diagram: Address Allocation Hierarchy
 
@@ -156,7 +225,6 @@ graph TD
 
 ---
 
-## Summary of Key Concepts in Slides 23–37
 
 - NAT allows IPv4 reuse and hides internal network structure.
     

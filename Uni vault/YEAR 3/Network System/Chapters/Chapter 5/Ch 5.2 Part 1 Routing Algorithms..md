@@ -44,7 +44,24 @@ Here's the summary for the Link-State Routing section from Kurose’s Computer N
 ||Distance-Vector: only neighbors known, info exchanged iteratively|
 |Scope|Centralized (e.g., Link-State) vs. Distributed (e.g., Distance-Vector)|
 |Time Behavior|Static, Dynamic, or Quasi-static|
-
+- In a **distributed routing algorithm**, path cost calculation is done **iteratively** by individual routers.
+    
+- No router has **complete global knowledge** of all link costs.
+    
+- Each router starts with the cost of its **directly connected links** (local view).
+    
+- Routers **exchange information** with neighbors and **iteratively update** their path costs.
+    
+- The **Bellman-Ford algorithm** is an example of this approach.
+    
+- It’s also called a **distance vector algorithm**, as it maintains a vector of the **least known costs** to all destinations.
+- - **Routing algorithms** can be classified by how frequently they operate or update.
+    
+- **Static algorithms** use fixed paths that don’t change over time.
+    
+- **Dynamic algorithms** adjust routes in **real time** based on current network conditions.
+    
+- **Quasi-static algorithms** update routes **periodically**, not continuously.
 ---
 
 ## Link-State Routing Algorithm (Dijkstra’s Algorithm)

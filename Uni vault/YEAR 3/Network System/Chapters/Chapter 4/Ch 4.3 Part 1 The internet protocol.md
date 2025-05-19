@@ -45,6 +45,8 @@
 
 ## IP Datagram Format
 
+![[Pasted image 20250519071046.png]]
+
 - Standard header is 20 bytes (can vary if options are present).
     
 - Key fields:
@@ -110,14 +112,14 @@
     
 - Enables more flexible and efficient allocation of address space.
     
-- Example: 200.23.16.0/23 covers two Class C-sized blocks.
-    
 
+    
+ 
 ---
 
 ## How Does a Host Get an IP Address?
 
-- Historically: configured manually (e.g., edited in config files).
+
     
 - Now: typically via DHCP (Dynamic Host Configuration Protocol).
     
@@ -146,9 +148,6 @@
   
   # Scenario  
 
-Certainly! Below is a **detailed**, step-by-step breakdown of the DHCP (Dynamic Host Configuration Protocol) message exchange, explaining each field, its purpose, and the underlying networking concepts.
-
----
 
 ## **Detailed DHCP Client-Server Exchange**
 
@@ -354,7 +353,7 @@ Certainly! Below is a **detailed**, step-by-step breakdown of the DHCP (Dynamic 
 
 ## How Does an ISP Get IP Addresses?
 
-- ICANN (Internet Corporation for Assigned Names and Numbers):
+- ICANN (Internet Corporation for Assigned Names and Numbers): 
     
     - Allocates IP blocks to five Regional Registries (e.g., ARIN, RIPE).
         

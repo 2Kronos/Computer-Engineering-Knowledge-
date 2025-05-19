@@ -42,7 +42,7 @@ graph TD
 
 - Traditional middleboxes: proprietary hardware + software.
     
-- New trend: white-box hardware with customizable software.
+- New trend: white-box hardware with customizable software/ middle box functiom 
     
 - Network Functions Virtualization (NFV):
     
@@ -108,45 +108,6 @@ graph TD
     
 - That’s why TCP (Transmission Control Protocol) implements these functions at hosts rather than routers.
     
-
----
-
-## Internet vs. Telephone Network: Where’s the Intelligence?
-
-- Classic telephone network:
-    
-    - Dumb endpoints (rotary phones).
-        
-    - Smart switches (intelligence in the core).
-        
-- Internet:
-    
-    - Smart, programmable endpoints.
-        
-    - Dumb forwarding inside network (initially).
-        
-    - End-to-end principle applied: edge = intelligence.
-        
-- Today’s Internet has evolved:
-    
-    - White-box routers + SDN controllers → bring intelligence back into the network.
-        
-    - Data centers and CDNs add powerful in-network infrastructure.
-        
-
-### Mermaid Diagram: Evolution of Network Intelligence
-
-```mermaid
-graph LR
-    Telco[Telephone Network]
-    Telco -->|Dumb Edge| CoreSmart[Smart Core]
-
-    Internet[Classic Internet]
-    Internet -->|Smart Edge| CoreDumb[Dumb Core]
-
-    Modern[Modern Internet]
-    Modern -->|Smart Edge| SmartInfra[Smart Core + SDN + NFV]
-```
 
 ---
 

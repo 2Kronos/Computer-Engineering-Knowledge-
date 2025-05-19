@@ -36,20 +36,6 @@ The course material covers both fundamental principles and their real-world impl
     - Inter-domain routing protocol
         
     - Often described as "the glue that holds the Internet together"
-        
-
-### Software-Defined Networking (SDN)
-
-- Logically centralized control logic in SDN controllers
-    
-- Example platforms:
-    
-    - OpenDaylight (ODL)
-        
-    - ONOS (Open Network Operating System)
-        
-- OpenFlow protocol: enables SDN control over data plane elements
-    
 
 ### Network Management & Configuration
 
