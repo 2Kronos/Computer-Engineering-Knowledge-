@@ -189,10 +189,6 @@ attachInterrupt(digitalPinToInterrupt(2), function_1, RISING);
     - Returns to where it left off
         
 
-## Your Specific Code Explanation
-
-Your code uses two forms of the same thing:
-
 ### Option 1 (Using interrupt numbers directly):
 
 ```C++
@@ -202,10 +198,6 @@ attachInterrupt(1, swithOffLED, RISING); // Pin 3
 
 ### Option 2 (More readable, recommended):
 
-```
-attachInterrupt(0, function_1, RISING);  // Pin 2
-attachInterrupt(1, swithOffLED, RISING); // Pin 3
-```
 
 Both do exactly the same thing, but Option 2 is clearer because:
 
@@ -216,24 +208,4 @@ Both do exactly the same thing, but Option 2 is clearer because:
 - Makes your code more maintainable
     
 
-## Why You Don't See Explicit Edge Detection Code
 
-The actual edge detection happens in hardware - you don't write code to check for it. The `RISING` parameter in `attachInterrupt()` configures the hardware to:
-
-# 10.3 Boolean counting
-
-# Circuit link
-
-# Code
-
-# Notes
-
-- When the first led goes on and then off the otherone must change state 
-- We will use an array for all the led we will use 
-# 10.4 Add another led 
-
-# Circuit link
-
-# Code
-
-# Notes

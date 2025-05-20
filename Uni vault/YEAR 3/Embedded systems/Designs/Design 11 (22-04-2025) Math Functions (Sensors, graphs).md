@@ -37,6 +37,9 @@ void loop()
 
 # Circuit link
 
+https://www.tinkercad.com/things/kygIWPffmee-design-112
+
+
 # Code
 
 ```C++
@@ -61,12 +64,12 @@ void loop() {
 # Notes
 
 ### **1. Key Components**
-| Variable       | Purpose |
-|----------------|---------|
-| `samples`      | Counter for loop iterations (0 to 49) |
-| `angle`        | Angle in radians (0 to 2π) |
-| `amplitude_F`  | Calculated sine wave value (scaled to ±100) |
-| `amplitude_I`  | *Unused in this code* |
+| Variable      | Purpose                               |
+| ------------- | ------------------------------------- |
+| `samples`     | Counter for loop iterations (0 to 49) |
+| `angle`       | Angle in radians (0 to 2π)            |
+| `amplitude_F` | Calculated sine wave value            |
+| `amplitude_I` | *Unused in this code*                 |
 
 ---
 
@@ -116,24 +119,7 @@ The code produces **one full sine wave cycle** with 50 points:
 ---
 
 
-# 11.3 amplitude modulation
 
-# Circuit link
-
-# Code
-
-# Notes
-
-
----
-
-# 11.4 no zero crossing
-
-# Circuit link
-
-# Code
-
-# Notes
 
 
 ---
@@ -335,6 +321,8 @@ We use `delayMicroseconds(10)` because:
 
 # Circuit link
 
+https://www.tinkercad.com/things/i1K93DNUONZ-117
+
 # Code
 
 # Notes
@@ -400,13 +388,11 @@ Here, `map()` converts the sensor's 0–1023 range to the LED’s 0–255 bright
 - `map()` returns a **long integer**, not a float—so it doesn't work well for decimal precision.
     
 - It does **not** constrain the output. If the input is outside `fromLow` to `fromHigh`, the output might also be outside `toLow` to `toHigh`. To keep it within bounds, use `constrain()`.
-    
-
 
 ======================================================
 # Potentiometer
 
-==========================================
+=====================================================
 
 # 11.8 potentiometer in percentage
 
