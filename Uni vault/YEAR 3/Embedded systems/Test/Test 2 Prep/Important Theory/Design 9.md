@@ -1,7 +1,4 @@
 
-Here are three **slightly easier** coding questions based **only** on the concepts from your document (Serial input, substring, indexOf, LED control). All questions use the **same circuit** (LEDs on pins 3, 5, 9 + Serial Monitor).
-
----
 
 ### **Question 1: Simple LED On/Off Parser**  
 **Task:**  
@@ -61,10 +58,3 @@ Output: (see above)
 ```
 
 ---
-
-### **Why These Fit Your Document:**  
-1. All use **Serial input** and `substring()`/`indexOf()` (from 9.1.1, 9.1.2, 9.2.1).  
-2. **LED control** matches 9.4 (no new hardware).  
-3. **Error handling** (e.g., invalid pins) is based on 9.2.1’s validation logic.  
-
-Let me know if you’d like these simplified further!

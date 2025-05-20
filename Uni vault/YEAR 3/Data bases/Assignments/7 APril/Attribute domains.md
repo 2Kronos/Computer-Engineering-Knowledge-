@@ -1,7 +1,4 @@
 
-Here's the complete **Attribute Domain (Data Dictionary)** for all tables with detailed explanations:
-
----
 
 ### **1. Tshiwaya_Qualification Table**
 | Attribute                   | Description              | Data Type    | Justification                             | Example Values                                     | Constraints |
@@ -72,5 +69,3 @@ Here's the complete **Attribute Domain (Data Dictionary)** for all tables with d
    - Covers all tables and attributes
    - Justifies data type choices
    - Includes constraint explanations
-
-Would you like this formatted as a separate document (PDF/Word) with additional notes?

@@ -133,6 +133,7 @@ The code produces **one full sine wave cycle** with 50 points:
 
 # Circuit link
 
+https://www.tinkercad.com/things/3T6H0s7ZTJF-115
 # Code
 
 ```C++

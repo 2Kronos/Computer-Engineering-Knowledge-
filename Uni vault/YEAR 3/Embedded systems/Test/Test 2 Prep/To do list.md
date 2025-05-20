@@ -3,8 +3,8 @@
 - [x] Design 7 shift register
 - [x] Design 8 Arrays
 - [x] Design 9 Strings
-- [ ] Design 10 Interuppts
-- [ ] Design 11 sensors
+- [x] Design 10 Interuppts
+- [x] Design 11 sensors
 - [ ] Design 12
 - [ ] Design 13  DC Motors
 
@@ -16,7 +16,7 @@
 # Practice 3 Questions each
 
 - [x] Design 7 
-- [ ] Design 8 Arrays 
+- [x] Design 8 Arrays 
 - [ ] Design 9 Strings
 - [ ] Design 10 Interuppts
 - [ ] Design 11 sensors

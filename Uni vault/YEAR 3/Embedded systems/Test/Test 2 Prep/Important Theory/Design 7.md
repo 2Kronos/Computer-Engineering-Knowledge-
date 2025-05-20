@@ -62,5 +62,3 @@
 💡 _Hint_: Loop from 0 to 255 and `shiftOut()` each value.
 
 ---
-
-If you want, I can provide full example code for any of these questions. Let me know!

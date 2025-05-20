@@ -65,10 +65,3 @@
 
 ---
 
-### **Key Benefits**
-✅ **Single Source of Truth**: Each subject's details exist only once  
-✅ **Flexibility**: Can add/remove subjects from qualifications without touching student records  
-✅ **Tracking**: Can see which students completed which subjects  
-✅ **Compliance**: Meets the "10 subjects per qualification" rule without duplication  
-
-Would you like me to generate the SQL CREATE TABLE statements for this structure

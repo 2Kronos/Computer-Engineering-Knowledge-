@@ -1,9 +1,7 @@
 
 # ASSIGMENT 4
 
-Let me break down **every SQL clause in Question 4** of your assignment with clear explanations and your actual examples:
 
----
 
 ### **4a. WHERE Clause**
 **Purpose:** Filters records based on conditions  
@@ -158,4 +156,3 @@ SELECT DISTINCT LastName FROM Citizens; -- Shows unique values only
 | **Modifying**     | Change data                      | `UPDATE Queues SET Status='Completed'`|
 | **Combining**     | Merge query results              | `UNION` (citizens + employees)        |
 
-Each clause serves a specific role in querying or maintaining your Home Affairs database. Would you like me to elaborate on any particular one?
