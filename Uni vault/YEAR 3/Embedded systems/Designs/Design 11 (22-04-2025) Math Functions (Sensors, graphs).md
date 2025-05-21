@@ -426,9 +426,11 @@ Here, `map()` converts the sensor's 0–1023 range to the LED’s 0–255 bright
 ----
 # Potentiometer
 
-![[Pasted image 20250521021722.png]]
+![Screenshot 2025-05-21 021619](https://github.com/user-attachments/assets/3b8ba6e7-24b5-4120-9c44-db4a630b7b68)
 
-![[Pasted image 20250521021738.png]]
+
+![Screenshot 2025-05-21 021732](https://github.com/user-attachments/assets/7cd993cd-67b5-42d8-a717-a1d537efa789)
+
 
 A **potentiometer** (often called a "pot") is a type of **variable resistor** used to control electrical resistance manually. It works by adjusting the voltage division in a circuit, allowing precise control over electrical signals. Here’s how it works:
 
