@@ -548,7 +548,7 @@ void loop() {
 
 # Notes
 
-- Map the values of the potentiometer to degrees 0-3607
+- Map the values of the potentiometer to degrees 0-360
 - `cos(angle) ` this will give you a value between -1 and 1 it they give us decimal values we need whole numbers for the intensity 
 - Keep in mind that  `cos(angle)` gives a number from -1 and 1 so what ever value we put into `cos` will have a positive and negative counter part
 - We can use multiply by a 1000 to get hole values and not decimal values
@@ -743,3 +743,4 @@ angle_R =angleInDegrees  * PI / 180.0; // Convert degrees to radians
 ---
 
 
+[^1]: 

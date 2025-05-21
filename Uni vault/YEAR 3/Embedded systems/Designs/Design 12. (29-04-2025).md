@@ -1,7 +1,7 @@
 
 
  
-# 12.1 Determine how difference light result in difference in voltage and when you change the light intensity of Photodiode and Photoresistor 
+# 12.1 Determine how difference in light will result in difference in voltage and when you change the light intensity of Photodiode and Photoresistor 
 
 - You have to have a voltage indication on the multi-meter that indicates the brightness of the light  
 	falling on it. The voltage should also very from less than 1V to more than 4 volt with the 5 volts used  
@@ -10,6 +10,7 @@
 	biased.
 
 # Circuit link
+https://www.tinkercad.com/things/14jFlP66t9B-121
 
 # Code
 
@@ -168,6 +169,7 @@ void loop() {
 # 12.2 Using the display
 
 # Circuit link
+https://www.tinkercad.com/things/ePyEOprHXe1-design-122
 
 # Code
 
@@ -337,6 +339,8 @@ This hardware design ensures efficient communication while maintaining pin flexi
 
 # Circuit link
 
+https://www.tinkercad.com/things/7ENRd3Q5MhP-design-123
+
 # Code
 
 ```
@@ -388,6 +392,7 @@ void loop(){
 # 12.4
 
 # Circuit link
+https://www.tinkercad.com/things/8YhiWSN9Odg-design-124
 
 # Code
 
@@ -427,7 +432,6 @@ void loop(){
 }
 ```
 
-# Notes
 
 ---
 

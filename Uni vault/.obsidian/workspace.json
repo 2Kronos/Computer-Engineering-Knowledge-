@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
+                "file": "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design 13. (06-05-2025) (2024 VIDEOS)"
+              "title": "Design 12. (29-04-2025)"
             }
           }
         ],
@@ -196,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,15 +216,18 @@
   },
   "active": "214cd1294181d7a0",
   "lastOpenFiles": [
-    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
+    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
+    "YEAR 3/Embedded systems/Classes/28-01-2025.md",
+    "YEAR 3/Embedded systems/Classes/15-04-2025.md",
+    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 7.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9.md",
     "Pasted image 20250521021738.png",
     "Pasted image 20250521021722.png",
     "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 7.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
     "YEAR 3/Embedded systems/Designing Embedded Systems with Arduino A Fundamental Technology for Makers.pdf",
     "YEAR 3/Embedded systems/GA/kjo.md",
     "YEAR 3/Embedded systems/GA/Block diagram.md",
@@ -248,8 +252,6 @@
     "YEAR 3/Data bases/Assignments/Untitled.md",
     "YEAR 3/Data bases/Assignments/7 APril/Drawing 2025-04-07 14.03.16.excalidraw.md",
     "YEAR 3/Data bases/Assignments/7 APril/Attribute domains.md",
-    "YEAR 3/Data bases/Assignments/7 APril/Approach 1 2025-04-07 12.17.16.excalidraw.md",
-    "YEAR 3/Data bases/Classes/31-03-2025.md",
     "YEAR 3/Data bases/Test prep",
     "Pasted image 20250519163018.png",
     "YEAR 3/Network System.zip",
