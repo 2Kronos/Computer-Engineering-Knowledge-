@@ -127,7 +127,9 @@ The code produces **one full sine wave cycle** with 50 points:
 
 # 11.3 Distance sensing
 
-![[Pasted image 20250519163018.png]]
+![Screenshot 2025-05-19 163002](https://github.com/user-attachments/assets/f11e4ada-0b4a-46b2-84d7-1f27870ec9ff)
+
+
 
 # Circuit link
 
