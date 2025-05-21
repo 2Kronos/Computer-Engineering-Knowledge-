@@ -339,6 +339,48 @@ This hardware design ensures efficient communication while maintaining pin flexi
 
 # Code
 
+```
+#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+
+LiquidCrystal_I2C serial_LDR(0x27, 16, 2);
+int Ldr,in_photo;
+
+
+
+void setup(){
+ Serial.begin(9600);
+  pinMode(A2, INPUT);
+  pinMode(A3, INPUT);
+  
+  serial_LDR.init();
+  serial_LDR.backlight();
+  serial_LDR.setCursor(0,0);// this is where to set the cursors
+  //serial_LDR.print("Your name");
+  
+}
+
+void loop(){
+  
+
+   serial_LDR.clear();
+  Ldr = analogRead(A3);
+  in_photo = analogRead(A2);
+ 
+  serial_LDR.print("LDR = ");
+  Ldr = map(Ldr, 969, 49, 0, 100);
+  serial_LDR.print(Ldr);
+  
+ serial_LDR.setCursor(0, 1);
+  
+  serial_LDR.print("% Photo Diode= ");
+  in_photo = map(in_photo, 46, 964, 0, 100);
+  serial_LDR.print(in_photo);
+  serial_LDR.print("%");
+  delay(200);
+}
+```
+
 # Notes
 
 ---
@@ -349,28 +391,43 @@ This hardware design ensures efficient communication while maintaining pin flexi
 
 # Code
 
+```
+#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+
+LiquidCrystal_I2C serial_LDR(0x27, 16, 2);
+
+String typing;
+int typing_length;
+String typing_continue;
+
+
+
+void setup(){
+ Serial.begin(9600);
+  
+  serial_LDR.init();
+  serial_LDR.backlight();
+  serial_LDR.setCursor(0,0);// this is where to set the cursors
+  ////serial_LDR.print("Your name");
+  //Serial_LDR.autoscroll();
+  
+}
+
+void loop(){
+  
+  if(Serial.available()>0){
+  typing = Serial.readString();
+   serial_LDR.print(typing);
+   serial_LDR.setCursor(0, 1);
+    
+    }
+  
+  
+}
+```
+
 # Notes
 
 ---
 
-# 12.5
-
-# Circuit link
-
-# Code
-
-# Notes
-
----
-https://www.tinkercad.com/things/14jFlP66t9B-design-125
-
-# 12.6 
-https://www.tinkercad.com/things/ePyEOprHXe1-design-126
-
-```
-
-```
-## LCD
-
-- The 16 is for the 16 columns 
-- The 2 is for the two rows 
