@@ -1,6 +1,9 @@
 
 # DC Motor & H-Bridge
 
+## Question 
+<u>Write a code to gradually increase the speed of a DC motor from 0 to 255 using analogWrite() and then stop after 5 seconds.</u>
+
 # Approach
 
 - Use the motor direction notes
@@ -81,7 +84,7 @@ https://www.tinkercad.com/things/4GHTFIQj3kS-practice-dc-motor-amp-h-bridge-
 
 # Code
 
-```
+```C++
 // C++ code
 //
 unsigned long currentTime;
@@ -119,3 +122,77 @@ currentTime = millis();
 
 
 ```
+
+----
+# Ultrasonic sensor
+
+<u> Write code to stop the motor if an object is detected within 10 cm using the ultrasonic sensor.</u>
+
+# Approach 
+
+- Remember it is 
+- 0.034cm/us for cm
+- 0.343mm/us for mm
+- Pulse the sound wave every 10us
+- convert time to distance 
+
+# Circuit link
+
+https://www.tinkercad.com/things/1GXfMXbtXz7-practice-ultrasonic-sensor-
+
+# Code
+
+```
+// C++ code
+//
+//unsigned long currentTime;
+int input_1_Pin = 7;
+int input_2_Pin = 3;
+int enablePin = 9; 
+int trigPin = 11;
+int echoPin = 10;
+
+float distance;
+long duration;
+
+void setup()
+{
+
+  pinMode(input_1_Pin, OUTPUT);//input 2
+  pinMode(input_2_Pin, OUTPUT);//input 1
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+   // pinMode(9, OUTPUT);//enable
+  Serial.begin(9600);
+    
+}
+
+void loop()
+{
+ digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+digitalWrite(trigPin, LOW);
+  
+ duration = pulseIn(echoPin, HIGH);
+  distance = duration*0.034/2;
+  
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+  
+
+  
+  if(distance< 10.00){
+     digitalWrite(enablePin,LOW);//disable motor
+  }else{
+     digitalWrite(enablePin,HIGH);//Enable motor
+  
+  digitalWrite(input_1_Pin,HIGH);
+    digitalWrite(input_2_Pin, LOW);
+  }
+   
+}
+
+```
+
+# 
