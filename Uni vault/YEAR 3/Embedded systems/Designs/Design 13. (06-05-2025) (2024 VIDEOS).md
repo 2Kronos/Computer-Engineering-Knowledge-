@@ -55,20 +55,20 @@ The **L293D** is a **dual H-bridge motor driver** that allows an Arduino to cont
 ## **🔄 Motor Control Pins (H-Bridge Logic)**  
 
 ### **Motor A (Pins 2,3,6,7)**
-| **Pin** | **Name**  | **Purpose**                                                                 | **Truth Table**                    |
-|---------|-----------|-----------------------------------------------------------------------------|------------------------------------|
-| **2**   | Input 1   | Controls Motor A direction (HIGH/LOW)                                       | `IN1=HIGH, IN2=LOW` → Forward     |
-| **7**   | Input 2   | Controls Motor A direction (HIGH/LOW)                                       | `IN1=LOW, IN2=HIGH` → Reverse     |
-| **3**   | Output 1  | Connects to Motor A’s **+ terminal**                                        | Motor A Wire (+)                  |
-| **6**   | Output 2  | Connects to Motor A’s **- terminal**                                        | Motor A Wire (-)                  |
+| **Pin** | **Name** | **Purpose**                           | **Truth Table**               |
+| ------- | -------- | ------------------------------------- | ----------------------------- |
+| **2**   | Input 1  | Controls Motor A direction (HIGH/LOW) | `IN1=HIGH, IN2=LOW` → Foward  |
+| **7**   | Input 2  | Controls Motor A direction (HIGH/LOW) | `IN1=LOW, IN2=HIGH` → reverse |
+| **3**   | Output 1 | Connects to Motor A’s **+ terminal**  | Motor A Wire (+)              |
+| **6**   | Output 2 | Connects to Motor A’s **- terminal**  | Motor A Wire (-)              |
 
 ### **Motor B (Pins 10,11,14,15)**
-| **Pin** | **Name**  | **Purpose**                                                                 | **Truth Table**                    |
-|---------|-----------|-----------------------------------------------------------------------------|------------------------------------|
-| **10**  | Input 3   | Controls Motor B direction (HIGH/LOW)                                       | `IN3=HIGH, IN4=LOW` → Forward     |
-| **15**  | Input 4   | Controls Motor B direction (HIGH/LOW)                                       | `IN3=LOW, IN4=HIGH` → Reverse     |
-| **11**  | Output 3  | Connects to Motor B’s **+ terminal**                                        | Motor B Wire (+)                  |
-| **14**  | Output 4  | Connects to Motor B’s **- terminal**                                        | Motor B Wire (-)                  |
+| **Pin** | **Name** | **Purpose**                           | **Truth Table**               |
+| ------- | -------- | ------------------------------------- | ----------------------------- |
+| **10**  | Input 3  | Controls Motor B direction (HIGH/LOW) | `IN3=HIGH, IN4=LOW` → Forward |
+| **15**  | Input 4  | Controls Motor B direction (HIGH/LOW) | `IN3=LOW, IN4=HIGH` → Reverse |
+| **11**  | Output 3 | Connects to Motor B’s **+ terminal**  | Motor B Wire (+)              |
+| **14**  | Output 4 | Connects to Motor B’s **- terminal**  | Motor B Wire (-)              |
 
 🔹 **How Direction Control Works (H-Bridge Logic)**  
 - **Forward**: `IN1=HIGH, IN2=LOW` → Current flows **Output 1 → Output 2**  
@@ -79,10 +79,10 @@ The **L293D** is a **dual H-bridge motor driver** that allows an Arduino to cont
 
 ## **⚡ Enable Pins (Speed Control via PWM)**  
 
-| **Pin** | **Name**  | **Purpose**                                                                 | **Connection**                     |
-|---------|-----------|-----------------------------------------------------------------------------|------------------------------------|
-| **1**   | Enable 1  | Enables Motor A (PWM for speed control)                                     | Arduino PWM Pin (e.g., D9)         |
-| **9**   | Enable 2  | Enables Motor B (PWM for speed control)                                     | Arduino PWM Pin (e.g., D10)        |
+| **Pin** | **Name** | **Purpose**                             | **Connection**              |
+| ------- | -------- | --------------------------------------- | --------------------------- |
+| **1**   | Enable 1 | Enables Motor A (PWM for speed control) | Arduino PWM Pin (e.g., D9)  |
+| **9**   | Enable 2 | Enables Motor B (PWM for speed control) | Arduino PWM Pin (e.g., D10) |
 
 🔹 **How PWM Speed Control Works**  
 - **`analogWrite(enablePin, 0-255)`** adjusts speed:  

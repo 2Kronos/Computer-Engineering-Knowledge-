@@ -455,7 +455,7 @@ https://www.tinkercad.com/things/g4HbM50oHHv-design-94
 
 ### **Code**
 
-```
+```C++
 int  startPos,endPos, posLED; 
 
 String userIn, partString, stringPiece; // Use Arduino's String type
