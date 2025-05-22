@@ -24,6 +24,8 @@ Motors require high amount of current and voltage. As we will see on example 1, 
 # 13.1 
 
 # Circuit link
+
+https://www.tinkercad.com/things/gv6UXk1itLA-131
 # Code
 
 # Notes
@@ -154,6 +156,8 @@ digitalWrite(EN1, LOW);   // Motor A stops
 ---
 # 13.2 Speed increase slowly
 # Circuit link
+
+https://www.tinkercad.com/things/7px9C8dFxZK-132
 # Code
 
 # Notes
@@ -162,6 +166,8 @@ digitalWrite(EN1, LOW);   // Motor A stops
 # 13.3 high speed then low speed
 
 # Circuit link
+
+https://www.tinkercad.com/things/0qir0zW9Wla-133
 # Code
 
 # Notes
@@ -171,6 +177,8 @@ digitalWrite(EN1, LOW);   // Motor A stops
 
 # 13.4 both directions increase and decrease slowly
 # Circuit link
+
+https://www.tinkercad.com/things/2xDkZ4ufGtX-134
 # Code
 
 # Notes
@@ -180,30 +188,13 @@ digitalWrite(EN1, LOW);   // Motor A stops
 
 # 13.5 #  both motors increase and decrease simultaneously
 # Circuit link
+https://www.tinkercad.com/things/9YArOxDP8qf-135
 # Code
 
 # Notes
 
 ---
 
-
-
-# 13.2 Speed increase slowly
-# Circuit link
-# Code
-
-# Notes
-
----
-
-
-# 13.2 Speed increase slowly
-# Circuit link
-# Code
-
-# Notes
-
----
 ## Scope
 - He said know everything up to this far.
 - The project is un-modulated -- Not yet approved by the project manager, might change.

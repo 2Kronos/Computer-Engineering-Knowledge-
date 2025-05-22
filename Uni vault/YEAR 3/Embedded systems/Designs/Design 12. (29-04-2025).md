@@ -46,6 +46,8 @@ in_photo = analogRead(A2);
 - Photo resistor has no + or - pin
 - The bigger the resistanc the bigger voltgae
 # Photo resistor
+
+<u> We want volatge reading to be in the range of less than 1 volt and bigger than 4v so we can use it in the arduino</u>
 - Pip analogy
 	- Thick pip goes into a narrow pipe
 		- If you have a thick conductor and you make it thin it will have a higher resistance
@@ -58,6 +60,9 @@ in_photo = analogRead(A2);
 	- So we make the second resistor have more resistance because the photo resistor is a variable resistor
 	- We will the other resisor be 10k
 ## Photo diode
+
+<u> We want volatge reading to be in the range of less than 1 volt and bigger than 4v so we can use it in the arduino</u>
+
 - We want volatge reading to be in the range of less than 1 volt and bigger than 4v so we can use it in the arduino
 - If its forward biased the voltage is small across the Photo diode when reverse biased it is high volatge (even though it a negative)
 - It changes the current
@@ -166,6 +171,10 @@ void loop() {
 
 ---
 # Liquid crystal display
+
+[LiquidCrystal | Arduino Documentation](https://docs.arduino.cc/libraries/liquidcrystal/)
+
+![[Pasted image 20250522030144.png]]
 # 12.2 Using the display
 
 # Circuit link
@@ -266,6 +275,23 @@ void setup(){
 ---
 
 ### **Why SDA/SCL Must Connect to Analog Pins (A4/A5 on Uno)**
+
+### **1. SDA (Serial Data Line)**
+
+- **Purpose:** Carries the actual data between the microcontroller and the LCD.
+    
+- **Function:** Transmits or receives data (like text, commands, or settings) bidirectionally.
+    
+- **Voltage Level:** Typically operates at **3.3V or 5V**, depending on the LCD module.
+    
+
+### **2. SCL (Serial Clock Line)**
+
+- **Purpose:** Provides the clock signal to synchronize data transmission.
+    
+- **Function:** The microcontroller generates clock pulses to control the timing of data transfer.
+    
+- **Voltage Level:** Matches the logic level of the system (3.3V or 5V).
 1. **Hardware Design Constraint**:  
    - On Arduino Uno/Nano, the **I2C interface is hardwired** to:  
      - **SDA → A4**  
