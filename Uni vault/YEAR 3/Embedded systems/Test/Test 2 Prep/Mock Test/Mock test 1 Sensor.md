@@ -18,6 +18,9 @@ flash 968-135
 # Attempt 1 (Incomplete)
 
 - Works but still need the Arm and disarm function
+# Notes 
+
+- Since I know that 
 
 ```
 // C++ code
