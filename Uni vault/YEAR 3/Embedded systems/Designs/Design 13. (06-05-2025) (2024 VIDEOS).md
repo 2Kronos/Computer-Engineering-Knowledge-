@@ -54,13 +54,50 @@ The **L293D** is a **dual H-bridge motor driver** that allows an Arduino to cont
 
 ## **🔄 Motor Control Pins (H-Bridge Logic)**  
 
-### **Motor A (Pins 2,3,6,7)**
-| **Pin** | **Name** | **Purpose**                           | **Truth Table**               |
-| ------- | -------- | ------------------------------------- | ----------------------------- |
-| **2**   | Input 1  | Controls Motor A direction (HIGH/LOW) | `IN1=HIGH, IN2=LOW` → Foward  |
-| **7**   | Input 2  | Controls Motor A direction (HIGH/LOW) | `IN1=LOW, IN2=HIGH` → reverse |
-| **3**   | Output 1 | Connects to Motor A’s **+ terminal**  | Motor A Wire (+)              |
-| **6**   | Output 2 | Connects to Motor A’s **- terminal**  | Motor A Wire (-)              |
+### **Motor A (Pins 2,3,6,7)
+
+- If you are using loops remember that the configuration below is for max speed so the closer they get to this configuration the faster they become 
+- Example
+
+```
+//
+int speed;
+void setup()
+{
+
+  pinMode(3, OUTPUT);//input 2
+  pinMode(7, OUTPUT);//input 1
+}
+
+void loop()
+{
+  digitalWrite(7, HIGH);
+  for(speed = 255; speed<-1; speed++){
+  analogWrite(3, speed);
+    delay(50);
+  }
+  }
+```
+- The loop will count down from 255 till 0 therefore getting closer the the `IN1=HIGH, IN2=LOW` configuration
+
+- Example 2 to slow down
+
+```
+//digitalWrite(7, LOW);
+      for(speed = 0;speed < 255; speed++){
+  analogWrite(3, speed);
+    delay(50);
+  }
+```
+- The loop will count down from 0 till 255 therefore getting further away from the the `IN1=HIGH, IN2=LOW` configuration
+
+| **Pin** | **Name** | **Purpose**                           | **Truth Table**               |     |
+| ------- | -------- | ------------------------------------- | ----------------------------- | --- |
+| **2**   | Input 1  | Controls Motor A direction (HIGH/LOW) | `IN1=HIGH, IN2=LOW` → Foward  |     |
+| **7**   | Input 2  | Controls Motor A direction (HIGH/LOW) | `IN1=LOW, IN2=HIGH` → reverse |     |
+| **3**   | Output 1 | Connects to Motor A’s **+ terminal**  | Motor A Wire (+)              |     |
+| **6**   | Output 2 | Connects to Motor A’s **- terminal**  | Motor A Wire (-)              |     |
+|         |          |                                       |                               |     |
 
 ### **Motor B (Pins 10,11,14,15)**
 | **Pin** | **Name** | **Purpose**                           | **Truth Table**               |
@@ -180,6 +217,46 @@ https://www.tinkercad.com/things/0qir0zW9Wla-133
 
 https://www.tinkercad.com/things/2xDkZ4ufGtX-134
 # Code
+
+```
+// C++ code
+//
+int speed;
+void setup()
+{
+
+  pinMode(3, OUTPUT);
+  pinMode(7, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(7, LOW);
+  for(speed = 0; speed< 255; speed++){
+  analogWrite(3, speed);
+    delay(50);
+  }
+  
+   //digitalWrite(7, LOW);
+  for(speed = 255; speed>0; speed--){
+  analogWrite(3, speed);
+    delay(50);
+  }
+  
+   digitalWrite(7, HIGH);
+  
+  for(speed = 255; speed>0; speed--){
+  analogWrite(3, speed);
+    delay(50);
+  }
+  
+  for(speed = 0; speed< 255; speed++){
+  analogWrite(3, speed);
+    delay(50);
+  }
+ 
+}
+```
 
 # Notes
 
