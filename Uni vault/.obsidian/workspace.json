@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
+                "file": "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9 Strings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design 11 (22-04-2025) Math Functions (Sensors, graphs)"
+              "title": "Design 9 Strings"
             }
           },
           {
@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Practice.md",
+                "file": "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practice"
+              "title": "Design 12. (29-04-2025)"
             }
           }
         ]
@@ -233,26 +233,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3015aebb741c775d",
+  "active": "254e018ecaad41c9",
   "lastOpenFiles": [
-    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 8 Random Arrays.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 7 Shift register.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Practice.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 13.md",
+    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
     "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025 Interrupts.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 8.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 7.md",
+    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 12.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9 Strings.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 10 Interrupts.md",
+    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 11.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/To do list.md",
     "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
     "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Mock test 2.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Mock test 1 Sensor.md",
-    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Untitled.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Test 2",
     "YEAR 3/Embedded systems/Test/Test 1/Theory/Milk design.md",
     "YEAR 3/Embedded systems/Test/Test 1/Theory/Theory 1.md",
-    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/EMB Sys Mock Test 3 DC Motor Controller.pdf",
     "Pasted image 20250522205417.png",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Emb Sys Mock Test 2 USDS alarm system.pdf",
@@ -261,14 +266,9 @@
     "YEAR 3/Data bases/Test prep/Planning.md",
     "Pasted image 20250522030144.png",
     "YEAR 3/Embedded systems/Classes/28-01-2025.md",
-    "YEAR 3/Embedded systems/Classes/15-04-2025.md",
-    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
     "Pasted image 20250521021738.png",
     "Pasted image 20250521021722.png",
     "YEAR 3/Embedded systems/Designing Embedded Systems with Arduino A Fundamental Technology for Makers.pdf",
-    "YEAR 3/Embedded systems/GA/kjo.md",
-    "YEAR 3/Embedded systems/GA/Block diagram.md",
-    "YEAR 3/Data bases/Course/Definitions for Assignment 4.md",
     "Pasted image 20250520221925.png",
     "1 1.jpg",
     "YEAR 3/Data bases/Test prep/Notes",

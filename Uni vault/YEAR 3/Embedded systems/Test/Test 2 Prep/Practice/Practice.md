@@ -195,4 +195,9 @@ digitalWrite(trigPin, LOW);
 
 ```
 
-# 
+ ---
+
+# LCD Display
+
+<u>Write a code snippet to display "Distance: xx cm" on a 16x2 LCD based on ultrasonic sensor readings.</u>
+
