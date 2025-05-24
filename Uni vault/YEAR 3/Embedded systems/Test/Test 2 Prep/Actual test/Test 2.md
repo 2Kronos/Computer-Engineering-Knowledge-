@@ -9,5 +9,7 @@
 
  Place a screenshot of your simulated hardware on a MS word document. The name of this document must be your surname followed by your student number followed by the word “Test 2”. The name of your software must be your surname followed by your student number followed by the word “Test 2”. Place all of this in a single folder. The name of the folder must be your surname followed by your student number followed by the word “Test 2”. Right click on the folder, go to “send to” and compress your folder. Do not use anything else to compress. Upload the folder to Blackboard.X
  
- ![[Pasted image 20250523230054.png]]
-![[Pasted image 20250523230313.png]]
+![Screenshot 2025-05-24 171524](https://github.com/user-attachments/assets/1136f630-1009-433c-a912-d45a0c43ab10)
+
+
+![Screenshot 2025-05-23 230111](https://github.com/user-attachments/assets/ba60b40e-11d3-4862-bd71-2f51b13207b7)
