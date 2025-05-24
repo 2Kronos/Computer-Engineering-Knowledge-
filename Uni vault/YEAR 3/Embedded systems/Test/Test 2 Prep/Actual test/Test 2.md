@@ -7,7 +7,7 @@
 
  While the sensing of the distance is happening, the user should be able to insert two values using the serial connection between the computer and the Arduino. These two values should be added and the result provided on the serial connection back to the computer. The distance sensing should not stop during this process. The user should not be prompted multiple times for a single input. The result must be shown on the computer’s serial monitor after two values are inserted. Thus, you can use two sequential entries to provide one result. 
 
- Place a screenshot of your simulated hardware on a MS word document. The name of this document must be your surname followed by your student number followed by the word “Test 2”. The name of your software must be your surname followed by your student number followed by the word “Test 2”. Place all of this in a single folder. The name of the folder must be your surname followed by your student number followed by the word “Test 2”. Right click on the folder, go to “send to” and compress your folder. Do not use anything else to compress. Upload the folder to Blackboard.X
+ Place a screenshot of your simulated hardware on a MS word document. The name of this document must be your surname followed by your student number followed by the word “Test 2”. The name of your software must be your surname followed by your student number followed by the word “Test 2”. Place all of this in a single folder. The name of the folder must be your surname followed by your student number followed by the word “Test 2”. Right click on the folder, go to “send to” and compress your folder. Do not use anything else to compress. Upload the folder to Blackboard.Xc
  
  ![[Pasted image 20250523230054.png]]
 ![[Pasted image 20250523230313.png]]

@@ -13,5 +13,6 @@
     "threw"
   ],
   "showLineNumber": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "attachmentFolderPath": "images"
 }

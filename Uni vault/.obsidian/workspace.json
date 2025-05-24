@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "254e018ecaad41c9",
+            "id": "dac47b7b2f42ff73",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Test 2"
-            }
-          },
-          {
-            "id": "dac47b7b2f42ff73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Design 7"
             }
           }
         ]
@@ -213,17 +199,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "254e018ecaad41c9",
+  "active": "dac47b7b2f42ff73",
   "lastOpenFiles": [
-    "Pasted image 20250523230313.png",
-    "Pasted image 20250523230054.png",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9 Strings.md",
+    "images/2.jpg",
+    "images/1.jpg",
+    "images",
+    "YEAR 3/Imag",
+    "YEAR 3/New folder",
+    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
+    "WhatsApp Image 2024-09-05 at 11.26.44_1d6bdc91.jpg",
+    "WhatsApp Image 2024-09-05 at 11.05.17_efbf3752.jpg",
+    "This Glove Calms Tremors in Parkinson’s Patients.jpeg",
+    "Screenshot 2025-05-19 063049.png",
+    "Screenshot 2025-03-25 005955.png",
+    "Screenshot 2025-03-25 005914.png",
+    "Screenshot 2025-03-23 181701.png",
+    "Screenshot 2025-03-23 181701 1.png",
+    "2025-02-22.md",
+    "2025-02-09.md",
+    "2025-03-19.md",
+    "2025-03-26.md",
+    "2025-02-26.md",
+    "Untitled 1.canvas",
+    "Untitled.md",
+    "Untitled.canvas",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Actual test/Test 2.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9 Strings.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Actual test",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 8 Random Arrays.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 7 Shift register.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Practice.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 13.md",
     "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
     "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025 Interrupts.md",
@@ -237,33 +243,13 @@
     "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Mock test 2.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Mock test 1 Sensor.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Untitled.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Test 2",
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/Milk design.md",
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/Theory 1.md",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/EMB Sys Mock Test 3 DC Motor Controller.pdf",
-    "Pasted image 20250522205417.png",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Emb Sys Mock Test 2 USDS alarm system.pdf",
-    "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
-    "YEAR 3/Network System/Chapters/Chapter 4/CH 4.2 Part 1Whats inside a router.md",
-    "Pasted image 20250522030144.png",
-    "Pasted image 20250521021738.png",
-    "Pasted image 20250521021722.png",
     "YEAR 3/Embedded systems/Designing Embedded Systems with Arduino A Fundamental Technology for Makers.pdf",
-    "Pasted image 20250520221925.png",
-    "1 1.jpg",
     "YEAR 3/Data bases/Test prep/Notes",
     "YEAR 3/Data bases/Test prep",
-    "YEAR 3/Untitled",
-    "YEAR 3/Data bases/Test prep/Practice/Untitled",
-    "YEAR 3/Data bases/Test prep/Notes",
-    "Pasted image 20250519163018.png",
-    "Pasted image 20250519071229.png",
-    "Pasted image 20250519071046.png",
     "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
     "Test/Untitled.canvas"
   ]
 }
