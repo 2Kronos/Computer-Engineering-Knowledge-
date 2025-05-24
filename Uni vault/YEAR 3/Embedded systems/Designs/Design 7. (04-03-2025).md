@@ -67,7 +67,7 @@ Yes, the **74HC595 shift register shifts data on every rising edge** of the **Sh
 https://www.tinkercad.com/things/fpw2t9vZDdS-design-71
 
 <<<<<<< HEAD
-![[Pasted image 20250508210040.png]]
+![`Pasted image 20250508210040.png`](images/`Pasted image 20250508210040.png`)
 ## **Code**
 
 ![Pasted image 20250508210040](https://github.com/user-attachments/assets/f1e4a4e3-fcdb-4093-a749-4565a5973506)

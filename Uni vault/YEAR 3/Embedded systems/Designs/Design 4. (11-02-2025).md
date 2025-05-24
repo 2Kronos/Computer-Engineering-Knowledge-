@@ -3,7 +3,7 @@
 
 https://www.tinkercad.com/things/evZCsutYhDD-design-41?sharecode=PuYNqah9ynGsUA08u171fXbRRmPMs_3VjMvX5Kzfh6A
 
-![[Pasted image 20250217024144.png]]
+![`Pasted image 20250217024144.png`](images/`Pasted image 20250217024144.png`)
 
 ---
 

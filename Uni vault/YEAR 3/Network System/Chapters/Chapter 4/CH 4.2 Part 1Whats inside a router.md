@@ -112,7 +112,7 @@ Example from slide 5:
 ### **5. Switching Fabrics**  
 **Three Types (Slides 13-16)**:  
 
-![[Pasted image 20250515163239.png]]
+![`Pasted image 20250515163239.png`](images/`Pasted image 20250515163239.png`)
 
 - The **switching fabric** is the core of a router.
     
@@ -139,7 +139,7 @@ Example from slide 5:
 
 
 #### **A. Memory Switching**  
-![[Pasted image 20250515165203.png]]
+![`Pasted image 20250515165203.png`](images/`Pasted image 20250515165203.png`)
 *"First-gen routers copied packets to CPU memory (2 bus crossings → slow)."*  
 **Limitation**: Memory bandwidth bottleneck.  
 
@@ -153,13 +153,13 @@ Example from slide 5:
     
 - This shows that **network ports function like I/O devices** in this setup.
 #### **B. Bus Switching**  
-![[Pasted image 20250515165214.png]]
+![`Pasted image 20250515165214.png`](images/`Pasted image 20250515165214.png`)
 *"Packets bypass CPU memory but contend for shared bus bandwidth."*  
 **Example**: Cisco 5600 with 32 Gbps bus.  
 
 #### **C. Interconnection Networks**  
 
-![[Pasted image 20250515165228.png]]
+![`Pasted image 20250515165228.png`](images/`Pasted image 20250515165228.png`)
 
 - The third type of switching fabric is the **interconnection network**.
     

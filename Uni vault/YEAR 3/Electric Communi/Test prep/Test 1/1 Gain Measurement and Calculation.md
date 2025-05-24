@@ -86,7 +86,7 @@ Using multiple instruments is necessary when measuring **different electrical pa
 
 ### **1.4 Calculate gain using dBm, dBW, and dB values.**
 
-![[Pasted image 20250326075451.png]]
+![`Pasted image 20250326075451.png`](images/`Pasted image 20250326075451.png`)
 - Always use the given   absolute reference as your final answer
 
 - [ ] 1.5 Derive gain while considering resistance for output and input power.

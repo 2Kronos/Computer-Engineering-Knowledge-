@@ -3,4 +3,4 @@
 - Ip addresses have two parts one that refers to  the network and other refers to the host on that network
 - For IPV4 we have the network and host part
 - For IPV6 we have the prefix and host 
-![[Pasted image 20250410204211.png]]
+![`Pasted image 20250410204211.png`](images/`Pasted image 20250410204211.png`)

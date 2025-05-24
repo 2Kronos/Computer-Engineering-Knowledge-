@@ -115,7 +115,7 @@ sequenceDiagram
 - **Fragmentation and reassembly** are handled at the **endpoints**, not by routers.
     
 - **Options** are supported via **upper-layer protocols** instead of header fields.
-    ![[Pasted image 20250519071229.png]]7
+    ![`Pasted image 20250519071229.png`](images/`Pasted image 20250519071229.png`)7
 
 ---
 

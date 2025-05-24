@@ -26,7 +26,7 @@ Modulation is the process of altering a **carrier signal** (a high-frequency wav
 
 Modulation is essential for transmitting information efficiently over long distances while reducing interference and improving signal quality.
 ## 2.2 Calculate upper sideband and lower sideband in amplitude modulation (AM).
-![[Pasted image 20250326095005.png]]
+![`Pasted image 20250326095005.png`](images/`Pasted image 20250326095005.png`)
 
 	      
 ## 2.3 Identify, describe, and present diagrams for all AM variants.

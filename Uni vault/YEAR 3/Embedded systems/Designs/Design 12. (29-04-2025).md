@@ -174,7 +174,7 @@ void loop() {
 
 [LiquidCrystal | Arduino Documentation](https://docs.arduino.cc/libraries/liquidcrystal/)
 
-![[Pasted image 20250522030144.png]]
+![`Pasted image 20250522030144.png`](images/`Pasted image 20250522030144.png`)
 # 12.2 Using the display
 
 # Circuit link

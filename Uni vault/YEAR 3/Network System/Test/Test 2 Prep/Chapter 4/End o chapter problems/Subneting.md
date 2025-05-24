@@ -1,6 +1,6 @@
 # Public or privtae
 
-![[Pasted image 20250519053431.png]]
+![`Pasted image 20250519053431.png`](images/`Pasted image 20250519053431.png`)
 ### Final Answer:
 
 The address space **203.216.100.0/23** is **public**.
@@ -46,9 +46,9 @@ Here, $n = 9,   2^9 - 2 = 510$.
 
 # Subnet address for host A
 
-![[Pasted image 20250519054216.png]]
+![`Pasted image 20250519054216.png`](images/`Pasted image 20250519054216.png`)
 
-![[Pasted image 20250519054319.png]]
+![`Pasted image 20250519054319.png`](images/`Pasted image 20250519054319.png`)
 
 1. **Host Bit Rule**: For hh hosts, find the smallest nn where 2^n−2≥h.
     
@@ -117,7 +117,7 @@ By assigning **Subnet A** to `203.216.100.128/25`, we:
 
 This ensures minimal wasted space while meeting host requirements. The answer `203.216.100.128/25` is correct!
 
-![[Pasted image 20250519062154.png]]
+![`Pasted image 20250519062154.png`](images/`Pasted image 20250519062154.png`)
 
 
 To determine the subnet address for **Subnet A (73 hosts)** while minimizing address space usage and preserving the largest contiguous block for future subnets, follow these steps:
@@ -180,7 +180,7 @@ This matches the given answer.
 ![[Screenshot 2025-05-19 063049.png]]
 
 
-![[Pasted image 20250519063147.png]]
+![`Pasted image 20250519063147.png`](images/`Pasted image 20250519063147.png`)
 
 To determine the **starting address of Subnet A**, let's break it down clearly and step-by-step:
 
@@ -238,8 +238,8 @@ The starting (first usable) address of **Subnet A** is:
 This matches the given answer and follows standard subnetting principles. Let me know if you'd like further clarification!
 
 
-![[Pasted image 20250519063548.png]]
+![`Pasted image 20250519063548.png`](images/`Pasted image 20250519063548.png`)
 
-![[Pasted image 20250519063646.png]]
+![`Pasted image 20250519063646.png`](images/`Pasted image 20250519063646.png`)
 
-![[Pasted image 20250519063746.png]]
+![`Pasted image 20250519063746.png`](images/`Pasted image 20250519063746.png`)

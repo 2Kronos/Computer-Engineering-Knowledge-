@@ -13,7 +13,7 @@
   - **Sender**: Waits for data from app → creates packet → sends.  
   - **Receiver**: Waits for packet → extracts data → delivers to app.  
 - **No recovery mechanisms needed** (trivial).  
-![[Pasted image 20250325005010.png]]
+![`Pasted image 20250325005010.png`](images/`Pasted image 20250325005010.png`)
 #### **3. RDT 2.0: Bit Errors (Pages 9-14)**
 
 ##### **RDT 2.0 with No Errors 

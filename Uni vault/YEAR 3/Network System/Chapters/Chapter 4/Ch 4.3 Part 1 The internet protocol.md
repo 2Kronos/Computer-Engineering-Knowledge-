@@ -45,7 +45,7 @@
 
 ## IP Datagram Format
 
-![[Pasted image 20250519071046.png]]
+![`Pasted image 20250519071046.png`](images/`Pasted image 20250519071046.png`)
 
 - Standard header is 20 bytes (can vary if options are present).
     

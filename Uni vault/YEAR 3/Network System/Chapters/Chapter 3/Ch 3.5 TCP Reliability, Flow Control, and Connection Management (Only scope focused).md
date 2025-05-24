@@ -22,7 +22,7 @@
 
 # TCP 3-way handshake 
 
-![[Pasted image 20250325034512.png]]
+![`Pasted image 20250325034512.png`](images/`Pasted image 20250325034512.png`)
 
 ### **TCP 3-Way Handshake (From the Image Above)**
 
