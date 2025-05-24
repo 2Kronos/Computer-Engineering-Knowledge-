@@ -6,6 +6,6 @@
 
 ## Noise Margin
 
-![[Pasted image 20240905093612.png]]
+![`Pasted image 20240905093612.png`](images/`Pasted image 20240905093612.png`)
 
 # 

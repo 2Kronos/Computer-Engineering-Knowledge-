@@ -1,4 +1,4 @@
-![[Pasted image 20250302202956.png]]
+![`Pasted image 20250302202956.png`](images/`Pasted image 20250302202956.png`)
 ### **Summary of Traditional File-Based Systems**
 
 #### **What is a File-Based System?**

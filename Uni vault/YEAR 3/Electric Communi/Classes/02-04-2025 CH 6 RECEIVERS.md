@@ -51,7 +51,7 @@
   - **Ganged Tuning** – Single input adjusts **multiple tuned circuits simultaneously** for consistent performance.  
 
 #### **3. How It Works**  
-![[Pasted image 20250408202416.png]]
+![`Pasted image 20250408202416.png`](images/`Pasted image 20250408202416.png`)
 1. **RF Signal** enters the receiver.  
 2. **Mixer** converts it to a lower **IF signal** (easier to process).  
 3. **IF Amplifier** boosts the signal with high selectivity.  
@@ -77,7 +77,7 @@ This design ensures **stable performance** across all frequencies.
   - **Simultaneous Adjustment**: Some systems alter both **L** and **C** for precise control.  
 
 #### **3. Role in Superheterodyne Receivers**  
-![[Pasted image 20250408202738.png]]
+![`Pasted image 20250408202738.png`](images/`Pasted image 20250408202738.png`)
 - **Local Oscillator (LO) Tracking**:  
   - LO frequency $( f_{LO} )$ is **ganged** (mechanically/electronically linked) to the RF tuning circuit.  
   - Ensures the **difference frequency** $( f_{LO} - f_c )$ always equals the **Intermediate Frequency (IF)** (e.g., 455 kHz for AM).  
@@ -139,7 +139,7 @@ Let me know if you'd like a deeper dive into LC circuits or ganged tuning mechan
 ----
 ### **Detailed Explanation of Each Block in the Superheterodyne Receiver (Figure 6-2)**  
 
-![[Pasted image 20250408205154.png]]
+![`Pasted image 20250408205154.png`](images/`Pasted image 20250408205154.png`)
 
 #### **1. Antenna**  
 - **Function**: Captures incoming radio waves (RF signals) and converts them into electrical signals.  
@@ -202,7 +202,7 @@ Let me know if you'd like a deeper dive into LC circuits or ganged tuning mechan
 - **AGC Loop**: Dynamically stabilizes output by reducing gain for strong signals (e.g., prevents blaring audio when switching stations).  
 
 ### Extra 
-![[Pasted image 20250408210024.png]]
+![`Pasted image 20250408210024.png`](images/`Pasted image 20250408210024.png`)
 - We need to be able control the signal quality(The amplifier gain)
 - We also need to vary the Oscilator gain if we need to control these aspects this is where we get a control problem
 - Thats why we have the feedback

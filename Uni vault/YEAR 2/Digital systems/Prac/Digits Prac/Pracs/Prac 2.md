@@ -1,4 +1,4 @@
-![[Pasted image 20241010043742.png]]
+![`Pasted image 20241010043742.png`](images/`Pasted image 20241010043742.png`)
 - **RESET (Pin 4)**: This pin is used to reset the timing cycle. It is connected to **VCC** (5V) here, meaning the timer is not being reset, allowing it to operate continuously.
 
 - **DISCH (Pin 7)**: The discharge pin is responsible for discharging the timing capacitor (**CT**, 47nF in this case) to ground when the output is low. This pin is connected to **R1 (7kΩ)** and **R2 (2kΩ)** in the circuit, forming part of the RC charging and discharging network

@@ -97,11 +97,11 @@ Synchronous data are sent in frames that include other bits
 - **Data Field**: 
 - **Frame Check**: 
 - **End Frame**: Group of bits signaling the receiver that the end of the frame has been reached.
-![[Pasted image 20240903234720.png]]
+![`Pasted image 20240903234720.png`](images/`Pasted image 20240903234720.png`)
 ## Transmission effeciency
-![[Pasted image 20240904000227.png]]
+![`Pasted image 20240904000227.png`](images/`Pasted image 20240904000227.png`)
 
-![[Pasted image 20240904000344.png]]
+![`Pasted image 20240904000344.png`](images/`Pasted image 20240904000344.png`)
 
 ## Data rates  
 
@@ -112,9 +112,9 @@ Here are the important points:
 - **Baud**: Symbol rate or number of data symbols (transitions/events) per second.
 - **Relationship**: Bit rate is always greater than or equal to the baud.
     - **Formula**:
-        ![[Pasted image 20240904163030.png]]
+        ![`Pasted image 20240904163030.png`](images/`Pasted image 20240904163030.png`)
 
-![[Pasted image 20240904163104.png]]
+![`Pasted image 20240904163104.png`](images/`Pasted image 20240904163104.png`)
 ## Transmission Modes
 
 - **Simplex Mode**: Data flows in only one direction, from sender to receiver (e.g., from a computer to a printer).
@@ -166,14 +166,14 @@ Here are the important points:
 - The axis are phase changes(PSK)
 - The distance from the amplitude is amplitude (ASK)
 
-![[Pasted image 20240904162219.png]]
+![`Pasted image 20240904162219.png`](images/`Pasted image 20240904162219.png`)
 
 In the example the below there is only a phase shift it is  4-PSK(4 possible phases)
 
-![[Pasted image 20240904162719.png]]
+![`Pasted image 20240904162719.png`](images/`Pasted image 20240904162719.png`)
 - 4-PSK can also be drawn as below this just means none of them on in phase with the 0 degree carrier. Still in the same the same phase
 
-![[Pasted image 20240904163350.png]]
+![`Pasted image 20240904163350.png`](images/`Pasted image 20240904163350.png`)
 
 - The drawing below has 4 phase
 - 2 different amplitudes
@@ -181,13 +181,13 @@ In the example the below there is only a phase shift it is  4-PSK(4 possible pha
 - Combination of phase change and amplitude change 
 - This is called a <u> 8-QAM </u> due to the combination
 
-![[Pasted image 20240904163719.png]]
+![`Pasted image 20240904163719.png`](images/`Pasted image 20240904163719.png`)
 
 - Drawing below has 16 states
 - The red ones are on the same phase(Same radio line) but different amplitudes
 - The blue one have the same amplitude(Distance from the center )
 - This is 16-QAM
- ![[Pasted image 20240904164636.png]]
+ ![`Pasted image 20240904164636.png`](images/`Pasted image 20240904164636.png`)
 
 # Ch 13-4 Modulation od digital Signals with analog Data
 
@@ -206,7 +206,7 @@ In the example the below there is only a phase shift it is  4-PSK(4 possible pha
 - **Accuracy**: Higher sampling rates and more levels result in a more accurate PCM representation.
 - **Applications**: Used in digital audio (computers, Blu-ray, CD, DVD) and digital telephone systems.
 
-![[Pasted image 20240904170748.png]]
+![`Pasted image 20240904170748.png`](images/`Pasted image 20240904170748.png`)
 
 - If given analog wave form know how to convert to the digital wave form
 
@@ -223,7 +223,7 @@ In the example the below there is only a phase shift it is  4-PSK(4 possible pha
 
 - Data on the incoming streams are changing at a certian rain counter must sample them before they change 
 - Counter takes out the bit one at a time
-![[Pasted image 20240904172644.png]]
+![`Pasted image 20240904172644.png`](images/`Pasted image 20240904172644.png`)
 
 ## 13-6 Bus basics
 
@@ -231,7 +231,7 @@ In the example the below there is only a phase shift it is  4-PSK(4 possible pha
 - The wire is called a bus
 - In the below this is a serial bus (from one device to all the other devices) there are mechanism that  will choose which device puts data on the bus 
 
-![[Pasted image 20240904191900.png]]
+![`Pasted image 20240904191900.png`](images/`Pasted image 20240904191900.png`)
 
 ### The bus 
 - A bus enables device communication and data transmission.
@@ -255,7 +255,7 @@ In the example the below there is only a phase shift it is  4-PSK(4 possible pha
 	  
 <u> But we must use bits </U>
 
-![[Pasted image 20240904194759.png]]
+![`Pasted image 20240904194759.png`](images/`Pasted image 20240904194759.png`)
 
 
 ### Bus Control

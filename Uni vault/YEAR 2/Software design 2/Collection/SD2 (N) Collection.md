@@ -1,5 +1,5 @@
 
-![[Pasted image 20240924223739.png]]
+![`Pasted image 20240924223739.png`](images/`Pasted image 20240924223739.png`)
 ## Collection
 
 - Java Collections framework: prebuilt data structures, along with interfaces and methods for manipulating them

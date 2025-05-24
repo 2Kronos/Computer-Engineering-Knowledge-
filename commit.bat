@@ -22,6 +22,12 @@ if %ERRORLEVEL% neq 0 (
     exit /b %ERRORLEVEL%
 )
 
+:: Convert Obsidian image links to Markdown format for GitHub
+for /r %%f in (*.md) do (
+    powershell -Command "(Get-Content '%%f') -replace '!\[\[(Pasted image.*?\.png)\]\]', '![`$1`](images/`$1`)' | Set-Content '%%f'"
+)
+
+
 :: Check if commit_message.txt exists
 if not exist commit_message.txt (
     echo commit_message.txt not found.

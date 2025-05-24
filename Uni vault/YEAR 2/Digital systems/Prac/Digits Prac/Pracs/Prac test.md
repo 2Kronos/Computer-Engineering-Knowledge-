@@ -1,5 +1,5 @@
 
-![[Pasted image 20241010104048.png]]
+![`Pasted image 20241010104048.png`](images/`Pasted image 20241010104048.png`)
 
 The 74HC30N NAND gate is a digital logic gate that performs the logical NAND operation. This means that its output is only low (0) when all of its inputs are high (1). If any of the inputs are low (0), the output will be high (1).
 
@@ -49,7 +49,7 @@ While the datasheet might not explicitly state the number of inputs, the 74HC30N
 
 By understanding these principles, you can effectively use the 74HC30N NAND gate with 8 inputs to create various digital logic circuits and perform desired operations.
 
-![[Pasted image 20241010104858.png]]
+![`Pasted image 20241010104858.png`](images/`Pasted image 20241010104858.png`)
 
 The 74HC112N in the image is a dual J-K flip-flop. It is a sequential logic circuit that stores one bit of binary data. The flip-flop has two inputs, J and K, and a clock input, CLK. The output of the flip-flop is Q.
 

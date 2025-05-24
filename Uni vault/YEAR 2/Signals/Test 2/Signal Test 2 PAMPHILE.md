@@ -1,11 +1,11 @@
 <<<<<<< HEAD
 
-![[Pasted image 20241014074238.png]]
+![`Pasted image 20241014074238.png`](images/`Pasted image 20241014074238.png`)
 
-![[Pasted image 20241013152956.png]]
+![`Pasted image 20241013152956.png`](images/`Pasted image 20241013152956.png`)
 
 
-![[Pasted image 20240930235508.png]]
+![`Pasted image 20240930235508.png`](images/`Pasted image 20240930235508.png`)
 --------------------------------------------------------------------------------------
 # Voltage divider rule
 $X_L =wL$
@@ -79,7 +79,7 @@ let\ z = 0.43 +10.6185j \\\\\
 ---
 # Question 2 
 
-![[Pasted image 20241012121147.png]]
+![`Pasted image 20241012121147.png`](images/`Pasted image 20241012121147.png`)
 
 $$
 \begin{align}
@@ -88,9 +88,9 @@ B_{wf} = \frac{1}{T}= \frac{1}{16.3us}=61.3KHZ
 $$
 ---
 # Question 3
-![[Pasted image 20241013155407.png]]
+![`Pasted image 20241013155407.png`](images/`Pasted image 20241013155407.png`)
 
-![[Pasted image 20241013155603.png]]
+![`Pasted image 20241013155603.png`](images/`Pasted image 20241013155603.png`)
 ![[Calcu 2 1.jpg]]
 ![[cal 3.jpg]]
 ---
@@ -174,7 +174,7 @@ $y(n) = 4.6388$
 
 ---
 # Question 6
-![[Pasted image 20241013140521.png]]
+![`Pasted image 20241013140521.png`](images/`Pasted image 20241013140521.png`)
 
 $w = 2\pi f$
 
@@ -195,7 +195,7 @@ $V_C = 37 \times \frac{3.3934}{\sqrt{3^2 + (3.3934)^2}}$
 $V_C = 27.720$
 ---
 # Question 7
-![[Pasted image 20241013140621.png]]
+![`Pasted image 20241013140621.png`](images/`Pasted image 20241013140621.png`)
 $$\begin{align}
 V_{in} = tu(t) \\ \\
 V_R = IR \\\\

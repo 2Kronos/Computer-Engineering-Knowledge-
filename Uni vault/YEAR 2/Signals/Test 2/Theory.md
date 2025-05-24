@@ -1,4 +1,4 @@
-![[Pasted image 20240930235508.png]]
+![`Pasted image 20240930235508.png`](images/`Pasted image 20240930235508.png`)
 
 # Voltage divider rule
 $X_L =wL$

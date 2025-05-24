@@ -1,4 +1,4 @@
-![[Pasted image 20240925190241.png]]
+![`Pasted image 20240925190241.png`](images/`Pasted image 20240925190241.png`)
 
 ---
 

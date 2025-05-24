@@ -5,13 +5,13 @@
 - CPU–I/O Burst Cycle – Process execution consists of a cycle of CPU execution and I/O wait
 	- CPU burst followed by I/O burst 
 	- CPU burst distribution is of main concern
-![[Pasted image 20241017221530.png]]
+![`Pasted image 20241017221530.png`](images/`Pasted image 20241017221530.png`)
 
 ## CPU Shedular 
 
 - Whenever the ==CPU becomes idle==, the operating system must select one of the proccess in the ready ques to be executed 
 - Short-term scheduler selects from among the processes in ready queue, and==allocates the CPU to one of them
-![[Pasted image 20241017221636.png]]
+![`Pasted image 20241017221636.png`](images/`Pasted image 20241017221636.png`)
 
 <u> CPU scheduling decisions may take place when a process: </u>
 
@@ -150,7 +150,7 @@
 	- method used to determine ==when to demote a process 
 	- method used to determine which queue a process will enter when that process needs service
 
-![[Pasted image 20241017193401.png]]
+![`Pasted image 20241017193401.png`](images/`Pasted image 20241017193401.png`)
 ## Thread Scheduling
 
 

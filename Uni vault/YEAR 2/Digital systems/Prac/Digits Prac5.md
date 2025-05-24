@@ -1,7 +1,7 @@
 
 # Prac 5 
 
-![[Pasted image 20240923162009.png]]
+![`Pasted image 20240923162009.png`](images/`Pasted image 20240923162009.png`)
 
  <u>A - B</u> 
 input LSB-MSB respectively

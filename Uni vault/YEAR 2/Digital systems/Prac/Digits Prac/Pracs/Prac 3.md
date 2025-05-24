@@ -1,4 +1,4 @@
-![[Pasted image 20241010045244.png]]
+![`Pasted image 20241010045244.png`](images/`Pasted image 20241010045244.png`)
 
 <u> Pin  description</u>
 

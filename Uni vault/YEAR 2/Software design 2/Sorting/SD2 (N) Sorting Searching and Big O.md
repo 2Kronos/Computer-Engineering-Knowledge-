@@ -65,7 +65,7 @@ code to quit the seearch (-1)
 	- Iterate through all array elements except first one, find smallest element, swap with second element
 	- Repeat till sorted
 - Algorithm complexity is **O(n^2)**
-![[Pasted image 20240827222542.png]]
+![`Pasted image 20240827222542.png`](images/`Pasted image 20240827222542.png`)
 Anlysis code is at [[SD2 (ExplaC) Sorting#Explanation of Sorting code]]
 
 

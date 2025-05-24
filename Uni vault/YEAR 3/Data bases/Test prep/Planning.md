@@ -6,7 +6,7 @@
 - [ ] Generalization
 - [ ] Specilazation
 
-![[Pasted image 20250520221925.png]]
+![`Pasted image 20250520221925.png`](images/`Pasted image 20250520221925.png`)
 
 # Database Study Plan (5 Days)
 

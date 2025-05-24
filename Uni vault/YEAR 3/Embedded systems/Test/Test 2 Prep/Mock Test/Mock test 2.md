@@ -66,8 +66,8 @@ oscillation frequency (via serial commands).</u>
 - To change the oscillation frequency  we can experiment the behaviour of the sine wave in design 11.2 
 - To change the frequency we need to divide the angle `sin(angle)` by how many oscillation the user wants
 - We need to convert the user input into a string using `toInt()` (from design 9.4 )
-
 ![[Pasted image 20250522205417.png]]
+
 - `0°` → `cos(0) = 0`
 - `90°` → `cos(π/2) = 1` (Change direction)
 - `180°  ` →cos(π) = 0` 
@@ -79,4 +79,5 @@ oscillation frequency (via serial commands).</u>
 - Use the arduino 5v for pot
 - When you convert into radians make sure the that variable assigned must be in radians
 - Keep in mind that this is a sine wave 
+ascscC
 
