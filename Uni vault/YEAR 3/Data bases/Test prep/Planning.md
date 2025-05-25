@@ -8,9 +8,9 @@
 
 # Chapter 12 Entity–Relationship Modeling 405 
 - [x] 12.1 Entity Types 406 12.2 
-- [ ] 12.2 Relationship Types 408 
-	- [ ] 12.2.1 Degree of Relationship Type 410
-	- [ ] 12.2.2 Recursive Relationship 412 
+- [x] 12.2 Relationship Types 408 
+	- [x] 12.2.1 Degree of Relationship Type 410
+	- [x] 12.2.2 Recursive Relationship 412 
 - [ ] 12.3 Attributes 413 
 	- [ ] 12.3.1 Simple and Composite Attributes 413 
 	- [ ] 12.3.2 Single-valued and Multi-valued Attributes 414 

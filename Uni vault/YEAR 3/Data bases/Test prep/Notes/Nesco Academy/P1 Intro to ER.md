@@ -1,7 +1,5 @@
 
-Here’s a **simplified breakdown** of the Neso Academy video transcript on **ER Models (Part 1)**—structured for easy note-taking in Obsidian, with key concepts and diagrams.
 
----
 
 ### **1. What is an ER Model?**  
 - **Definition**: A visual blueprint for database design.  
