@@ -13,16 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Data bases/Test prep/Planning.md",
+                "file": "YEAR 3/Data bases/Test prep/Notes/Chapter 11/11.1-11.3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Planning"
+              "title": "11.1-11.3"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f408c01a7b5ceebd",
+        "type": "tabs",
+        "children": [
           {
-            "id": "96d87fde99c716e4",
+            "id": "a44c23280d61952f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,7 +187,7 @@
             }
           },
           {
-            "id": "8320dd7db8b2e795",
+            "id": "1d4c5464c5eaa525",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -191,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -215,53 +221,53 @@
   },
   "active": "dac47b7b2f42ff73",
   "lastOpenFiles": [
-    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.2.2 Recursive Relationship 412.md",
-    "images/Pasted image 20250525161433.png",
-    "images/Pasted image 20250525160448.png",
-    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.2.1 Degree of Relationship Type.md",
-    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.2 Relationship Types 408.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.10-10.14.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 11/11.1-11.3.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.9 Prototyping.md",
     "YEAR 3/Data bases/Test prep/Planning.md",
-    "images/Pasted image 20250525153441.png",
-    "images/Pasted image 20250525153437.png",
-    "YEAR 3/Data bases/Test prep/Notes/Nesco Academy/P1 Intro to ER.md",
-    "YEAR 3/Data bases/Test prep/Notes/Nesco Academy/P2 Intro to ER.md",
-    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.1 Entity Types 406 12.2.md",
-    "YEAR 3/Electric Communi/GA/Planning.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.8 Application Design 363.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.7 DBMS Selection 359 1.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.6 Database Design 354.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.5 Requirements Collection and Analysis 350.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.4 System Definition 350.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.2.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10/10.1 The Information Systems Lifecycle 346.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 13/13.3 Composition.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 13/13.2 Aggregation 445.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 13/13.1 Specialization Generalization 434.md",
+    "images/Pasted image 20250527003921.png",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.6 Structural Constraints 419.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.5 Attributes on Relationships.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.2.2 Recursive Relationship 412.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.2.1 Degree of Relationship Type.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.7 Problems with ER Models 426.md",
+    "2Kronos/Machine learning/STEPS.md",
+    "YEAR 3/Data bases/Test.md",
+    "YEAR 3/Data bases/ERD.drawio",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 11",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 10",
+    "images/Pasted image 20250526204032.png",
+    "images/Pasted image 20250526203858.png",
+    "images/Pasted image 20250526203811.png",
+    "images/Pasted image 20250526202339.png",
+    "images/Pasted image 20250526202151.png",
+    "images/Pasted image 20250526201350.png",
+    "images/Pasted image 20250526201221.png",
+    "images/Pasted image 20250526195836.png",
+    "images/Pasted image 20250526193614.png",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.4 Strong and Weak Entity Types 417.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.3 Attributes 413.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.3.3 Derived Attributes 414.md",
+    "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.3.2 Single-valued and Multi-valued Attributes 414.md",
     "YEAR 3/Data bases/Test prep/Notes/Nesco Academy",
     "YEAR 3/Data bases/Test prep/Notes/Database Systems_ A Practical Approach to Design, Implementation, and Management 6_E.pdf",
     "YEAR 3/Data bases/Test prep/Notes/Chapter 13",
     "YEAR 3/Data bases/Test prep/Notes/Chapter 12",
-    "YEAR 3/Network System/Chapters/Chapter 4/Ch 4.3 Part 2 The internet protocol.md",
-    "YEAR 3/Network System/Chapters/Chapter 4/Ch 4.4 Generalized Forwarding.md",
-    "YEAR 3/Network System/Chapters/Chapter 4/CH 4.2 Part 1Whats inside a router.md",
-    "YEAR 3/Network System/Chapters/Chapter 1/CH 1.1 29-01-2025.md",
-    "YEAR 3/Data bases/Course/Code.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Mock test 2.md",
-    "images/Pasted image 20250522205417.png",
     "images",
-    "Pasted image 20250522205417.png",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Mock test 1 Sensor.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Actual test/Test 2.md",
-    "images/2.jpg",
-    "images/1.jpg",
     "YEAR 3/Imag",
     "YEAR 3/New folder",
-    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
-    "WhatsApp Image 2024-09-05 at 11.26.44_1d6bdc91.jpg",
-    "2025-02-22.md",
-    "2025-02-09.md",
-    "2025-03-19.md",
-    "2025-03-26.md",
-    "2025-02-26.md",
     "Untitled 1.canvas",
-    "Untitled.md",
     "Untitled.canvas",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Design 7.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 9 Strings.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Actual test",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 8 Random Arrays.md",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Practice/Test 2",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/EMB Sys Mock Test 3 DC Motor Controller.pdf",
     "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",
     "Test/Untitled.canvas"
   ]
