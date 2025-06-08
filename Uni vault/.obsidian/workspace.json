@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Data bases/Notes/Chapter 10/10.8 Application Design 363.md",
+                "file": "YEAR 3/Data bases/Notes/Chapter 10/10.10-10.14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.8 Application Design 363"
+              "title": "10.10-10.14"
             }
           }
         ]
@@ -201,6 +201,9 @@
   },
   "active": "dac47b7b2f42ff73",
   "lastOpenFiles": [
+    "YEAR 3/Data bases/Notes/Chapter 10/10.9 Prototyping.md",
+    "YEAR 3/Data bases/Notes/Chapter 10/10.10-10.14.md",
+    "YEAR 3/Data bases/Notes/Chapter 10/10.8 Application Design 363.md",
     "YEAR 3/Data bases/Notes/Chapter 10/10.7 DBMS Selection 359 1.md",
     "YEAR 3/Data bases/Notes/Chapter 10/10.6 Database Design 354.md",
     "YEAR 3/Data bases/Notes/Nesco Academy/P2 Intro to ER.md",
@@ -228,9 +231,6 @@
     "YEAR 3/Indust Project/GA/Literature review.md",
     "YEAR 3/Indust Project/GA/LLM Prompt.md",
     "YEAR 3/Indust Project/Project 1/FEASIBILITY/Presentation.md",
-    "YEAR 3/Indust Project/Plan/Desiging.md",
-    "2Kronos/New knowledge/Querying an API using JS.md",
-    "2Kronos/New knowledge/WTF IS OPEN SSH.md",
     "images/Tattoo Ideas.jpeg",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Emb Sys Mock Test 2 USDS alarm system.pdf",
     "images/Pasted image 20250527003921.png",
