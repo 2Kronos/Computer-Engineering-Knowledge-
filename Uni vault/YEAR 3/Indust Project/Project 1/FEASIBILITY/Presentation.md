@@ -39,4 +39,3 @@ I’m excited to present my project: the **Gesture-Controlled Robotic Arm**, an 
 
 The **Gesture-Controlled Robotic Arm** simplifies control, making robotics more accessible.  
 Its impact on **healthcare, education, and industry** is vast, with room for future growth.  
-Thank you! I’m happy to take questions.

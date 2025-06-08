@@ -157,4 +157,3 @@ model.save("gesture_model.h5")
 - Test servos individually before ML integration.  
 - Visualize sensor data with Python (`matplotlib`).  
 
-Let me know if you want **starter code** for any step! 🚀
