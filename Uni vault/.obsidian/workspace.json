@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solar car project/ERROR.md",
+                "file": "Solar car project/Research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ERROR"
+              "title": "Research"
             }
           }
         ]
@@ -202,7 +202,7 @@
   "active": "dac47b7b2f42ff73",
   "lastOpenFiles": [
     "YEAR 3/Embedded systems/Designs/Test 2 Memo.md",
-    "Solar car project/ERROR.md",
+    "Solar car project/Research.md",
     "Solar car project/Untitled",
     "Solar car project",
     "YEAR 3/Embedded systems/Designs/Test 1 v2Memo (08-04-2025).md",
