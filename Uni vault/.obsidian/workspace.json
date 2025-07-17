@@ -13,7 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Indust Project/Lit review test/Quick sum/Practice.md",
+                "file": "YEAR 3/Indust Project/Lit review test/Longersum/3. A Study on Hand Motion Controlled Robotic  Arm (Propulsion Tech Jornal 2023).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. A Study on Hand Motion Controlled Robotic  Arm (Propulsion Tech Jornal 2023)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6d2c2e0d746b99d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9352088401b6e642",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YEAR 3/Indust Project/Lit review test/Practice questions/Practice.md",
                 "mode": "source",
                 "source": false
               },
@@ -199,17 +219,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dac47b7b2f42ff73",
+  "active": "9352088401b6e642",
   "lastOpenFiles": [
-    "YEAR 3/Indust Project/Lit review test/Quick sum/3. A Study on Hand Motion Controlled Robotic  Arm (Propulsion Tech Jornal 2023).md",
-    "YEAR 3/Indust Project/Lit review test/Quick sum/Practice.md",
-    "YEAR 3/Indust Project/Lit review test/Practice questions",
-    "YEAR 3/Indust Project/Lit review test/Longersum",
     "YEAR 3/Indust Project/Lit review test/Longersum/3. A Study on Hand Motion Controlled Robotic  Arm (Propulsion Tech Jornal 2023).md",
-    "YEAR 3/Indust Project/Lit review test/Quick sum/2. Design and Development of Gesture Controlled Robotic  Arm(Sethukarasi et al.,  2022  IJCAT  ).md",
     "YEAR 3/Indust Project/Lit review test/Longersum/2. Design and Development of Gesture Controlled Robotic  Arm(Sethukarasi et al.,  2022  IJCAT  ).md",
+    "YEAR 3/Indust Project/Lit review test/Practice questions/Practice.md",
+    "YEAR 3/Indust Project/Lit review test/Quick sum/2. Design and Development of Gesture Controlled Robotic  Arm(Sethukarasi et al.,  2022  IJCAT  ).md",
     "YEAR 3/Indust Project/Lit review test/Longersum/1. Micro machines (Yu et al., 2024).md",
     "YEAR 3/Indust Project/Lit review test/Quick sum/1. Micro machines.md",
+    "YEAR 3/Indust Project/Lit review test/Quick sum/3. A Study on Hand Motion Controlled Robotic  Arm (Propulsion Tech Jornal 2023).md",
+    "YEAR 3/Indust Project/Lit review test/Practice questions",
+    "YEAR 3/Indust Project/Lit review test/Longersum",
     "YEAR 3/Indust Project/Lit review test.zip",
     "YEAR 3/Indust Project/Lit review test/Quick sum",
     "YEAR 3/Indust Project/Plan/Desiging.md",
