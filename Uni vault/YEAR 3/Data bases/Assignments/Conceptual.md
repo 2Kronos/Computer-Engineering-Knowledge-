@@ -1,45 +1,37 @@
-**Database Systems 3 – Part 4: Methodology – Conceptual ERD**
+**Key Relationships in the ERD**
 
----
+#### **Management Hierarchy:**
 
-**(a) Supervises:**  
-A `Supervisor (a)`  supervises `Staff (b)` members therefore creating a creating a 1:M relationship. This shows that senior staff oversee or manage the work of other staff.
+- (a) Supervisors manage and oversee their team of employees within the company.
 
-**(b) Registers:**  
-A `Staff` member registers a `Client`. This means staff are responsible for enrolling new clients in the system.
+#### **Staff Operations:**
 
-**(c) Owns:**  
-An `Owner` owns a `PropertyForRent`. This shows the ownership link between landlords and the rental properties they offer.
+- (b) When potential renters visit the office, staff register them as new clients in the database.
+  
+- (c) Staff can identify the property owner for any rental they are responsible for.
+  
+- (d) Each staff member is given responsibility for overseeing particular rental properties.
+  
+- (e) Staff can see which potential tenants have expressed interest in viewing specific properties.
+  
+- (f) Staff have access to rental contracts for the properties under their management.
+  
+- (g) Property owners can identify which employee is responsible for managing their rental.
+  
+- (m) Staff can access and modify client rental preferences and requirements.
 
-**(d) Manages:**  
-A `Staff` member manages a `PropertyForRent`. This means staff are assigned responsibility for managing properties on behalf of the agency.
+#### **Client-Property Relations:**
 
-**(e) Registers:**  
-A `Staff` member registers a `PropertyForRent`. This shows that staff add new property listings to the database.
+- (h) Prospective tenants can tour and inspect available rental properties.
+  
+- (i) The database records all individuals who have toured each property.
 
-**(f) Manages:**  
-A repeat pathway showing that `Staff` members are responsible for managing properties — reinforcing that multiple properties can be managed by one staff member.
+#### **Ownership Records:**
 
-**(g) Owns:**  
-Shows that an `Owner` can own multiple `PropertyForRent` records. This complements pathway (c) and reflects that owners can have more than one rental property.
+- (k) The system allows users to identify the renter associated with any lease agreement.
 
-**(h) Views:**  
-A `Client` views a `PropertyForRent`. This pathway shows that clients can express interest by viewing properties.
+#### **Rental Agreements:**
 
-**(i) Views:**  
-A `PropertyForRent` can be viewed by many `Clients`. This is the other side of the viewing relationship — one property may be viewed by multiple potential renters.
-
-**(j) Holds:**  
-A `Client` holds a `Lease`. This means that a client has signed a lease agreement for a property.
-
-**(k) AssociatedWith:**  
-A `Lease` is associated with a `PropertyForRent`. This records which property the lease agreement refers to.
-
-**(l) AssociatedWith:**  
-A `PropertyForRent` is associated with a `Lease`. This shows that a property can have one or more leases tied to it over time.
-
-**(m) States:**  
-A `Client` states a `Preference`. This records what a client is looking for in a property, such as type, location, or features.
-
-**(m) States:**  
-The `Preference` is linked back to the `Client` who made it. This shows that preferences belong to specific clients.
+- (j) Current renters can view their active rental contracts.
+  
+- (l) Users can retrieve all rental agreements associated with a particular property.
