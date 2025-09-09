@@ -20,7 +20,7 @@ Motors require high amount of current and voltage. As we will see on example 1, 
 
 1. Extras
 - The Variances that he lightly mentioned were, Use a potentiometer to increase the speed of the motor, if possible, have a design where you implement this, this could be extracted and re-implemented from example 3.
-![[Pasted image 20250901000944.png]]
+![`Pasted image 20250901000944.png`](images/`Pasted image 20250901000944.png`)
 # 13.1 
 
 # Circuit link

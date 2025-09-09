@@ -1,5 +1,10 @@
-# Binary counter software 
+# Binary counting with AND OPERATOR (&) 
 
+# Circuit link
+https://www.tinkercad.com/things/bGVro3vONgH-1421
+# Code
+
+# Notes 
 
 ### 1. The Operator: `&` (Bitwise AND)
 
@@ -92,7 +97,21 @@ The `&` operator is like a native Spanish speaker. It only understands the "Span
 
 You, the programmer, can *think* and *write* in decimal, but the computer *operates* in binary. The `&` operator is a direct window into that binary-level operation.
 
+---
+
+# 14.2 Using loops
+
+# Circuit link
+
+
+# Code
+
 # 14.3 Using nested loops
+
+# Circuit link
+
+
+# Code
 
 
 ```C++
@@ -110,6 +129,8 @@ void loop()
     }
 }
 ```
+
+# Notes 
 
 We have three loops, each controlling one LED:
 *   **Inner loop:** `oneCount` controls **Pin 2** (Least Significant Bit - 1s place)
@@ -169,3 +190,11 @@ This sequence of nested loops causes the three LEDs to count upward in binary fr
 |  6   |  101   |    5    |       I, O, I        |
 |  7   |  110   |    6    |       I, I, O        |
 |  8   |  111   |    7    |       I, I, I        |
+
+----
+# 14.3 Recursion
+
+# Circuit link
+
+
+# Code

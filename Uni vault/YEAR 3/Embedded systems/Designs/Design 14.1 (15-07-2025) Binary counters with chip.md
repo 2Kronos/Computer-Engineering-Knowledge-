@@ -3,7 +3,7 @@
 
 # Chip counter
 
-![[Pasted image 20250909005315.png]]
+![`Pasted image 20250909005315.png`](images/`Pasted image 20250909005315.png`)
 ## 🔹 What is the 74HC93?
 
 The **74HC93** is a **4-bit binary ripple counter** (sometimes called a “divide-by-N counter”).

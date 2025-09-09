@@ -37,7 +37,7 @@
 *   **Goal:** Turn on a red LED only when the "5" button on the remote is pressed.
 *   **Circuit Setup:**
     *   **LED:** Anode (positive leg) connected to **Arduino Pin 10**. Cathode (negative leg) connected to GND through a **1 kΩ resistor** (used to limit current).
-      ![[Pasted image 20250901171707.png]]
+      ![`Pasted image 20250901171707.png`](images/`Pasted image 20250901171707.png`)
     *   **IR Receiver:**
         *   **Pin 1 (Output)** -> **Arduino Pin 7**
         *   **Pin 2 (GND)** -> **GND**
