@@ -4,6 +4,56 @@
 https://www.tinkercad.com/things/bGVro3vONgH-1421
 # Code
 
+```C++
+int count;
+int andCount;
+int toPower;
+int pinNum;
+
+void setup() {
+  pinMode(13, INPUT);
+  Serial.begin(9600);
+  for (int pin = 7; pin >= 2; pin--) {
+    pinMode(pin, OUTPUT);
+  }
+}
+
+void loop()
+{
+  	
+    for(count = 0; count < 16; count++) {
+	pinNum =2;
+      
+        andCount = count & 1;
+        if(andCount > 0){
+          digitalWrite(pinNum, HIGH);
+        }else{
+        	digitalWrite(pinNum, LOW);
+        }
+
+		pinNum++;
+         andCount = count & 2;
+        if(andCount > 0){
+          digitalWrite(pinNum, HIGH);
+        }else{
+        	digitalWrite(pinNum, LOW);
+        }
+      
+      pinNum++;
+         andCount = count & 4;
+        if(andCount > 0){
+          digitalWrite(pinNum, HIGH);
+        }else{
+        	digitalWrite(pinNum, LOW);
+        }
+      
+      delay(500);
+    }
+}
+
+
+```
+
 # Notes 
 
 ### 1. The Operator: `&` (Bitwise AND)
@@ -19,8 +69,6 @@ The `&` is the **bitwise AND** operator. It works directly on the binary (base-2
 |    0    |    1    |       0        |
 |    1    |    0    |       0        |
 |    1    |    1    |       1        |
-
----
 
 ### 2. The Operation: `count & 1`
 
@@ -66,8 +114,8 @@ if(andCount > 0) {    // If andCount is 1 (true)...
 
 ----
 
-That's an excellent question, and it gets to the very heart of how computers work.
-
+ ## What does the operator even do?
+ 
 The short answer is: **No, the `&` operator does not "change" `count` into binary.** The computer is *already* storing the value of `count` in binary form internally.
 
 ### The Longer Explanation:
@@ -103,8 +151,12 @@ You, the programmer, can *think* and *write* in decimal, but the computer *opera
 
 # Circuit link
 
-
+https://www.tinkercad.com/things/lPXMmrab8DS-1422
 # Code
+
+
+----
+
 
 # 14.3 Using nested loops
 
