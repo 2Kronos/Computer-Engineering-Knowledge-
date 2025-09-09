@@ -20,14 +20,12 @@ Motors require high amount of current and voltage. As we will see on example 1, 
 
 1. Extras
 - The Variances that he lightly mentioned were, Use a potentiometer to increase the speed of the motor, if possible, have a design where you implement this, this could be extracted and re-implemented from example 3.
-
+![[Pasted image 20250901000944.png]]
 # 13.1 
 
 # Circuit link
 
-https://www.tinkercad.com/things/gv6UXk1itLA-131
-# Code
-
+https://www.tinkercad.com/things/cIqch0RjVyc-131
 # Notes
 
 - The`L293D
@@ -56,26 +54,25 @@ The **L293D** is a **dual H-bridge motor driver** that allows an Arduino to cont
 
 ### **Motor A (Pins 2,3,6,7)
 
-- If you are using loops remember that the configuration below is for max speed so the closer they get to this configuration the faster they become 
-- Example
-
+# Code
 ```
 //
-int speed;
+
 void setup()
 {
 
-  pinMode(3, OUTPUT);//input 2
-  pinMode(7, OUTPUT);//input 1
+   // Set direction control pins as OUTPUT
+  pinMode(3, OUTPUT);  // Input 2 - Direction control
+  pinMode(7, OUTPUT);  // Input 1 - Direction control
+  pinMode(9, OUTPUT);  // Enable pin to control speed
 }
 
 void loop()
 {
-  digitalWrite(7, HIGH);
-  for(speed = 255; speed<-1; speed++){
-  analogWrite(3, speed);
-    delay(50);
-  }
+   digitalWrite(7, HIGH);
+  digitalWrite(3, LOW);
+  analogWrite(9, 255);  
+
   }
 ```
 - The loop will count down from 255 till 0 therefore getting closer the the `IN1=HIGH, IN2=LOW` configuration
@@ -90,14 +87,15 @@ void loop()
   }
 ```
 - The loop will count down from 0 till 255 therefore getting further away from the the `IN1=HIGH, IN2=LOW` configuration
+### **Motor A (Pins 2,7,3,6)**
 
-| **Pin** | **Name** | **Purpose**                           | **Truth Table**               |     |
-| ------- | -------- | ------------------------------------- | ----------------------------- | --- |
-| **2**   | Input 1  | Controls Motor A direction (HIGH/LOW) | `IN1=HIGH, IN2=LOW` → Foward  |     |
-| **7**   | Input 2  | Controls Motor A direction (HIGH/LOW) | `IN1=LOW, IN2=HIGH` → reverse |     |
-| **3**   | Output 1 | Connects to Motor A’s **+ terminal**  | Motor A Wire (+)              |     |
-| **6**   | Output 2 | Connects to Motor A’s **- terminal**  | Motor A Wire (-)              |     |
-|         |          |                                       |                               |     |
+| **Pin** | **Name** | **Purpose**                           | **Truth Table**               |
+| ------- | -------- | ------------------------------------- | ----------------------------- |
+| **2**   | Input 1  | Controls Motor A direction (HIGH/LOW) | `IN1=HIGH, IN2=LOW` → Foward  |
+| **7**   | Input 2  | Controls Motor A direction (HIGH/LOW) | `IN1=LOW, IN2=HIGH` → reverse |
+| **3**   | Output 1 | Connects to Motor A’s **+ terminal**  | Motor A Wire (+)              |
+| **6**   | Output 2 | Connects to Motor A’s **- terminal**  | Motor A Wire (-)              |
+|         |          |                                       |                               |
 
 ### **Motor B (Pins 10,11,14,15)**
 | **Pin** | **Name** | **Purpose**                           | **Truth Table**               |
@@ -196,7 +194,35 @@ digitalWrite(EN1, LOW);   // Motor A stops
 
 https://www.tinkercad.com/things/7px9C8dFxZK-132
 # Code
+```C++
+int speed;
 
+void setup()
+{
+  // Set direction control pins as OUTPUT
+  pinMode(3, OUTPUT);  // Input 2 - Direction control
+  pinMode(7, OUTPUT);  // Input 1 - Direction control
+  pinMode(9, OUTPUT);  // Enable pin to control speed
+}
+
+void loop()
+{
+  // Set direction: Forward (IN1=HIGH, IN2=LOW)
+  digitalWrite(7, HIGH);
+  digitalWrite(3, LOW);
+  
+  // Gradually increase speed
+  for(speed = 0; speed < 255; speed++) {
+    analogWrite(9, speed);  // Control speed with PWM
+    delay(30);              // Shorter delay for smoother acceleration
+  }
+  
+  // Brief pause at max speed
+  delay(1000);
+  
+
+}
+```
 # Notes
 
 ---
@@ -204,10 +230,48 @@ https://www.tinkercad.com/things/7px9C8dFxZK-132
 
 # Circuit link
 
-https://www.tinkercad.com/things/0qir0zW9Wla-133
+https://www.tinkercad.com/things/5gO2i1Nb1FD-133
+
 # Code
 
-# Notes
+```C++
+int speed;
+
+void setup()
+{
+  // Set direction control pins as OUTPUT
+  pinMode(3, OUTPUT);  // Input 2 - Direction control
+  pinMode(7, OUTPUT);  // Input 1 - Direction control
+  pinMode(9, OUTPUT);  // Enable pin to control speed
+}
+
+void loop()
+{
+  // Set direction: Forward (IN1=HIGH, IN2=LOW)
+  digitalWrite(7, HIGH);
+  digitalWrite(3, LOW);
+  
+  // Gradually increase speed
+  for(speed = 0; speed < 255; speed++) {
+    analogWrite(9, speed);  // Control speed with PWM
+    delay(30);              // Shorter delay for smoother acceleration
+  }
+  
+  // Brief pause at max speed
+  delay(1000);
+  
+ // Gradually decrease speed
+  for(speed = 255; speed >= 0; speed--) {
+    analogWrite(9, speed);
+    delay(30);
+  }
+  
+  // Brief pause before restarting
+  delay(1000);
+
+}
+```
+
 
 ---
 
@@ -215,62 +279,69 @@ https://www.tinkercad.com/things/0qir0zW9Wla-133
 # 13.4 both directions increase and decrease slowly
 # Circuit link
 
-https://www.tinkercad.com/things/2xDkZ4ufGtX-134
+https://www.tinkercad.com/things/7olVpInhmTq-134
 # Code
 
 ```
-// C++ code
-//
 int speed;
+
 void setup()
 {
-
-  pinMode(3, OUTPUT);
-  pinMode(7, OUTPUT);
+  // Set direction control pins as OUTPUT
+  pinMode(3, OUTPUT);  // Input 2 - Direction control
+  pinMode(7, OUTPUT);  // Input 1 - Direction control
+  pinMode(9, OUTPUT);  // Enable pin to control speed
 }
 
 void loop()
 {
+  // FIRST DIRECTION (Forward: IN1=HIGH, IN2=LOW)
+  digitalWrite(7, HIGH);
+  digitalWrite(3, LOW);
+  
+  // Gradually increase speed in forward direction
+  for(speed = 0; speed < 255; speed++) {
+    analogWrite(9, speed);
+    delay(30);
+  }
+  
+  // Brief pause at max forward speed
+  delay(500);
+  
+  // Gradually decrease speed in forward direction
+  for(speed = 255; speed >= 0; speed--) {
+    analogWrite(9, speed);
+    delay(30);
+  }
+  
+  // Brief pause before changing direction
+  delay(1000);
+  
+  // SECOND DIRECTION (Reverse: IN1=LOW, IN2=HIGH)
   digitalWrite(7, LOW);
-  for(speed = 0; speed< 255; speed++){
-  analogWrite(3, speed);
-    delay(50);
+  digitalWrite(3, HIGH);
+  
+  // Gradually increase speed in reverse direction
+  for(speed = 0; speed < 255; speed++) {
+    analogWrite(9, speed);
+    delay(30);
   }
   
-   //digitalWrite(7, LOW);
-  for(speed = 255; speed>0; speed--){
-  analogWrite(3, speed);
-    delay(50);
+  // Brief pause at max reverse speed
+  delay(500);
+  
+  // Gradually decrease speed in reverse direction
+  for(speed = 255; speed >= 0; speed--) {
+    analogWrite(9, speed);
+    delay(30);
   }
   
-   digitalWrite(7, HIGH);
-  
-  for(speed = 255; speed>0; speed--){
-  analogWrite(3, speed);
-    delay(50);
-  }
-  
-  for(speed = 0; speed< 255; speed++){
-  analogWrite(3, speed);
-    delay(50);
-  }
- 
+  // Brief pause before restarting the cycle
+  delay(500);
 }
 ```
 
 # Notes
-
----
-
-
-# 13.5 #  both motors increase and decrease simultaneously
-# Circuit link
-https://www.tinkercad.com/things/9YArOxDP8qf-135
-# Code
-
-# Notes
-
----
 
 ## Scope
 - He said know everything up to this far.

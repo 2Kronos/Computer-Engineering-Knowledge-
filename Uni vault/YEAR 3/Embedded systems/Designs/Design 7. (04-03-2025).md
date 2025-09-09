@@ -104,7 +104,7 @@ void loop()
 
 ## **Notes** 
 
-Yes — in the **74HC595 shift register**, the **Output Register Clock** (often called **RCLK** or **STCP**) controls when the data in the internal shift register is **copied to the output pins (Q0–Q7)**.
+the **74HC595 shift register**, the **Output Register Clock** (often called **RCLK** or **STCP**) controls when the data in the internal shift register is **copied to the output pins (Q0–Q7)**.
 
 Here’s how it works:
 
@@ -125,8 +125,7 @@ Here’s how it works:
 
 So, **RCLK controls when the outputs update**. This allows you to load new data in the background without changing the outputs until you’re ready.
 
-✅ Summary:  
-Yes — the Output Register Clock (RCLK/STCP) controls when the data in the shift register is copied to the output pins. Without pulsing it, the outputs will keep showing the previous latched values, even if you shift in new data.
+
 
 ----
 # 7.2.1 Switch only the first 4 LEDs

@@ -1,6 +1,4 @@
 
-Here are the key coding concepts and reusable code snippets extracted from your Arduino designs:
-
 ---
 
 	### **1. Random Number Generation**

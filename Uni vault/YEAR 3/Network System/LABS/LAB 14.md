@@ -206,4 +206,9 @@ If BGP session doesn't establish:
 This setup maintains your existing VirtualBox-based VyOS routers while adding the OpenDaylight controller as a separate VM that connects to your GNS3 topology through the VirtualBox host-only network.
 
 
+<u> Configure a new protocol  </u>
 
+Here in the body you must replace it with your IP
+Take the post start a new and click + and then change the verb to post
+- Go to the body paste in by postman by the body 
+- Save it and the name will change
