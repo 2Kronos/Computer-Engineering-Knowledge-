@@ -1,3 +1,4 @@
+# 14.2.1
 # Binary counting with AND OPERATOR (&) 
 
 # Circuit link
@@ -147,7 +148,7 @@ You, the programmer, can *think* and *write* in decimal, but the computer *opera
 
 ---
 
-# 14.2 Using loops
+# 14.2.2 Using loops
 
 # Circuit link
 
@@ -158,15 +159,30 @@ https://www.tinkercad.com/things/lPXMmrab8DS-1422
 ----
 
 
-# 14.3 Using nested loops
+# 14.2.3 Using nested loops
 
 # Circuit link
-
+https://www.tinkercad.com/things/dFMrW9f25iU-1423
 
 # Code
 
 
 ```C++
+int count;
+int andCount;
+int toPower;
+int pinNum;
+int inner;
+int oneCount, twoCount, threeCount, fourCount;
+
+void setup() {
+  pinMode(13, INPUT);
+  Serial.begin(9600);
+  for (int pin = 7; pin >= 2; pin--) {
+    pinMode(pin, OUTPUT);
+  }
+}
+
 void loop()
 {
     for(threeCount = 0; threeCount < 2; threeCount++) {
@@ -180,6 +196,7 @@ void loop()
         }
     }
 }
+
 ```
 
 # Notes 
@@ -244,9 +261,116 @@ This sequence of nested loops causes the three LEDs to count upward in binary fr
 |  8   |  111   |    7    |       I, I, I        |
 
 ----
-# 14.3 Recursion
+# 14.2.4 Recursion
 
 # Circuit link
-
-
+https://www.tinkercad.com/things/94rIS3WS8QL-1424
 # Code
+```C++
+int count;
+int andCount;
+int toPower;
+int pinNum;
+int inner;
+int oneCount, twoCount, threeCount, fourCount;
+
+void setup() {
+  pinMode(13, INPUT);
+  Serial.begin(9600);
+  for (int pin = 7; pin >= 2; pin--) {
+    pinMode(pin, OUTPUT);
+  }
+}
+
+void loop()
+{
+recursion_1(2);
+}
+
+void recursion_1(int pinNum) {
+    int twoCount;
+    for(twoCount = 0; twoCount < 2; twoCount++) {
+        digitalWrite(pinNum, twoCount);
+        if(pinNum < 4) {
+            recursion_1(pinNum + 1);
+        } else {
+            delay(1000);
+        }
+    }
+}
+```
+# Notes
+
+Imagine the recursive function is a **team of workers**, each assigned to one light switch (pin). Their goal is to show every possible combination of the lights being ON (1) or OFF (0).
+
+*   **Worker A** is in charge of **Pin 2**
+*   **Worker B** is in charge of **Pin 3**
+*   **Worker C** is in charge of **Pin 4**
+
+The rule is simple: **A worker can only flip their own switch after the worker to their right has finished showing every possible combination for the current switch position.**
+
+---
+
+### Step-by-Step Walkthrough (The "Worker" Analogy)
+
+**Step 1: Starting the Process**
+*   The boss (`loop()`) tells Worker A: "Start with Pin 2".
+
+**Step 2: Worker A's First Move (Pin 2 = 0)**
+*   Worker A sets his switch (Pin 2) to **0** (OFF).
+*   He then tells the next worker (B): "Your turn! Show me every combination for Pin 3 and Pin 4 **while I hold my switch at 0**."
+
+**Step 3: Worker B's First Move (Pin 3 = 0)**
+*   Worker B sets his switch (Pin 3) to **0** (OFF).
+*   He then tells the next worker (C): "Your turn! Show me every combination for Pin 4 **while I hold my switch at 0**."
+
+**Step 4: Worker C's Job (Pin 4)**
+*   Worker C is the last worker. He doesn't need to hand off the task.
+*   He sets his switch (Pin 4) to **0** (OFF). **→ Combination: 0 0 0**
+*   He waits 1 second (`delay(1000)`) so we can see this number.
+*   He then sets his switch (Pin 4) to **1** (ON). **→ Combination: 0 0 1**
+*   He waits 1 second. He has now shown both possibilities for his switch (0 and 1).
+*   His job is done. He reports back to Worker B: "I'm finished!"
+
+**Step 5: Worker B's Second Move (Pin 3 = 1)**
+*   Worker B hears that Worker C is finished. This means he has shown all combinations for his *current* switch position (0).
+*   So, he now flips his *own* switch (Pin 3) to **1** (ON).
+*   He again tells Worker C: "Your turn again! Show me every combination for Pin 4 **while I hold my switch at 1**."
+
+**Step 6: Worker C's Job Again (Pin 4)**
+*   Worker C obediently starts over.
+*   He sets his switch (Pin 4) to **0** (OFF). **→ Combination: 0 1 0**
+*   He waits 1 second.
+*   He sets his switch (Pin 4) to **1** (ON). **→ Combination: 0 1 1**
+*   He waits 1 second. His job is done again. He reports back to Worker B.
+
+**Step 7: Worker B is Finished**
+*   Worker B has now shown all combinations for *his* switch (both 0 and 1) **while Worker A's switch was held at 0**.
+*   His job is done. He reports back to Worker A: "I'm finished!"
+
+**Step 8: Worker A's Second Move (Pin 2 = 1)**
+*   Worker A hears that Worker B is finished. This means he has shown all combinations for his *current* switch position (0).
+*   So, he now flips his *own* switch (Pin 2) to **1** (ON).
+*   He tells Worker B: "Your turn again! Show me every combination for Pins 3 and 4 **while I hold my switch at 1**."
+
+**Steps 9-12: The Cycle Repeats**
+*   Worker B and C now do their exact same dance again, but this time **with Pin 2 always ON**.
+    *   Worker B sets Pin 3 to 0, Worker C shows 0 and 1. **→ Combinations: 1 0 0 and 1 0 1**
+    *   Worker B sets Pin 3 to 1, Worker C shows 0 and 1. **→ Combinations: 1 1 0 and 1 1 1**
+
+### The Final Result (The Binary Count)
+
+By following this recursive process, the workers automatically generate all 8 possible binary numbers in perfect order:
+
+| Step | Pin 2 | Pin 3 | Pin 4 | Binary Number | Decimal |
+| :--: | :---: | :---: | :---: | :-----------: | :-----: |
+|  1   |   0   |   0   |   0   |      000      |    0    |
+|  2   |   0   |   0   |   1   |      001      |    1    |
+|  3   |   0   |   1   |   0   |      010      |    2    |
+|  4   |   0   |   1   |   1   |      011      |    3    |
+|  5   |   1   |   0   |   0   |      100      |    4    |
+|  6   |   1   |   0   |   1   |      101      |    5    |
+|  7   |   1   |   1   |   0   |      110      |    6    |
+|  8   |   1   |   1   |   1   |      111      |    7    |
+
+**In your original code,** there are just more "workers" (for pins 5, 6, and 7), so it counts all the way from `000000` (0) to `111111` (63) before starting over. The `delay(1000)` only happens on the final pin (Worker G for Pin 7), which is why each number is displayed for a full second.
