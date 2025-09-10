@@ -288,7 +288,7 @@ if(input[1] == 'F'){  // 'F' is automatically converted to its ASCII value (70)
 
 -----
 
-
+# 12. 7
 # CIRCUIT LINK 
 
 # CODE
@@ -300,7 +300,7 @@ if(input[1] == 'F'){  // 'F' is automatically converted to its ASCII value (70)
 
 -----
 
-
+# 12. 8
 
 # CIRCUIT LINK 
 
