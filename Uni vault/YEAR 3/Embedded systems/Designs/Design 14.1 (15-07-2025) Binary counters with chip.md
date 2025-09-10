@@ -1,9 +1,9 @@
 
 # 2023
 
-# Chip counter
+# Theory Chip counter
 
-![`Pasted image 20250909005315.png`](images/`Pasted image 20250909005315.png`)
+
 ## 🔹 What is the 74HC93?
 
 The **74HC93** is a **4-bit binary ripple counter** (sometimes called a “divide-by-N counter”).
@@ -257,7 +257,23 @@ Imagine the input clock is a metronome ticking 16 times.
 This is why it's such a useful chip for slowing down digital signals!
 
 
-----
+# Circuit link 
 
-# 14.2 4 bit counter 
+https://www.tinkercad.com/things/8VAII1RfjvN-141
 
+```C++
+// C++ code
+//
+void setup()
+{
+  pinMode(12, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(12, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(12, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
+```
