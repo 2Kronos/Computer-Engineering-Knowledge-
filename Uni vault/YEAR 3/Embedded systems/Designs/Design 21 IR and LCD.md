@@ -199,7 +199,7 @@ void loop{
 
 -----
 
-# 21.5 switching on LED using infrared typing.
+# 21.5 switching ON LED using infrared typing.
 
 
 # CIRCUIT LINK 
@@ -238,19 +238,53 @@ void  testForOn(int input[]){
 
 -----
 
-
-
+# 12.6 switching OFF LED using infrared typing.
 
 # CIRCUIT LINK 
 
-# CODE
+https://www.tinkercad.com/things/5aG7ch5ZbTo-216
+
+# NEW CODE
 
 ```
-void setUp{}
-void loop{}
+void  testForOFF(int input[]){
+  //Serial.write(input[0]);
+   // Serial.print(" ");
+  //Serial.println(input[0]);
+  
+  if(input[0] == 'O'){//Checking for o
+    if(input[1] == 'F'){//checking on
+      if(input[2] == 'F'){
+        digitalWrite(12, LOW);
+      }
+      
+    }
+  }
+  	
+}
 ```
 
 # NOTES
+
+In this code, you're comparing **int ASCII values to characters** using two different approaches that achieve the same result:
+
+## **Method 1: Comparing with Decimal ASCII Values**
+```cpp
+if(input[0] == 79){  // 79 is decimal ASCII for 'O'
+if(input[1] == 78){  // 78 is decimal ASCII for 'N'
+```
+
+## **Method 2: Comparing with Character Literals**  
+```cpp
+if(input[0] == 'O'){  // 'O' is automatically converted to its ASCII value (79)
+if(input[1] == 'F'){  // 'F' is automatically converted to its ASCII value (70)
+```
+
+## **How it works:**
+- When you compare `input[0] == 'O'`, the C++ compiler automatically converts the character `'O'` to its **integer ASCII value** (79)
+- So both `input[0] == 79` and `input[0] == 'O'` are **equivalent comparisons**
+- The character `'O'` is just a more readable way to represent the ASCII value 79
+
 
 -----
 
