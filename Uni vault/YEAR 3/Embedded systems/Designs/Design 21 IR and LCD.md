@@ -75,7 +75,6 @@ void loop() {
 # CIRCUIT LINK 
 
 https://www.tinkercad.com/things/aEU5HGgRWnC-design-212
-
 # CODE
 
 ```C++
@@ -152,10 +151,11 @@ void loop() {
 
 -----
 
-# 12.3 # Answer print out empty char array after each press
+# 21.3 # Answer print out empty char array after each press
 
 
 # CIRCUIT LINK 
+https://www.tinkercad.com/things/7JhDXcO2Trb-213
 
 # CODE
 
@@ -181,6 +181,8 @@ So if your array `ourChar` contains ASCII codes (like 100 = 'd', 65 = 'A', etc.)
 # 21. 4 Put the character that you display on the LCD onto the serial monitor
 # CIRCUIT LINK 
 
+https://www.tinkercad.com/things/6FJR954xJQ5-214
+
 # CODE
 
 ```
@@ -201,6 +203,7 @@ void loop{
 
 
 # CIRCUIT LINK 
+https://www.tinkercad.com/things/ctOkAHNiVVb-215
 
 # NEW CODE
 
