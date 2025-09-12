@@ -25,11 +25,10 @@
 # **5. "Guess the Number" IR Game**
 
 - **Task:** The Arduino randomly selects a number between 0 and 9. Using the IR remote, the user must guess the number. The LCD provides feedback: "Too High!", "Too Low!", or "Correct!". Use the number buttons on the remote for input.
-
- # **6 LCD Progress Bar**
+# **6 LCD Progress Bar**
 
 - **Task:** Instead of just numbers, create a visual progress bar on the second line of the LCD that fills up as a software counter increments. For example, as a counter goes from 0 to 16, the LCD should show "[=====> ]". The IR VOL+ and VOL- buttons should control the counter and thus the progress bar
 
-# **6. State Machine: Combination Lock**
+# **7. State Machine: Combination Lock**
 
 - **Task:** Create a 3-digit combination lock using the IR remote and LCD. The correct code is, for example, 4-2-7. The user enters digits using the remote number keys. The LCD shows "Enter Code:" and then the digits as they are entered (e.g., "4", "42", "427"). If the full code is correct, light a green LED. If any digit is wrong, reset the entry and light a red LED.
