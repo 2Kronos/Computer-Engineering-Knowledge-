@@ -3,7 +3,6 @@
 
 # Theory Chip counter
 
-
 ## 🔹 What is the 74HC93?
 
 The **74HC93** is a **4-bit binary ripple counter** (sometimes called a “divide-by-N counter”).
@@ -11,8 +10,6 @@ The **74HC93** is a **4-bit binary ripple counter** (sometimes called a “divid
 - It takes in a clock pulse and counts in **binary** (0, 1, 2, 3… up to 15, then wraps around).
     
 - “Ripple counter” means each flip-flop inside the chip triggers the next one, so the output bits don’t all change at exactly the same time.
-    
-
 ### **74HC93 / 74LS93 Notes: The Divide-by-16 Counter**
 
 #### **1. Core Function**

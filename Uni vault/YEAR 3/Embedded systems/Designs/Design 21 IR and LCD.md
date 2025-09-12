@@ -277,7 +277,7 @@ if(input[1] == 78){  // 78 is decimal ASCII for 'N'
 ## **Method 2: Comparing with Character Literals**  
 ```cpp
 if(input[0] == 'O'){  // 'O' is automatically converted to its ASCII value (79)
-if(input[1] == 'F'){  // 'F' is automatically converted to its ASCII value (70)
+	if(input[1] == 'F'){  // 'F' is automatically converted to its ASCII value (70)
 ```
 
 ## **How it works:**

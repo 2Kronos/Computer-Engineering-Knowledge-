@@ -13,26 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Designs/Design 14.1 (15-07-2025) Binary counters with chip.md",
+                "file": "YEAR 3/Embedded systems/Test/Test 3 Prep/Checklist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design 14.1 (15-07-2025) Binary counters with chip"
+              "title": "Checklist"
             }
           },
           {
-            "id": "3e59485cefd710af",
+            "id": "22d238e172d3bfd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Designs/Design 14.1 (15-07-2025) Binary counters with chip.md",
+                "file": "YEAR 3/Embedded systems/Test/Test 3 Prep/Practice questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design 14.1 (15-07-2025) Binary counters with chip"
+              "title": "Practice questions"
+            }
+          },
+          {
+            "id": "c145e77a4301ab5a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -215,35 +225,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e59485cefd710af",
+  "active": "22d238e172d3bfd5",
   "lastOpenFiles": [
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 1.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Practice questions.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 2.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 4.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 3.md",
     "YEAR 3/Embedded systems/Test/Test 3 Prep/Checklist.md",
     "YEAR 3/Embedded systems/Designs/Design 14.1 (15-07-2025) Binary counters with chip.md",
     "YEAR 3/Embedded systems/Designs/Design 14.2.1.md",
-    "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
-    "YEAR 3/Embedded systems/Designs/Design 21 IR and LCD.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 1.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 4.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 2.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 3.md",
+    "Glorify.md",
     "YEAR 3/Embedded systems/Designs/Design 18(05-08-2025) infrared TX RX.md",
     "YEAR 3/Embedded systems/Designs/Design 17(Temperature and Humidity Sensor 12-08-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 16(29-07-2025) servo Motors.md",
+    "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
     "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 20(26-08-2025) Touch screens.md",
-    "YEAR 3/Embedded systems/Designs/Design 15(22-07-2025) stepper Motors.md",
+    "YEAR 3/Embedded systems/Designs/Design 21 IR and LCD.md",
+    "YEAR 3/Embedded systems/Designs/Design 16(29-07-2025) servo Motors.md",
     "YEAR 3/Embedded systems/Designs/Design 19(19-08-2025) Interrupt functions.md",
+    "YEAR 3/Embedded systems/Designs/Design 20(26-08-2025) Touch screens.md",
+    "YEAR 3/Embedded systems/Designing Embedded Systems with Arduino A Fundamental Technology for Makers.pdf",
+    "YEAR 3/Embedded systems/Project/STAGE 1/1.4 Final Simulation.md",
+    "YEAR 3/Embedded systems/Project/STAGE 1/Theory Instructions.md",
+    "YEAR 3/Embedded systems/Project/STAGE 1/1.1 The Pot.md",
+    "YEAR 3/Embedded systems/Designs/Design 15(22-07-2025) stepper Motors.md",
     "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
     "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025 Interrupts.md",
     "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
-    "Design 14.2.md",
     "images/Pasted image 20250909005315.png",
-    "YEAR 2/Digital systems/Prac/Untitled.md",
-    "YEAR 2/Digital systems/Prac/Prac 6.md",
-    "YEAR 2/Digital systems/Prac/Digits Prac5.md",
-    "YEAR 2/Digital systems/Prac/Digits Prac/Pracs/Prac test.md",
     "YEAR 2/Digital systems/Prac/Digits Prac/Pasted image 20241010104858.png",
     "YEAR 2/Digital systems/Prac/Digits Prac/Pasted image 20241010104048.png",
     "YEAR 2/Digital systems/Prac/Digits Prac/Pasted image 20241010045244.png",
@@ -258,7 +269,6 @@
     "YEAR 3/Embedded systems/Project/STAGE 3",
     "YEAR 3/Embedded systems/Project/STAGE 2",
     "YEAR 3/Embedded systems/Project/STAGE 1",
-    "YEAR 3/Embedded systems/Designing Embedded Systems with Arduino A Fundamental Technology for Makers.pdf",
     "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Emb Sys Mock Test 2 USDS alarm system.pdf",
     "YEAR 3/Embedded systems/Designs/Untitled",
     "YEAR 3/Embedded systems/Untitled",
