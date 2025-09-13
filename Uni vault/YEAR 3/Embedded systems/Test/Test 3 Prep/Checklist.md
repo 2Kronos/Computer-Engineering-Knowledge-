@@ -17,13 +17,13 @@
 
 # 4. Binary CountersZ
 - [x] Know how to wire LEDs to visualize the binary output of a counter.  
-- [ ] Know how to generate clock pulses from an Arduino to drive a hardware counter.  
+- [x] Know how to generate clock pulses from an Arduino to drive a hardware counter.  
 - [x] Know how to implement a software binary counter within Arduino code and display its value.  
 
 # 5. LCD Displays
 - [x] Know how to display static text (e.g., “Hello World!”) on the LCD.  
 - [x] Know how to set the cursor position and display text or numbers at specific locations on the LCD.  
-- [ ] Know how to clear the LCD and update its content dynamically.  
+- [x] Know how to clear the LCD and update its content dynamically.  
 - [x] Know how to display values received from an IR remote on the LCD.  
 - [ ] Know how to display the current count of a binary counter (software or hardware) on the LCD.  
 

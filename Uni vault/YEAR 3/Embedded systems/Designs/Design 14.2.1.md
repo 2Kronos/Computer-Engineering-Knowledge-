@@ -154,7 +154,43 @@ You, the programmer, can *think* and *write* in decimal, but the computer *opera
 
 https://www.tinkercad.com/things/lPXMmrab8DS-1422
 # Code
+```C++
+int count;
+int andCount;
+int toPower;
+int pinNum;
+int inner;
 
+void setup() {
+  pinMode(13, INPUT);
+  Serial.begin(9600);
+  for (int pin = 7; pin >= 2; pin--) {
+    pinMode(pin, OUTPUT);
+  }
+}
+
+void loop()
+{
+    for(count = 0; count < 16; count++) {
+        pinNum = 2;
+        toPower = 1;
+        
+        for(inner = 0; inner < 6; inner++) {
+            andCount = count & toPower;
+            if(andCount > 0) {
+                digitalWrite(pinNum, HIGH);
+            } else {
+                digitalWrite(pinNum, LOW);
+            }
+            pinNum++;
+            toPower = toPower * 2;
+        }
+        delay(500);
+    }
+}
+
+
+```
 
 ----
 
@@ -216,34 +252,34 @@ Let's trace the program's execution. Remember, the inner loop completes all its 
 
 **Initial State:** `threeCount = 0`, `twoCount = 0`, `oneCount = 0`
 
-| # | threeCount (Pin 4) | twoCount (Pin 3) | oneCount (Pin 2) | Action                                                                                             | Binary Display (4,3,2) | Decimal Value |
-|:-:|:------------------:|:----------------:|:----------------:|:---------------------------------------------------------------------------------------------------|:----------------------:|:-------------:|
-| 1 |         0          |        0         |        0         | `digitalWrite(4, 0); digitalWrite(3, 0); digitalWrite(2, 0);` → All LEDs **OFF**                  |         `0 0 0`        |       0       |
-|   |         0          |        0         |        0         | `delay(400);`                                                                                      |                        |               |
-| 2 |         0          |        0         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                                |         `0 0 1`        |       1       |
-|   |         0          |        0         |        1         | `delay(400);`                                                                                      |                        |               |
-|   |         0          |        0         |        -         | **Inner loop ends** (`oneCount < 2` is false). Returns to **middle loop**.                         |                        |               |
-| 3 |         0          |        1         |        0         | **Middle loop increments.** `digitalWrite(3, 1);` → Pin 3 LED **ON**. Inner loop resets.           |         `0 1 0`        |       2       |
-|   |         0          |        1         |        0         | `digitalWrite(2, 0);` → Pin 2 LED **OFF**                                                          |                        |               |
-|   |         0          |        1         |        0         | `delay(400);`                                                                                      |                        |               |
-| 4 |         0          |        1         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                                |         `0 1 1`        |       3       |
-|   |         0          |        1         |        1         | `delay(400);`                                                                                      |                        |               |
-|   |         0          |        1         |        -         | **Inner loop ends**. Returns to **middle loop**.                                                   |                        |               |
-|   |         0          |        -         |        -         | **Middle loop ends** (`twoCount < 2` is false). Returns to **outer loop**.                         |                        |               |
-| 5 |         1          |        0         |        0         | **Outer loop increments.** `digitalWrite(4, 1);` → Pin 4 LED **ON**. Middle & inner loops reset.   |         `1 0 0`        |       4       |
-|   |         1          |        0         |        0         | `digitalWrite(3, 0); digitalWrite(2, 0);` → Pins 3 & 2 **OFF**                                    |                        |               |
-|   |         1          |        0         |        0         | `delay(400);`                                                                                      |                        |               |
-| 6 |         1          |        0         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                                |         `1 0 1`        |       5       |
-|   |         1          |        0         |        1         | `delay(400);`                                                                                      |                        |               |
-|   |         1          |        0         |        -         | **Inner loop ends**. Returns to **middle loop**.                                                   |                        |               |
-| 7 |         1          |        1         |        0         | **Middle loop increments.** `digitalWrite(3, 1);` → Pin 3 LED **ON**. Inner loop resets.           |         `1 1 0`        |       6       |
-|   |         1          |        1         |        0         | `digitalWrite(2, 0);` → Pin 2 LED **OFF**                                                          |                        |               |
-|   |         1          |        1         |        0         | `delay(400);`                                                                                      |                        |               |
-| 8 |         1          |        1         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                                |         `1 1 1`        |       7       |
-|   |         1          |        1         |        1         | `delay(400);`                                                                                      |                        |               |
-|   |         1          |        1         |        -         | **Inner loop ends**. Returns to **middle loop**.                                                   |                        |               |
-|   |         1          |        -         |        -         | **Middle loop ends**. Returns to **outer loop**.                                                   |                        |               |
-|   |         -          |        -         |        -         | **Outer loop ends** (`threeCount < 2` is false). The entire `loop()` function restarts from 0.     |                        |               |
+|  #  | threeCount (Pin 4) | twoCount (Pin 3) | oneCount (Pin 2) | Action                                                                                           | Binary Display (4,3,2) | Decimal Value |
+| :-: | :----------------: | :--------------: | :--------------: | :----------------------------------------------------------------------------------------------- | :--------------------: | :-----------: |
+|  1  |         0          |        0         |        0         | `digitalWrite(4, 0); digitalWrite(3, 0); digitalWrite(2, 0);` → All LEDs **OFF**                 |        `0 0 0`         |       0       |
+|     |         0          |        0         |        0         | `delay(400);`                                                                                    |                        |               |
+|  2  |         0          |        0         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                              |        `0 0 1`         |       1       |
+|     |         0          |        0         |        1         | `delay(400);`                                                                                    |                        |               |
+|     |         0          |        0         |        -         | **Inner loop ends** (`oneCount < 2` is false). Returns to **middle loop**.                       |                        |               |
+|  3  |         0          |        1         |        0         | **Middle loop increments.** `digitalWrite(3, 1);` → Pin 3 LED **ON**. Inner loop resets.         |        `0 1 0`         |       2       |
+|     |         0          |        1         |        0         | `digitalWrite(2, 0);` → Pin 2 LED **OFF**                                                        |                        |               |
+|     |         0          |        1         |        0         | `delay(400);`                                                                                    |                        |               |
+|  4  |         0          |        1         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                              |        `0 1 1`         |       3       |
+|     |         0          |        1         |        1         | `delay(400);`                                                                                    |                        |               |
+|     |         0          |        1         |        -         | **Inner loop ends**. Returns to **middle loop**.                                                 |                        |               |
+|     |         0          |        -         |        -         | **Middle loop ends** (`twoCount < 2` is false). Returns to **outer loop**.                       |                        |               |
+|  5  |         1          |        0         |        0         | **Outer loop increments.** `digitalWrite(4, 1);` → Pin 4 LED **ON**. Middle & inner loops reset. |        `1 0 0`         |       4       |
+|     |         1          |        0         |        0         | `digitalWrite(3, 0); digitalWrite(2, 0);` → Pins 3 & 2 **OFF**                                   |                        |               |
+|     |         1          |        0         |        0         | `delay(400);`                                                                                    |                        |               |
+|  6  |         1          |        0         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                              |        `1 0 1`         |       5       |
+|     |         1          |        0         |        1         | `delay(400);`                                                                                    |                        |               |
+|     |         1          |        0         |        -         | **Inner loop ends**. Returns to **middle loop**.                                                 |                        |               |
+|  7  |         1          |        1         |        0         | **Middle loop increments.** `digitalWrite(3, 1);` → Pin 3 LED **ON**. Inner loop resets.         |        `1 1 0`         |       6       |
+|     |         1          |        1         |        0         | `digitalWrite(2, 0);` → Pin 2 LED **OFF**                                                        |                        |               |
+|     |         1          |        1         |        0         | `delay(400);`                                                                                    |                        |               |
+|  8  |         1          |        1         |        1         | **Inner loop increments.** `digitalWrite(2, 1);` → Pin 2 LED **ON**                              |        `1 1 1`         |       7       |
+|     |         1          |        1         |        1         | `delay(400);`                                                                                    |                        |               |
+|     |         1          |        1         |        -         | **Inner loop ends**. Returns to **middle loop**.                                                 |                        |               |
+|     |         1          |        -         |        -         | **Middle loop ends**. Returns to **outer loop**.                                                 |                        |               |
+|     |         -          |        -         |        -         | **Outer loop ends** (`threeCount < 2` is false). The entire `loop()` function restarts from 0.   |                        |               |
 
 ### Summary
 
