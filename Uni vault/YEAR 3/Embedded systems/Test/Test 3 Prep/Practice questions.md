@@ -112,6 +112,124 @@ void loop()
   if (IrReceiver.decode()) {
     remoteIn = IrReceiver.decodedIRData.decodedRawData;
     switch(remoteIn){
+      case 4010852096 : // Traffic light on use BUTTON 1
+        Serial.println("Traffic light on ");
+        isPaused = false; // Resume cycling
+        break;
+       
+      case 3994140416: // Reset
+        Serial.println("Reset");
+        resetLights();
+        break;
+        
+      case 3977428736 : // Pause
+        Serial.println("Pause");
+        isPaused = true; // Pause cycling
+        break;
+          
+      default:
+        Serial.println(" = not valid");
+        break;
+    }	
+    IrReceiver.resume(); // Receive the next value
+  }
+  
+  // Handle LED cycling (only if not paused)
+  if (!isPaused) {
+    cycleLights();
+  }
+}
+
+void resetLights() {
+  // Turn off all LEDs
+  digitalWrite(greenLED, LOW);
+  digitalWrite(yellowLED, LOW);
+  digitalWrite(redLED, LOW);
+  currentLED = greenLED; // Reset to first LED
+  ledState = false;
+  isPaused = false;
+}
+
+void cycleLights() {
+  // Turn off current LED
+  digitalWrite(currentLED, LOW);
+  
+  // Move to next LED
+  currentLED++;
+  if (currentLED > redLED) {
+    currentLED = greenLED; // Wrap around to first LED
+  }
+  
+  // Turn on next LED
+  digitalWrite(currentLED, HIGH);
+  
+  delay(500); // Delay between LED changes
+}
+```
+
+
+# Version 2
+
+```
+// C++ code
+//
+#include <IRremote.hpp>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C serial_LDR(0x27, 16, 2);
+
+const int IR_PIN = 3;
+unsigned long remoteIn;
+int count = 0;
+int clockPin = 12;
+int resetPins = 13;
+int greenLED = 4;
+int yellowLED = 5;
+int redLED = 6;
+
+// Variables for LED control
+bool isPaused = false;
+int currentLED = 4; // Start with green LED
+bool ledState = false;
+
+void setup()
+{
+  IrReceiver.begin(IR_PIN, ENABLE_LED_FEEDBACK); //Start the reciever
+
+  pinMode(A2, INPUT);//LCD setup
+  pinMode(A3, INPUT);
+  serial_LDR.init();
+  serial_LDR.backlight();
+  serial_LDR.setCursor(0,0);// this is where to set the cursors
+  serial_LDR.print(" melz");
+  
+  pinMode(clockPin, OUTPUT);//Reset 1 and 2
+  pinMode(resetPins, OUTPUT);
+  pinMode(greenLED , OUTPUT);
+  pinMode(yellowLED, OUTPUT);
+  pinMode(redLED, OUTPUT);
+  
+  digitalWrite(clockPin, LOW);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  digitalWrite(clockPin, HIGH);
+  delay(500);
+  digitalWrite(clockPin, LOW);
+  count++;
+  
+  if(count > 9){
+    digitalWrite(resetPins, HIGH);
+    delay(500);
+    digitalWrite(resetPins,LOW);// rESTART THE COUNTER.
+    count = 0; //START COUNTING FROM SCRATCH
+  }
+  
+  if (IrReceiver.decode()) {
+    remoteIn = IrReceiver.decodedIRData.decodedRawData;
+    switch(remoteIn){
       case 4010852096 : // Traffic light on
         Serial.println("Traffic light on ");
         isPaused = false; // Resume cycling
