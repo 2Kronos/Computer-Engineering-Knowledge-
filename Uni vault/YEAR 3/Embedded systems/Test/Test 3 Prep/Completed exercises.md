@@ -48,9 +48,11 @@ void loop()
 
 - [x] Know how to display values received from an IR remote on the LCD.  
 
+### Circuit 3: With binary counter
 
-----
-
-### Circuit 2: With binary counter
+[LCD to binary](https://www.tinkercad.com/things/bjdzJSAVlNI-binary-to-lcd)
 
 #### Functionalities achieved
+
+ Know how to display the current count of a binary counter (software or hardware) on the LCD.  
+ 

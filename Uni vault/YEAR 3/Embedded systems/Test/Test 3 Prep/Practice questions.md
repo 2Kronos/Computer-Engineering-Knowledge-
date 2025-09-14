@@ -9,6 +9,7 @@
         
     - **Reset:** Resets the software counter to zero.
 
+[Practice 1](https://www.tinkercad.com/things/l51xKIuSLyy-practice-1)
 
 # **2. Two-Digit Hardware Counter with Reset**
 

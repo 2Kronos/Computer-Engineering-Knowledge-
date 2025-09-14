@@ -25,5 +25,5 @@
 - [x] Know how to set the cursor position and display text or numbers at specific locations on the LCD.  
 - [x] Know how to clear the LCD and update its content dynamically.  
 - [x] Know how to display values received from an IR remote on the LCD.  
-- [ ] Know how to display the current count of a binary counter (software or hardware) on the LCD.  
+- [x] Know how to display the current count of a binary counter (software or hardware) on the LCD.  
 

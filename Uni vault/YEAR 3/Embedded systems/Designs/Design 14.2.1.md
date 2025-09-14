@@ -327,7 +327,7 @@ void recursion_1(int pinNum) {
     int twoCount;
     for(twoCount = 0; twoCount < 2; twoCount++) {
         digitalWrite(pinNum, twoCount);
-        if(pinNum < 4) {
+        if(pinNum < 5) {
             recursion_1(pinNum + 1);
         } else {
             delay(1000);
