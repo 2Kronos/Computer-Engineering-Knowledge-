@@ -117,12 +117,12 @@ void loop()
         isPaused = false; // Resume cycling
         break;
        
-      case 3994140416: // Reset
+      case 3994140416: // Reset BUTTON 2
         Serial.println("Reset");
         resetLights();
         break;
         
-      case 3977428736 : // Pause
+      case 3977428736 : // Pause BUTTON 3
         Serial.println("Pause");
         isPaused = true; // Pause cycling
         break;
