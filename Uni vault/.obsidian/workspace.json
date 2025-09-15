@@ -13,43 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Test/Test 3 Prep/Practice questions.md",
+                "file": "YEAR 3/Data bases/Notes/Chapter 18/18.1 Comparison of Logical and Physical Database Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practice questions"
+              "title": "18.1 Comparison of Logical and Physical Database Design"
             }
           },
           {
-            "id": "22d238e172d3bfd5",
+            "id": "3636c73c8d508eba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 1.md",
+                "file": "YEAR 3/Data bases/Notes/Chapter 19/Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 1"
-            }
-          },
-          {
-            "id": "31b3b2fee21c099f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YEAR 3/Embedded systems/Designs/Design 14.2.1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Design 14.2.1"
+              "title": "Summary"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,35 +215,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ddcd017d530535fe",
+  "active": "3636c73c8d508eba",
   "lastOpenFiles": [
-    "YEAR 3/Embedded systems/Designs/Home work.md",
-    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 2.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 3.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Practice questions.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Completed exercises.md",
+    "YEAR 3/Data bases/Notes/Chapter 18/18.3.md",
+    "YEAR 3/Data bases/Notes/Chapter 19/Summary.md",
+    "YEAR 3/Data bases/Notes/Chapter 18/Summary.md",
+    "YEAR 3/Data bases/Notes/Chapter 18/18.2 Overview of the Physical Database Design Methodology.md",
+    "YEAR 3/Data bases/Notes/Chapter 18/18.3 The Physical Database Design Methodology for Relational Databases.md",
+    "YEAR 3/Data bases/Notes/Chapter 18/18.1 Comparison of Logical and Physical Database Design.md",
     "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 1.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 4.md",
-    "YEAR 3/Embedded systems/Designs/Design 18(05-08-2025) infrared TX RX.md",
+    "YEAR 3/Data bases/Notes/Chapter 19/19.2 Monitoring the System to Improve Performance 598 Step 8 Monitor and Tune the Operational System.md",
+    "YEAR 3/Data bases/Notes/Chapter 19/19.1 Denormalizing and Introducing Controlled Redundancy 585 Step 7 Consider.md",
+    "YEAR 3/Data bases/Notes/Untitled.md",
+    "YEAR 3/Data bases/Notes/Chapter 21",
+    "YEAR 3/Data bases/Notes/Chapter 20",
+    "YEAR 3/Data bases/Notes/Chapter 13/13.1 Specialization Generalization 434.md",
+    "YEAR 3/Data bases/Notes/Chapter 19",
+    "YEAR 3/Data bases/Notes/Chapter 18",
+    "YEAR 3/Data bases/Notes/Chapter 13/13.2 Aggregation 445.md",
+    "YEAR 3/Embedded systems/Designs/Design 3 04-02-2025.md",
+    "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
+    "YEAR 3/Embedded systems/Designs/Design 14.2.1.md",
+    "YEAR 3/Embedded systems/Designs/Design 14.1 (15-07-2025) Binary counters with chip.md",
+    "YEAR 3/Embedded systems/Designs/Design 19(19-08-2025) Interrupt functions.md",
     "YEAR 3/Embedded systems/Designs/Design 17(Temperature and Humidity Sensor 12-08-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 16(29-07-2025) servo Motors.md",
     "YEAR 3/Embedded systems/Designs/Design 15(22-07-2025) stepper Motors.md",
-    "YEAR 3/Embedded systems/Designs/Design 14.2.1.md",
-    "YEAR 3/Embedded systems/Designs/Design 14.1 (15-07-2025) Binary counters with chip.md",
-    "YEAR 3/Embedded systems/Designs/Design 21 IR and LCD.md",
-    "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Checklist.md",
-    "YEAR 3/Embedded systems/Test/Test 3 Prep/Binary counters illustration.md",
-    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
-    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
-    "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025 Interrupts.md",
-    "().md",
-    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 20(26-08-2025) Touch screens.md",
-    "YEAR 3/Embedded systems/Designs/Design 19(19-08-2025) Interrupt functions.md",
-    "Glorify.md",
     "YEAR 3/Embedded systems/Designing Embedded Systems with Arduino A Fundamental Technology for Makers.pdf",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Practice questions.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 2.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Binary counters illustration.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Day 3.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Completed exercises.md",
+    "YEAR 3/Embedded systems/Test/Test 3 Prep/Checklist.md",
     "images/Pasted image 20250909005315.png",
     "YEAR 2/Digital systems/Prac/Digits Prac/Pasted image 20241010104858.png",
     "YEAR 2/Digital systems/Prac/Digits Prac/Pasted image 20241010104048.png",
@@ -272,10 +263,6 @@
     "YEAR 3/Embedded systems/Project/STAGE 3",
     "YEAR 3/Embedded systems/Project/STAGE 2",
     "YEAR 3/Embedded systems/Project/STAGE 1",
-    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Emb Sys Mock Test 2 USDS alarm system.pdf",
-    "YEAR 3/Embedded systems/Designs/Untitled",
-    "YEAR 3/Embedded systems/Untitled",
-    "YEAR 3/Network System/LABS/LAB 14",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",
