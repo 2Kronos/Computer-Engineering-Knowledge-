@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Data bases/Notes/Chapter 21/21.3 Establishing a Culture of Legal and Ethical.md",
+                "file": "YEAR 3/Data bases/Notes/Chapter 18/18.1 Comparison of Logical and Physical Database Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "21.3 Establishing a Culture of Legal and Ethical"
+              "title": "18.1 Comparison of Logical and Physical Database Design"
             }
           }
         ],
@@ -217,8 +217,10 @@
   },
   "active": "3636c73c8d508eba",
   "lastOpenFiles": [
-    "YEAR 3/Data bases/Notes/Chapter 21/Summary.md",
+    "YEAR 3/Data bases/Notes/Chapter 19/Summary.md",
+    "YEAR 3/Data bases/Notes/Chapter 19/19.1 Denormalizing and Introducing Controlled Redundancy 585 Step 7 Consider.md",
     "YEAR 3/Data bases/Notes/Chapter 21/21.3 Establishing a Culture of Legal and Ethical.md",
+    "YEAR 3/Data bases/Notes/Chapter 21/Summary.md",
     "YEAR 3/Data bases/Notes/Chapter 20/20.6 Data Administration and Database Administration.md",
     "YEAR 3/Data bases/Notes/Chapter 21/21.2 Legislation and Its Impact on the IT Function.md",
     "YEAR 3/Data bases/Notes/Chapter 21/21.1 Defining Legal and Ethical Issues in IT.md",
@@ -233,8 +235,6 @@
     "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.3 Attributes 413.md",
     "YEAR 3/Data bases/Test prep/Notes/Chapter 12/12.2.2 Recursive Relationship 412.md",
     "YEAR 3/Data bases/Notes/Chapter 19/19.2 Monitoring the System to Improve Performance 598 Step 8 Monitor and Tune the Operational System.md",
-    "YEAR 3/Data bases/Notes/Chapter 19/19.1 Denormalizing and Introducing Controlled Redundancy 585 Step 7 Consider.md",
-    "YEAR 3/Data bases/Notes/Chapter 19/Summary.md",
     "YEAR 3/Data bases/Notes/Chapter 18/18.3.md",
     "YEAR 3/Data bases/Notes/Chapter 18/Summary.md",
     "YEAR 3/Data bases/Notes/Chapter 18/18.2 Overview of the Physical Database Design Methodology.md",
