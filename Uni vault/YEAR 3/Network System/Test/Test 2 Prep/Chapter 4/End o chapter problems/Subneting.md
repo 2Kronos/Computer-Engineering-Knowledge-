@@ -1,6 +1,6 @@
 # Public or privtae
 
-![`Pasted image 20250519053431.png`](images/`Pasted image 20250519053431.png`)
+![2](images/`Pasted image 20250519053431.png`)
 ### Final Answer:
 
 The address space **203.216.100.0/23** is **public**.
