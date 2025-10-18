@@ -1,6 +1,6 @@
-# Available interfaces
+sho# Available interfaces
 
-![[Pasted image 20251009194906.png]]
+![`Pasted image 20251009194906.png`](images/`Pasted image 20251009194906.png`)
 ### VyOS_1_GA-1 Interface Configuration
 
 ```Batch
@@ -16,48 +16,40 @@ exit
 
 ---
 ### VyOS_2_GA-1 Interface Configuration
-
 ```
 configure
-set interfaces ethernet eth1 address 10.1.12.2/30
-set interfaces ethernet eth2 address 10.1.23.1/30
-set interfaces ethernet eth3 address 10.1.24.1/30
+set interfaces ethernet eth0 address 10.1.12.2/30
+set interfaces ethernet eth1 address 10.1.23.1/30
+set interfaces ethernet eth2 address 10.1.24.1/30
 set interfaces loopback lo address 2.2.2.2/32
 commit
 save
 exit
 ```
-
----
-
+-----
 ### VyOS_3_GA-1 Interface Configuration
-
 ```
 configure
-set interfaces ethernet eth1 address 10.1.23.2/30
-set interfaces ethernet eth2 address 10.1.34.1/30
-set interfaces ethernet eth3 address 10.1.13.2/30
+set interfaces ethernet eth0 address 10.1.23.2/30
+set interfaces ethernet eth1 address 10.1.34.1/30
+set interfaces ethernet eth2 address 10.1.13.2/30
 set interfaces loopback lo address 3.3.3.3/32
 commit
 save
 exit
 ```
-
----
-
+----
 ### VyOS_4_GA-1 Interface Configuration
-
 ```
 configure
-set interfaces ethernet eth1 address 10.1.34.2/30
-set interfaces ethernet eth2 address 10.1.14.1/30
-set interfaces ethernet eth3 address 10.1.24.2/30
+set interfaces ethernet eth0 address 10.1.34.2/30
+set interfaces ethernet eth1 address 10.1.14.1/30
+set interfaces ethernet eth2 address 10.1.24.2/30
 set interfaces loopback lo address 4.4.4.4/32 
 commit
 save
 exit
 ```
-
 -----
 ### VERIFICATION COMMANDS (run on each router)
 

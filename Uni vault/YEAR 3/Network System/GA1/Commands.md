@@ -23,6 +23,12 @@ delete interfaces ethernet eth2
 delete interfaces loopback lo
 ```
 
+remove all configurations
+
+```
+sudo rm /config/config.boot
+```
+
 ----
 
 ## Show interfaces 

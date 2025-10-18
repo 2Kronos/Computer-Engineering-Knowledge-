@@ -23,7 +23,7 @@ void loop()
 
 [Circuit link](https://www.tinkercad.com/things/a6mHeSPQzHh-assignment-1-222170972)
 
-![[Pasted image 20250923225657.png]]
+![`Pasted image 20250923225657.png`](images/`Pasted image 20250923225657.png`)
 
 
 ```mermaid
