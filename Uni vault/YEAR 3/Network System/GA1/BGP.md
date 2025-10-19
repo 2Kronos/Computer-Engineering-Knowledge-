@@ -76,7 +76,7 @@ Look for features showing **Started** status.
 
 ```bash
 exit  # Exit Karaf first
-sudo ss -ltnp | grep :1790
+sudo ss -ltnp '(sport = :1790)'
 ```
 
 Expected output:
@@ -97,29 +97,34 @@ show bgp summary
   
 ## Configure iBGP on VyOS_2
 
+- Ip  for router `.100`
+- Ip router `.105`
+
+
+
 ```bash
 configure
 
 
 set protocols bgp system-as 65002
-set protocols bgp parameters router-id 192.168.56.100
+set protocols bgp parameters router-id 192.168.56.104
 
 
-set protocols bgp neighbor 192.168.56.105 description 'ODL iBGP'
-set protocols bgp neighbor 192.168.56.105 remote-as 65002
+set protocols bgp neighbor 192.168.56.103 description 'ODL iBGP'
+set protocols bgp neighbor 192.168.56.103 remote-as 65002
 
 
-set protocols bgp neighbor 192.168.56.105 timers connect 10
-set protocols bgp neighbor 192.168.56.105 timers holdtime 90
+set protocols bgp neighbor 192.168.56.103 timers connect 10
+set protocols bgp neighbor 192.168.56.103 timers holdtime 90
 
 
-set interfaces loopback lo address 192.168.56.100/32
+set interfaces loopback lo address 192.168.56.104/32
 set protocols bgp address-family ipv4-unicast
-set protocols bgp neighbor 192.168.56.105 address-family ipv4-unicast
-set protocols bgp address-family ipv4-unicast network 192.168.56.100/32
+set protocols bgp neighbor 192.168.56.103 address-family ipv4-unicast
+set protocols bgp address-family ipv4-unicast network 192.168.56.104/32
 
 
-set protocols bgp neighbor 192.168.56.105 port 1790
+set protocols bgp neighbor 192.168.56.103 port 1790
 
 commit
 save
