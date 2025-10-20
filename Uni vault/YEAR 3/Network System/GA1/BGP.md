@@ -94,12 +94,21 @@ show bgp summary
 ```
 
 - if they are configure run the commands below to dl
+
+```bash
+configure
+delete protocols bgp
+commit
+save
+exit
+```
   
-## Configure iBGP on VyOS_2
+## Step 5 Configure iBGP on VyOS_2
 
-- Ip  for router `.100`
-- Ip router `.105`
+### Example
 
+- UBUNTU IP: 103
+- VyOs router IP: 103 
 
 
 ```bash
@@ -136,7 +145,7 @@ save
 
 ### Check if ODL is listening on port 1790
 
-**On Ubuntu (ODL box):**
+**On Ubuntu (Not in ODL exit from that)*
 ```bash
 sudo ss -ltnp | grep :1790
 ```
@@ -172,27 +181,9 @@ Connection to 192.168.56.105 1790 port [tcp/*] succeeded!
 ```bash
 show bgp summary
 show bgp neighbor
-show bgp neighbor 192.168.56.105
+show bgp neighbor 192.168.56.103 //Ubuntu IP
 ```
 
 ---
 
-## If it's not listening
 
-Re-apply your acceptor on ODL:
-- binding-address must be a real IP on ODL (or use 0.0.0.0)
-- binding-port must be 1790
-
-Restart ODL if needed, then re-run ss/lsof.
-
-##### To undo all the BGP configuration you just entered, use this command:
-
-
-
-```bash
-configure
-delete protocols bgp
-commit
-save
-exit
-```
