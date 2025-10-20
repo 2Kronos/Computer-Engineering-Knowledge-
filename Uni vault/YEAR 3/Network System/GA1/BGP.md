@@ -88,6 +88,9 @@ LISTEN 0 128 *:1790 *:* users:(("java",pid=XXXX,fd=XXX))
 
 ## Step 4: Configure VyOS_2 BGP
 
+---
+
+
 - Firstly look if they are any other BGP configured 
 ```Bas
 show bgp summary
@@ -102,13 +105,15 @@ commit
 save
 exit
 ```
-  
+-----
+
 ## Step 5 Configure iBGP on VyOS_2
 
 ### Example
 
 - UBUNTU IP: 103
-- VyOs router IP: 103 
+- VyOs router IP: 104
+- Your ethernet here is the ethernet you use for Ubuntu 
 
 
 ```bash
@@ -122,21 +127,23 @@ set protocols bgp parameters router-id 192.168.56.104
 set protocols bgp neighbor 192.168.56.103 description 'ODL iBGP'
 set protocols bgp neighbor 192.168.56.103 remote-as 65002
 
+set protocols bgp neighbor 192.168.56.103 update-source eth2
 
 set protocols bgp neighbor 192.168.56.103 timers connect 10
 set protocols bgp neighbor 192.168.56.103 timers holdtime 90
 
 
-set interfaces loopback lo address 192.168.56.104/32
+set interfaces loopback lo address 10.255.255.104/32
 set protocols bgp address-family ipv4-unicast
 set protocols bgp neighbor 192.168.56.103 address-family ipv4-unicast
-set protocols bgp address-family ipv4-unicast network 192.168.56.104/32
+set protocols bgp address-family ipv4-unicast network 10.255.255.104/32
 
 
 set protocols bgp neighbor 192.168.56.103 port 1790
 
 commit
 save
+exit
 ```
 
 ---
