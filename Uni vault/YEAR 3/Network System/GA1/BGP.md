@@ -112,7 +112,7 @@ exit
 ### Example
 
 - UBUNTU IP: 103
-- VyOs router IP: 104
+- VyOs router IP: 10
 - Your ethernet here is the ethernet you use for Ubuntu 
 
 
@@ -121,7 +121,7 @@ configure
 
 
 set protocols bgp system-as 65002
-set protocols bgp parameters router-id 192.168.56.104
+set protocols bgp parameters router-id 192.168.56.10
 
 
 set protocols bgp neighbor 192.168.56.103 description 'ODL iBGP'
@@ -133,10 +133,10 @@ set protocols bgp neighbor 192.168.56.103 timers connect 10
 set protocols bgp neighbor 192.168.56.103 timers holdtime 90
 
 
-set interfaces loopback lo address 10.255.255.104/32
+set interfaces loopback lo address 10.255.255.10/32
 set protocols bgp address-family ipv4-unicast
 set protocols bgp neighbor 192.168.56.103 address-family ipv4-unicast
-set protocols bgp address-family ipv4-unicast network 10.255.255.104/32
+set protocols bgp address-family ipv4-unicast network 10.255.255.10/32
 
 
 set protocols bgp neighbor 192.168.56.103 port 1790
@@ -173,12 +173,12 @@ LISTEN 0 128 192.168.56.105:1790 0.0.0.0:* users:(("java",pid=1234,fd=...))
 ### From VyOS (or another host)
 
 ```bash
-nc -vz 192.168.56.105 1790
+nc -vz 192.168.56.103 1790
 ```
 
 Expected output:
 ```
-Connection to 192.168.56.105 1790 port [tcp/*] succeeded!
+Connection to 192.168.56.103 1790 port [tcp/*] succeeded!
 ```
 
 ---

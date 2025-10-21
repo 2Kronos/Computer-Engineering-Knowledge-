@@ -2,7 +2,11 @@
 Remove a specific IP address:
 
 ```bash
-delete interfaces ethernet eth2 address 10.1.13.1/30
+configure
+delete interfaces ethernet eth1 address 192.168.56.105/24
+commit
+save 
+exit
 ```
 
 **Remove ALL addresses from an interface:**
@@ -14,7 +18,11 @@ delete interfaces ethernet eth2 address
 **Remove entire interface configuration:**
 
 ```bash
-delete interfaces ethernet eth2
+configure
+delete interfaces ethernet eth1 192.168.56.105/24
+commit
+save 
+exit
 ```
 
 **Remove loopback:**
