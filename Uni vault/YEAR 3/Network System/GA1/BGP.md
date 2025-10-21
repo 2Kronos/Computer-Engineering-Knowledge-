@@ -138,6 +138,9 @@ set protocols bgp address-family ipv4-unicast
 set protocols bgp neighbor 192.168.56.103 address-family ipv4-unicast
 set protocols bgp address-family ipv4-unicast network 10.255.255.10/32
 
+# *CRITICAL: Enable BGP-LS for IS-IS topology sharing*
+set protocols bgp address-family link-state
+
 
 set protocols bgp neighbor 192.168.56.103 port 1790
 
@@ -147,7 +150,7 @@ exit
 ```
 
 ---
-
+8
 ## Verification Commands
 
 ### Check if ODL is listening on port 1790
