@@ -110,8 +110,9 @@ ping 10.1.24.1 count 4    # Ping VyOS_2
 # Sun
 ```bash
 configure
-set interfaces ethernet eth1 address 192.168.56.10/24
+set interfaces ethernet eth0 address 192.168.56.104/24
 commit
 save
 exit
 ```
+exit

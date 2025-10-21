@@ -3,7 +3,7 @@ Remove a specific IP address:
 
 ```bash
 configure
-delete interfaces ethernet eth1 address 192.168.56.105/24
+delete interfaces ethernet eth0 address 192.168.56.50/24
 commit
 save 
 exit
