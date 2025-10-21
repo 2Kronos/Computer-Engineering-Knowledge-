@@ -1,9 +1,10 @@
 
-# Ubuntu IP:
+# Ubuntu IP: .105
 # Router IP: .100
 ## Check if the default Policy Exist 
 
-GET: http://192.168.47.132:8181/rests/data/openconfig-routing-policy:routing-policy/openconfig-routing-policy:policy-definitions 
+GET:` http://192.168.47.105:8181/rests/data/openconfig-routing-policy:routing-policy/openconfig-routing-policy:policy-definitions`
+
 
 ### Response from ODL: 
 
@@ -13,7 +14,7 @@ ODL will return the default policy if it exists.
 
 ## Check for RIB Policy Config 
 
-GET http://192.168.47.132:8181/rests/data/openconfig-routing-policy:routing-policy?content=config 
+GET `http://192.168.47.105:8181/rests/data/openconfig-routing-policy:routing-policy?content=config `
 
  ### Response from ODL: 
  
@@ -25,7 +26,7 @@ GET http://192.168.47.132:8181/rests/data/openconfig-routing-policy:routing-poli
 
 ## 1. Configure a new protocol instance
 
-**POST:** `http://192.168.47.132:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/protocols`
+**POST:** `http://192.168.47.105:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/protocols`
 
 **Body:**
 ```xml
@@ -35,7 +36,7 @@ GET http://192.168.47.132:8181/rests/data/openconfig-routing-policy:routing-poli
   <bgp xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
     <global>
       <config>
-        <router-id>192.168.47.132</router-id>
+        <router-id>192.168.47.105</router-id>
         <!-- <router-id>192.168.47.129</router-id> -->
         <as>65002</as>
       </config>
@@ -55,12 +56,12 @@ GET http://192.168.47.132:8181/rests/data/openconfig-routing-policy:routing-poli
 -----
 ## 2. Verify the new protocol instance
 
-**GET:** `http://192.168.47.132:8181/rests/data/bgp-rib:bgp-rib/rib=bgp-to-r1?content=nonconfig`
+**GET:** `http://192.168.47.105:8181/rests/data/bgp-rib:bgp-rib/rib=bgp-to-r1?content=nonconfig`
 
 ----
 ## 3. BGP ODL Server port binding
 
-**PUT:** `http://192.168.47.132.8181/rests/data/odl-bgp-peer-acceptor-config-bgp-peer-acceptor-config-default`
+**PUT:** `http://192.168.47.105.8181/rests/data/odl-bgp-peer-acceptor-config-bgp-peer-acceptor-config-default`
 
 **Body:**
 ```xml
@@ -75,12 +76,12 @@ GET http://192.168.47.132:8181/rests/data/openconfig-routing-policy:routing-poli
 
 ## 4. BGP Peering - add the VyOS1 router as neighbor
 
-**POST:** `http://192.168.47.132:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/openconfig-network-instance:protocols/protocol=openconfig-policy-types:BGP,bgp-to-r1/bgp-openconfig-extensions:bgp/neighbors`
+**POST:** `http://192.168.47.105:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/openconfig-network-instance:protocols/protocol=openconfig-policy-types:BGP,bgp-to-r1/bgp-openconfig-extensions:bgp/neighbors`
 
 **Body:**
 ```xml
 <neighbor xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
-  <neighbor-address>192.168.47.135</neighbor-address>
+  <neighbor-address>192.168.47.100</neighbor-address>
   <timers>
     <config>
       <hold-time>90</hold-time>
@@ -113,19 +114,19 @@ GET http://192.168.47.132:8181/rests/data/openconfig-routing-policy:routing-poli
 
 ## 5. BGP RIB Check (After BGP link is established)
 
-**GET:** `http://192.168.47.132:8181/rests/data/bgp-rib:bgp-rib/rib=bgp-to-r1/peer=bgp%3A%2F%2F192.168.47.135?content=nonconfig`
+**GET:** `http://192.168.47.105:8181/rests/data/bgp-rib:bgp-rib/rib=bgp-to-r1/peer=bgp%3A%2F%2F192.168.47.135?content=nonconfig`
 
 ---
 ## 6. Configure route reflector
 
-**PUT:** `http://192.168.47.132:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/openconfig-network-instance:protocols/protocol=openconfig-policy-types:BGP,bgp-to-r1/bgp-openconfig-extensions:bgp/neighbors/neighbor=192.168.47.135/route-reflector`
+**PUT:** `http://192.168.47.105:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/openconfig-network-instance:protocols/protocol=openconfig-policy-types:BGP,bgp-to-r1/bgp-openconfig-extensions:bgp/neighbors/neighbor=192.168.47.135/route-reflector`
 
 
 **Body:**
 ```xml
 <route-reflector xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
   <config>
-    <route-reflector-cluster-id>192.168.47.133</route-reflector-cluster-id>
+    <route-reflector-cluster-id>192.168.47.100</route-reflector-cluster-id>
     <route-reflector-client>true</route-reflector-client>
   </config>
 </route-reflector>
