@@ -705,7 +705,7 @@ sudo ss -ltnp | grep :1790
 ## Step 8: Configure Route Reflector (Optional but Recommended)
 
 **Method:** PUT  
-**URL:** `http://192.168.x.105:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/openconfig-network-instance:protocols/protocol=openconfig-policy-types:BGP,bgp-to-r1/bgp-openconfig-extensions:bgp/neighbors/neighbor=192.168.x.100/route-reflector`
+**URL:** `http://192.168.56.105:8181/rests/data/openconfig-network-instance:network-instances/network-instance=global-bgp/openconfig-network-instance:protocols/protocol=openconfig-policy-types:BGP,bgp-to-r1/bgp-openconfig-extensions:bgp/neighbors/neighbor=192.168.56.100/route-reflector`
 
 **Headers:**
 
@@ -717,7 +717,7 @@ sudo ss -ltnp | grep :1790
 <route-reflector xmlns="urn:opendaylight:params:xml:ns:yang:bgp:openconfig-extensions">
 <config>
 <route-reflector-client>true</route-reflector-client>
-<route-reflector-cluster-id>192.168.x.105</route-reflector-cluster-id>
+<route-reflector-cluster-id>192.168.56.105</route-reflector-cluster-id>
 </config>
 </route-reflector>
 ```

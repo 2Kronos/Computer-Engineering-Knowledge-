@@ -506,3 +506,36 @@ void loop() {
 ```
 
 ### **Notes**
+
+| Category       | Likelihood | Impact | Description/Mitigation                                                     |
+| -------------- | ---------- | ------ | -------------------------------------------------------------------------- |
+| **Component**  | High       | High   | **Desc:** Critical parts failure<br>**Mit:** Order spares, unit testing    |
+| **Physical**   | Low        | High   | **Desc:** Unexpected movement<br>**Mit:** Kill switch, clear workspace     |
+| **Reputational**| Medium    | High   | **Desc:** Poor demo performance<br>**Mit:** Rigorous testing, backup video |
+| **Monetary**   | Medium     | Medium | **Desc:** Budget overruns<br>**Mit:** Contingency fund, local sourcing     |
+| **Emotional**  | Medium     | Medium | **Desc:** Integration frustration<br>**Mit:** Small goals, documentation  |
+| **Environmental**| Medium   | Medium | **Desc:** E-waste<br>**Mit:** Recycling, reusable design                  |
+
+Based on your image, here is the timeline and management plan in a clear format:
+
+### Time and Management Plan
+
+| Phase                          | Start Date | End Date | Key Activities                                                                                           |
+| :----------------------------- | :--------- | :------- | :------------------------------------------------------------------------------------------------------- |
+| **1. Requirement Analysis**    | 01/03/25   | 08/04/25 | Finalize component selection, system specifications, and project scope.                                  |
+| **2. Hardware Assembly**       | 08/04/25   | 16/05/25 | Assemble robotic arm structure, solder components, and integrate servos.                                 |
+| **3. Software Development**    | 16/05/25   | 23/06/25 | Program Arduino microcontrollers, develop sensor data processing, and implement Bluetooth communication. |
+| **4. Testing & Integration**   | 23/06/25   | 01/09/25 | Combine hardware and software, calibrate sensors and servos, and conduct system-level tests.             |
+| **5. Evaluation & Refinement** | 01/09/25   | 06/09/25 | Optimize performance based on test results, fix bugs, and improve movement accuracy.                     |
+| **6. Final Demo Preparation**  | 06/09/25   | 18/10/25 | Prepare presentation materials, create demonstration video, and finalize all project documentation.      |
+
+**Timeline & Management**
+
+| Phase                 | Dates         | Key Tasks                   |
+| :-------------------- | :------------ | :-------------------------- |
+| **1. Planning**       | 01/03 - 08/04 | Finalize specs & components |
+| **2. Hardware Build** | 08/04 - 16/05 | Assemble arm & electronics  |
+| **3. Software**       | 16/05 - 23/06 | Program Arduino & Bluetooth |
+| **4. Integration**    | 23/06 - 01/09 | Combine systems & test      |
+| **5. Optimization**   | 01/09 - 06/09 | Refine performance          |
+| **6. Final Prep**     | 06/09 - 18/10 | Demo & documentation        |

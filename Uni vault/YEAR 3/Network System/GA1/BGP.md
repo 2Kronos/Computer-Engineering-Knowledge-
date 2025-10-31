@@ -127,7 +127,7 @@ set protocols bgp parameters router-id 192.168.56.10
 set protocols bgp neighbor 192.168.56.103 description 'ODL iBGP'
 set protocols bgp neighbor 192.168.56.103 remote-as 65002
 
-set protocols bgp neighbor 192.168.56.103 update-source eth1
+set protocols bgp neighbor 192.168.56.103 update-source eth3
 
 set protocols bgp neighbor 192.168.56.103 timers connect 10
 set protocols bgp neighbor 192.168.56.103 timers holdtime 90
