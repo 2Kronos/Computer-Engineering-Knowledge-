@@ -12,6 +12,7 @@
 	- Know how to calculate bandwidth for low pass filter, high pass filter and Band pass filter 
 
 - How to use Filters in networks of different standards, Example being a 2.5 GHz Wifi (Actuated 2.11) etc,
-- So if your desdining a low pass  filter for wifi the cutoff frequency must be 2.5Ghz
-- Be able to explain how does a Q - Factor Correlate to the bandwidth
+- So if your designing a low pass  filter for Wi-Fi the cutoff frequency must be 2.5Ghz
+- Be able to explain how does a Q—Factor Correlate to the bandwidth
 	- High Q-factor correlates with low bandwidth and that is good for frequency selective components 
+	- Talk about energy aswell
