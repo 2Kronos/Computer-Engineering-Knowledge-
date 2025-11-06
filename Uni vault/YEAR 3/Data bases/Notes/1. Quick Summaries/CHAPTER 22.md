@@ -1,4 +1,4 @@
-Here’s a **quick summary of Chapter 22: Transaction Management**:
+
 
 ---
 

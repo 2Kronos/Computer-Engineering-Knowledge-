@@ -32,22 +32,7 @@
     
     - Physical design choices (e.g., merging relations for performance) may force changes in logical design or application design.
         
-
-**Diagram: Difference between logical and physical design**
-
-```mermaid
-flowchart TD
-    A[Conceptual Design] --> B[Logical Design]
-    B --> C[Physical Design]
-    C -->|Feedback| B
-    C -->|Feedback| Application[Application Design]
-
-    B:::blue
-    C:::green
-
-classDef blue fill:#cce5ff,stroke:#333,stroke-width:1px
-classDef green fill:#d5f5e3,stroke:#333,stroke-width:1px
-```
+![[Pasted image 20251105224617.png]]
 
 ---
 

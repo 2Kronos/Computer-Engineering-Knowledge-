@@ -1,5 +1,4 @@
 
-Here are the questions and **short bullet-point answers** for Chapter 22:
 
 ---
 

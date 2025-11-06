@@ -1,0 +1,135 @@
+Of course! Here is a simplified, easy-to-understand version of all those sections.
+
+### **What is Normalization? (The Big Idea)**
+
+Imagine your data is a messy closet. Normalization is the process of **organizing that closet** so everything has a single, logical place. This makes it easy to find things, avoids duplicates, and prevents messes.
+
+---
+
+### **14.1 The Purpose of Normalization**
+
+*   **What it is:** A method to design clean and efficient database tables.
+*   **The Goal:** To create tables that:
+    *   Have **no repeated data** (like writing the same info over and over).
+    *   Store related info together (like keeping all customer details in one spot).
+    *   Use the **smallest number of columns** needed.
+*   **The Catch:** A little repetition is okay for "links" between tables (like using a Customer ID in an Orders table to connect them).
+*   **Why Bother?** It makes the database faster, smaller, and much easier to keep accurate.
+
+---
+
+### **14.2 How Normalization is Used**
+
+You can use normalization in two ways:
+
+1.  **From Scratch:** Use it as the main set of rules to build your database tables from the ground up.
+2.  **As a Check-up:** Use it to double-check and clean up tables you've already designed using other methods.
+
+**Bottom Line:** Both ways get you to the same goal: a well-organized database.
+
+---
+
+### **14.3 The Problem: Data Redundancy & Update Anomalies**
+
+*   **Redundancy** means storing the same piece of data in multiple places.
+*   Redundancy causes three big problems, called "Update Anomalies":
+
+    1.  **Insertion Problem:** You can't add a new branch to the system until you hire at least one staff member for it.
+    2.  **Deletion Problem:** If you delete the last staff member at a branch, you accidentally lose all the information about that branch too.
+    3.  **Update Problem:** If a branch's address changes, you have to find and update every single staff record at that branch. If you miss one, the data becomes inconsistent.
+
+*   **The Solution:** Split one big, messy table into smaller, focused tables.
+
+---
+
+### **14.4 Functional Dependencies (The "Rules" of Your Data)**
+
+This is the most important concept. It describes the relationships between data.
+
+*   **Simple Definition:** If knowing the value of **A** lets you automatically know the value of **B**, then **B is functionally dependent on A**.
+    *   *Example:* If you know a `StaffID`, you know their `Name`. So, `Name` depends on `StaffID`.
+*   **Determinant:** The thing you know (like `StaffID` in the example above).
+*   **Full Functional Dependency:** When you need the **entire** key to figure out another piece of data.
+    *   *Bad Example (Partial):* In a table with the key `(StudentID, CourseID)`, the `StudentName` only depends on `StudentID` (just part of the key).
+    *   *Good Example (Full):* The `Grade` depends on the **entire** key `(StudentID, CourseID)`.
+*   **Transitive Dependency:** When A determines B, and B determines C, so A indirectly determines C.
+    *   *Example:* `StaffID` → `BranchID` and `BranchID` → `BranchAddress`. So, `StaffID` indirectly determines the `BranchAddress`. This is a problem we fix later.
+
+---
+
+### **The Normalization Process (Step-by-Step)**
+
+### **14.5 The Process Overview**
+
+It's like a checklist with levels. You start with a messy table (UNF) and fix one type of problem at each level to make it better.
+
+*   **1NF:** Fix repeating groups.
+*   **2NF:** Fix partial dependencies.
+*   **3NF:** Fix transitive dependencies.
+
+The further you go, the cleaner and more reliable your database becomes.
+
+---
+
+### **14.6 First Normal Form (1NF) - No Repeating Groups**
+
+*   **The Rule:** Every cell must contain only a single value, not a list.
+*   **How to Fix It:** Take the list of values and put each one on its own row, repeating the other data.
+
+**Before 1NF (Messy):**
+| ClientID | ClientName | PropertiesRented          |
+| :------- | :--------- | :------------------------ |
+| C1       | John Kay   | PG4, PG16                 |
+
+**After 1NF (Organized):**
+| ClientID | ClientName | PropertyNo |
+| :------- | :--------- | :--------- |
+| C1       | John Kay   | PG4        |
+| C1       | John Kay   | PG16       |
+
+---
+
+### **14.7 Second Normal Form (2NF) - No Partial Dependencies**
+
+*   **The Rule:** (For tables with a multi-column key) Every non-key column must depend on the **entire** key, not just part of it.
+*   **How to Fix It:** Move any columns that only depend on part of the key into a new table.
+
+**Problem in 1NF:** In the `(ClientID, PropertyNo)` table, the `ClientName` only depends on `ClientID` (part of the key).
+
+**After 2NF (Split into two tables):**
+*   **Client Table:** `(ClientID, ClientName)`
+*   **Rental Table:** `(ClientID, PropertyNo, RentStartDate)`
+
+---
+
+### **14.8 Third Normal Form (3NF) - No Transitive Dependencies**
+
+*   **The Rule:** No non-key column can depend on another non-key column.
+*   **How to Fix It:** Move the indirectly dependent data into its own table.
+
+**Problem in 2NF:** In a `Property` table, you might have `PropertyNo → BranchID` and `BranchID → BranchAddress`. So, the `BranchAddress` is stored in the Property table, depending on another non-key column (`BranchID`).
+
+**After 3NF (Split again):**
+*   **Property Table:** `(PropertyNo, BranchID)`
+*   **Branch Table:** `(BranchID, BranchAddress)`
+
+---
+
+### **14.9 The Stricter Definitions (The Fine Print)**
+
+The simple definitions for 2NF and 3NF only care about the **primary key**. The general definitions are stricter: they say the rules must be true for **any possible key** in the table. This just makes the final design even more robust.
+
+----
+# 14.9 General Definitions of 2NF and 3NF
+
+**General Definition of Second Normal Form (2NF)**
+- A relation that is in **First Normal Form (1NF)** and **every non-candidate-key attribute is fully functionally dependent on any candidate key**.
+- This definition considers **all candidate keys**, not just the primary key.
+- A candidate-key attribute is part of any candidate key.
+
+**General Definition of Third Normal Form (3NF)**
+- A relation that is in **First (1NF)** and **Second Normal Form (2NF)** and in which **no non-candidate-key attribute is transitively dependent on any candidate key**.
+- This definition also considers all candidate keys of the relation.
+
+**Key Point:**
+- The general definitions are more rigorous as they consider all possible candidate keys, ensuring the relation is free from partial and transitive dependencies with respect to every key, not just the chosen primary key.
