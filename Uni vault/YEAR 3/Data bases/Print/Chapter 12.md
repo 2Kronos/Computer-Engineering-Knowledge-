@@ -156,7 +156,7 @@ Here are the notes on Keys in ER Modeling presented in a table format.
 | **Candidate Key** | A **minimal set of attributes** that uniquely identifies each entity occurrence. | - Must be **unique** (no duplicates).<br>- Must be **minimal** (no unnecessary attributes).<br>- Cannot contain **NULL** values. | - `branchNo` for a `Branch` entity (e.g., "B003").<br>- `staffNo` and `NIN` (National Insurance Number) for a `Staff` entity. |
 | **Primary Key** | The **selected candidate key** used as the main method to uniquely identify entities. | - **Selection Criteria**:<br>  - Shortest length (e.g., `staffNo` vs. `NIN`).<br>  - Guaranteed future uniqueness.<br>  - Prefer single-attribute keys.<br>- The non-selected candidate keys become **Alternate Keys**. | - **Chosen Primary Key**: `staffNo`<br>- **Alternate Key**: `NIN` |
 | **Composite Key** | A primary key made of **multiple attributes**. | - Used when **no single attribute** is unique by itself.<br>- Often represents natural business identifiers. | - For an `Advert` entity: <br>(`propertyNo`, `newspaperName`, `dateAdvert`). |
-![[Pasted image 20251105215211.png]]
+![`Pasted image 20251105215211.png`](images/`Pasted image 20251105215211.png`)
 ----
 
 ## 12.4 Strong and Weak Entity Types 417
@@ -173,7 +173,7 @@ Here are the notes on Keys in ER Modeling presented in a table format.
 | **Example** | **Client** entity | **Preference** entity |
 | **Example Attributes** | `clientNo` (PK), name, contact details. | `prefType` (Partial Key), other details. Its full key is (`clientNo`, `prefType`). |
 | **Relationship** | The "owner" or parent in a relationship with a weak entity. | The dependent or child in a relationship with a strong entity. |
-![[Pasted image 20251105215130.png]]
+![`Pasted image 20251105215130.png`](images/`Pasted image 20251105215130.png`)
 
 ----
 
@@ -219,18 +219,18 @@ Here is the information on Problems with ER Models (Connection Traps) presented 
 | **Chasm Trap** | Occurs when a model suggests a relationship should exist between entities, but **optional participation** (0..*) creates a broken pathway in some cases. | The only path between two entities goes through an optional relationship, so when that relationship doesn't exist, information is lost. | **Entities:** `Branch`, `Staff`, `PropertyForRent`<br>**Relationships:**<br>- Branch → Staff (1:*)<br>- Staff → Property (0..*)<br>**Problem:** If a property has no assigned staff, we cannot determine which branch it belongs to. | Add a **direct relationship** to bridge the gap (e.g., `Branch` ↔ `PropertyForRent` with "Offers" relationship). |
 
 #### Fan trap visual example
-![[Pasted image 20251105220918.png]]
+![`Pasted image 20251105220918.png`](images/`Pasted image 20251105220918.png`)
 
 - SOLUTION
 
-![[Pasted image 20251105221053.png]]
+![`Pasted image 20251105221053.png`](images/`Pasted image 20251105221053.png`)
 
 #### Chasm trap visual example
 
-![[Pasted image 20251105221317.png]]
+![`Pasted image 20251105221317.png`](images/`Pasted image 20251105221317.png`)
 
 - Solution
-![[Pasted image 20251105221345.png]] 
+![`Pasted image 20251105221345.png`](images/`Pasted image 20251105221345.png`) 
 
 ### 📌 Summary of Connection Traps
 

@@ -69,7 +69,7 @@ Query decomposition is the **first phase** of query processing, which transforms
 - Aims to improve performance by reordering operations and reducing intermediate result sizes.
 
 
-![[Pasted image 20251106060215.png]]
+![`Pasted image 20251106060215.png`](images/`Pasted image 20251106060215.png`)
 
 ### **Key Points:**
 - Query decomposition ensures the query is **syntactically and semantically correct**.
@@ -86,7 +86,7 @@ The heuristic approach uses **transformation rules** to convert a relational alg
 
 ### **23.3.1 Transformation Rules for Relational Algebra Operations**
 
-![[Pasted image 20251106062448.png]]
+![`Pasted image 20251106062448.png`](images/`Pasted image 20251106062448.png`)
 
 **Specific Rules:**
 - **Cascade Selection**: `σp∧q(R) = σp(σq(R))`
@@ -99,7 +99,7 @@ The heuristic approach uses **transformation rules** to convert a relational alg
 
 ### **23.3.2 Heuristic Processing Strategies**
 
-![[Pasted image 20251106062516.png]]
+![`Pasted image 20251106062516.png`](images/`Pasted image 20251106062516.png`)
 
 **Detailed Strategies:**
 
@@ -302,7 +302,7 @@ This section deals with how a DBMS searches through many possible execution plan
 - Each operation processes tuples as they arrive and passes results to the next operation
 - Implemented as separate processes or threads with buffers between them
 
-![[Pasted image 20251106062538.png]]
+![`Pasted image 20251106062538.png`](images/`Pasted image 20251106062538.png`)
 **Limitations:**
 - Not all algorithms support pipelining (e.g., sort-merge join requires sorted input)
 - Memory constraints may limit pipelining effectiveness
@@ -318,7 +318,7 @@ This section deals with how a DBMS searches through many possible execution plan
 - **Right-deep trees**: Left child is always a base relation
 - **Linear trees**: General case where one input is always base
 
-![[Pasted image 20251106062554.png]]
+![`Pasted image 20251106062554.png`](images/`Pasted image 20251106062554.png`)
 
 **Advantages of Left-deep Trees:**
 - Inner relations are always base relations (already materialized)
@@ -384,7 +384,7 @@ This section deals with how a DBMS searches through many possible execution plan
 3. **Pass k**: Extend to k relations using results from previous passes
 4. **Pass n**: Find optimal strategy for all relations
 
-![[Pasted image 20251106062612.png]]
+![`Pasted image 20251106062612.png`](images/`Pasted image 20251106062612.png`)
 
 ---
 
@@ -454,7 +454,7 @@ This section explores how query processing and optimization techniques must be e
 - **Traditional**: Works well with standard data types and built-in functions
 - **Advanced**: Must handle complex data types and custom functions with unknown costs
 
-![[Pasted image 20251106062637.png]]
+![`Pasted image 20251106062637.png`](images/`Pasted image 20251106062637.png`)
 
 ---
 
@@ -489,7 +489,7 @@ This section explores how query processing and optimization techniques must be e
   - **Late evaluation**: Execute UDF after filtering other conditions
   - **Client-side execution**: Offload UDF processing to client
 
-![[Pasted image 20251106062658.png]]
+![`Pasted image 20251106062658.png`](images/`Pasted image 20251106062658.png`)
 
 ---
 
@@ -605,7 +605,7 @@ Oracle uses a sophisticated query optimizer that determines the most efficient w
   - Rank 4: Single row by unique/primary key
   - Rank 9: Single-column indexes
   - Rank 15: Full table scan (last resort)
-![[Pasted image 20251106062719.png]]
+![`Pasted image 20251106062719.png`](images/`Pasted image 20251106062719.png`)
 
 **Example**:
 ```sql
@@ -624,7 +624,7 @@ WHERE rooms > 7 AND city = 'London';
   - **Throughput**: Minimize total resource usage
   - **Response Time**: Minimize time to first row
 
-![[Pasted image 20251106062747.png]]
+![`Pasted image 20251106062747.png`](images/`Pasted image 20251106062747.png`)
 
 ---
 
@@ -657,13 +657,13 @@ Capture data distribution for columns with non-uniform value distribution
 - **Storage**: Upper/lower bounds + count per bucket
 - **Use Case**: Uniform distribution within buckets
 
-![[Pasted image 20251106062816.png]]
+![`Pasted image 20251106062816.png`](images/`Pasted image 20251106062816.png`)
 #### **2. Height-Balanced Histograms**
 - **Mechanism**: Creates buckets with approximately equal numbers of values
 - **Storage**: Bucket endpoints + height
 - **Use Case**: Oracle's default method
 
-![[Pasted image 20251106062840.png]]
+![`Pasted image 20251106062840.png`](images/`Pasted image 20251106062840.png`)
 
 ### **Example: Rooms Column Analysis**
 - **Without histogram**: Assumes uniform distribution

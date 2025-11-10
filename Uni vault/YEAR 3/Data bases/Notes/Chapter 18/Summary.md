@@ -32,7 +32,7 @@
     
     - Physical design choices (e.g., merging relations for performance) may force changes in logical design or application design.
         
-![[Pasted image 20251105224617.png]]
+![`Pasted image 20251105224617.png`](images/`Pasted image 20251105224617.png`)
 
 ---
 

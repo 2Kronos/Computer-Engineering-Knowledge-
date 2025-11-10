@@ -152,4 +152,3 @@ flowchart TD
     - Example: B, C, D oscillate clockwise/counter-clockwise around A
         
 
-🧠 Insight: This behavior caused early algorithms (e.g., ARPANET) to avoid dynamic load-based metrics.
