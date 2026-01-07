@@ -27,6 +27,6 @@ L_{ij} <X_{ij} <U_{ij}
 - All flow going out minus all flow going must equal to the net supply
 - $b_i$ 
 
-![[Pasted image 20251108122216.png]]
+![`Pasted image 20251108122216.png`](images/`Pasted image 20251108122216.png`)
 
 - 

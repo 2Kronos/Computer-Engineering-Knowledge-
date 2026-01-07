@@ -1,5 +1,5 @@
 
-![[Pasted image 20251109164331.png]]
+![`Pasted image 20251109164331.png`](images/`Pasted image 20251109164331.png`)
 $$
 \sum W=3+3=6
 $$
@@ -24,7 +24,7 @@ Submit SCF_result.csv, MCF_result.csv, LinkUtilisation.csv and figures.
 #### Results 
 
 - Loading NSFNET layout 
-![[Pasted image 20251109165353.png]]
+![`Pasted image 20251109165353.png`](images/`Pasted image 20251109165353.png`)
 
 ```mermaid
 graph TD

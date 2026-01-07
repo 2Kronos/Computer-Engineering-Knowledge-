@@ -337,3 +337,8 @@ if flow_vars_mcf:
             
             link_results.append({
                 'Link': f"{i}
+```
+
+$$
+\sum_{Ik} \int_{34}^{34}
+$$
