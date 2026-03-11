@@ -4,51 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c9fcd807e8ea7fd5",
+        "id": "00048121b46fe52e",
         "type": "tabs",
         "children": [
           {
-            "id": "1266ef68be1c62fc",
+            "id": "3af887908070c4ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Network System/GA2/CODE.md",
+                "file": "YEAR 3/Embedded systems/Practice/Design 3 Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CODE"
-            }
-          },
-          {
-            "id": "3bcd7d0073ebeebe",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/FM Receiver COMMS Group 31.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "FM Receiver COMMS Group 31"
-            }
-          },
-          {
-            "id": "3c16e374c7ef8172",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "YEAR 2/Signals/Test 2/Ndana.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ndana"
+              "title": "Design 3 Questions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,8 +152,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -189,8 +162,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -199,8 +172,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           }
         ],
@@ -213,6 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "thecap-cv-generator:Preview curriculum": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -227,54 +201,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c6bd51693ca0ea34",
+  "active": "3af887908070c4ae",
   "lastOpenFiles": [
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/~$aduate Attribute 8 (GA 8) Project Related Assessment Answers.docx",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/grok Question 3_report.pdf",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/Matlab results.jpg",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/Oscicllisope reading.jpg",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/Oscicllisope reading 2.jpg",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/Research draft V2.pdf",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/Research draft V3.pdf",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA8/FM Receiver COMMS Group 31.pdf",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA6/2025 GA 6 _ Assignment.pdf",
-    "YEAR 3/Uni course docs YEAR 3/Electric Communication/GA6/1.jpg",
-    "YEAR 3/Uni course docs YEAR 3/Networks/GA2/2 GA2_ReportTemplate Rules.pdf",
-    "YEAR 3/Uni course docs YEAR 3/Networks/GA1/2 GA1_Project_Template_Sname_Snumber.pdf",
-    "YEAR 3/Uni course docs YEAR 3/Networks/GA1/1 GA1_Project_Brief_FINAL.pdf",
-    "YEAR 3/Uni course docs YEAR 3/BBV2 STUDY SESSION.pdf",
-    "YEAR 3/Network System/GA1/Drawing 2025-10-09 17.29.05.excalidraw.md",
-    "YEAR 3/Network System/GA1/Commands.md",
-    "YEAR 3/Network System/GA1/BGP.md",
-    "YEAR 2/A. Exam check list/Ethics.md",
-    "YEAR 3/Uni course docs YEAR 3/Industrial project/Final report/Industrial-Report-05866878bde8569cb7f173d8ae6368378be6ee1f/Industrial-Report-05866878bde8569cb7f173d8ae6368378be6ee1f/References/references.bib",
-    "YEAR 3/Uni course docs YEAR 3/Industrial project/Final report/Industrial-Report-05866878bde8569cb7f173d8ae6368378be6ee1f/Industrial-Report-05866878bde8569cb7f173d8ae6368378be6ee1f/Images/image1.png",
-    "YEAR 3/Uni course docs YEAR 3/Industrial project/Final report/Industrial-Report-05866878bde8569cb7f173d8ae6368378be6ee1f/Industrial-Report-05866878bde8569cb7f173d8ae6368378be6ee1f/README.md",
-    "YEAR 3/Uni course docs YEAR 3/Networks/Notes/Chapter 4/2.jpg",
-    "YEAR 3/Uni course docs YEAR 3/Networks/Notes/Chapter 4/3.jpg",
-    "YEAR 3/Uni course docs YEAR 3/Networks/Notes/Chapter 4/1.jpg",
-    "YEAR 3/Uni course docs YEAR 3/Networks/Notes/Chapter 2/Screenshot 2025-03-20 212459.png",
-    "YEAR 3/Uni course docs YEAR 3/Networks/GA2/Code/shortest_path_nsfnet.png",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/tools/gptranslator/privacy_policy.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/tools/argumentator/project_prompts.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/playground/api_parameters/programming_parameters.md",
-    "YEAR 2/Uni course docs YEAR 2/SIGNAL PROCESSING/Matplotlib/Python/m_venv/Lib/site-packages/numpy/random/LICENSE.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/util/developer.md",
-    "YEAR 2/Uni course docs YEAR 2/SIGNAL PROCESSING/Matplotlib/Python/Test 1/PythonSignalsTest/Archive/Test1V-SamVariableInput/README.MD",
-    "YEAR 2/Uni course docs YEAR 2/SIGNAL PROCESSING/Matplotlib/Python/Test 1/PythonSignalsTest/Archive/Test 1 V-Sam/README.MD",
-    "YEAR 2/Uni course docs YEAR 2/EXAM PREP/Signal/Code/Test 1/PythonSignalsTest/Archive/Test1V-SamVariableInput/README.MD",
-    "YEAR 2/Uni course docs YEAR 2/EXAM PREP/Signal/Code/Test 1/PythonSignalsTest/Archive/Test 1 V-Sam/README.MD",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/TIPS.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/PROMPTS.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/README.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/IDEAS.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/SURDS GAME/README.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/TON OF GAMES/GPTS.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/SPACE DRIFTER GAME/README.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/NFS GAME/README.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/OPC GAMES/Games/Games/MEMORY GAME/README.md",
-    "YEAR 2/Uni course docs YEAR 2/COMP GRAPH/KRONOS CODE/GAME/CHARACTERS V1/CHARACTERS[1]/CHARACTERS/README.md",
-    "YEAR 2/Uni course docs YEAR 2/SIGNAL PROCESSING/Matplotlib/Python/Test 1/PythonSignalsTest/README.md",
+    "YEAR 3/Embedded systems/Designs/Design 2 (31-01-2025).md",
+    "YEAR 3/Embedded systems/Practice/Design 3 Questions.md",
+    "YEAR 3/Embedded systems/Designs/Design 3 04-02-2025.md",
+    "Untitled.base",
+    "Untitled 1.base",
+    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
+    "WhatsApp Image 2024-09-05 at 11.26.44_1d6bdc91.jpg",
+    "WhatsApp Image 2024-09-05 at 11.05.17_efbf3752.jpg",
+    "Screenshot 2024-09-05 104017.png",
+    "pic 2.png",
+    "Pasted image 20250222132952.png",
+    "Pasted image 20250219101503.png",
+    "Pasted image 20250130232743.png",
+    "Pasted image 20241024034229.png",
+    "Pasted image 20241024025313.png",
+    "Design 14.2.md",
+    "2025-02-22.md",
+    "2025-02-09.md",
+    "YEAR 3/Embedded systems/Notes/Notes.md",
+    "YEAR 3/Embedded systems/Notes/Language Reference.md",
+    "YEAR 3/Embedded systems/Designs/Test 2 Memo.md",
+    "YEAR 3/Embedded systems/Designs/Test 1 v2Memo (08-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 4. (11-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
+    "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025 Interrupts.md",
+    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
+    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 5 (18-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
+    "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/Code.md",
+    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.4 Final Simulation.md",
+    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.3 Combine IR remote and Pot.md",
+    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.1 The Pot.md",
+    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.2  Remote.md",
+    "YEAR 3/Embedded systems/Project/Phase 1 - Spin Cylce Management/Code.md",
+    "YEAR 3/Embedded systems/Project/Phase 6 FINAL",
+    "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/Code",
+    "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/AIM",
+    "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management",
+    "YEAR 3/Embedded systems/Project/Untitled",
+    "YEAR 3/Embedded systems/Project/Phase 5 - Spin cycle, power, water management",
+    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration",
+    "YEAR 3/Embedded systems/Project/Presentation",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",

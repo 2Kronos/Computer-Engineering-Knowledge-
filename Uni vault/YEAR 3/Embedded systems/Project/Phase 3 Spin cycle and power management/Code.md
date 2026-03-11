@@ -1,7 +1,4 @@
-
-https://www.tinkercad.com/things/iZLTJ3jjSmA-project-spin-cycle
-
-was rinse spin
+[Circuit ](https://www.tinkercad.com/things/kNIxDl4IsVj-phase-3-spin-cycles-and-power-management-)
 
 ```c++
 #include <IRremote.hpp>
@@ -69,9 +66,9 @@ void startWashingMachine() {
   
   // WASH CYCLE - Requires Power Level 2
   checkPower(2, LED1_PIN);
-  wash();
+  wash_rinse();
+  
   delay(2000);
-  rinse();
   
   // SPIN CYCLE - Requires Power Level 3
   checkPower(3, LED1_PIN);
@@ -159,7 +156,7 @@ void allLEDsOff() {
 }
 
 // WASH/RINSE cycle: 3 clockwise + 3 counter-clockwise (repeat 3x)
-void wash() {
+void wash_rinse() {
   Serial.println("Starting WASH cycle...");
   Serial.println("3 clockwise + 3 counter-clockwise revolutions (repeat 3x)");
   
@@ -187,37 +184,6 @@ void wash() {
   }
   
   Serial.println("WASH cycle completed!");
-  allLEDsOff();
-}
-
-void rinse() {
-  Serial.println("Starting RINSE cycle...");
-  Serial.println("3 clockwise + 3 counter-clockwise revolutions (repeat 3x)");
-  
-  for (int cycle = 0; cycle < 3; cycle++) {
-    Serial.print("Cycle ");
-    Serial.print(cycle + 1);
-    Serial.println(": Clockwise 3 revolutions");
-    
-    // Clockwise - 3 revolutions
-    for (int rev = 0; rev < 3; rev++) {
-      clockwiseRevolution(700); // Moderate speed
-    }
-    
-    Serial.print("Cycle ");
-    Serial.print(cycle + 1);
-    Serial.println(": Counter-clockwise 3 revolutions");
-    delay(1000); // 1-second pause
-    
-    // Counter-clockwise - 3 revolutions
-    for (int rev = 0; rev < 3; rev++) {
-      counterClockwiseRevolution(700); // Moderate speed
-    }
-    
-    if (cycle < 2) delay(1000); // 1-second pause between cycles
-  }
-  
-  Serial.println("RINSE cycle completed!");
   allLEDsOff();
 }
 

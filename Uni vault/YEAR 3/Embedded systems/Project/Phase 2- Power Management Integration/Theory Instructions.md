@@ -111,10 +111,4 @@ The IR remote **simulates the solar inverter** sending infrared signals to com
 
 The remote is essential for testing the energy-saving functionality of your solar-powered washing machine design.
 
----
-# How They Work Together in the Code (The Logic)
-
-Your code will have a function, likely called `getPowerLevel()`, that decides which input to use. The logic will follow a priority structure:
-
-**"If I receive a new signal from the IR remote, use that. Otherwise, just use the current value from the potentiometer."**
 
