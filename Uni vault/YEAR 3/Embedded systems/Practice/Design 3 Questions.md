@@ -10,6 +10,7 @@ You have learned that mechanical buttons "bounce," causing multiple false readin
 Create a function called `bool isButtonPressed(int pin)` that reads the state of a button on pin 2. This function should return `true` only if the button is pressed and it has been at least 50 milliseconds since the last press (a simple debounce). In your `loop()`, call this function. If it returns `true`, print "Reliable Press Detected" to the Serial Monitor and toggle the built-in LED on pin 13 on or off. The LED should stay in its new state until the next reliable press.
 
 **Hint:** You will need to remember the time of the last valid press. You might use a `static` variable inside the function, or a global variable like `unsigned long lastPressTime = 0;`.
+[solutin](https://www.tinkercad.com/things/i7nwHSUz1lV-practice-design-3)
 
 ---
 
