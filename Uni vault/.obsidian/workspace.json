@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Practice/Design 3 Questions.md",
+                "file": "YEAR 3/Embedded systems/Test/Test 1/Theory/Design 3 theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design 3 Questions"
+              "title": "Design 3 theory"
             }
           }
         ]
@@ -172,8 +172,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -181,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,14 +202,27 @@
   },
   "active": "3af887908070c4ae",
   "lastOpenFiles": [
+    "images/Pasted image 20260319174723.png",
+    "images/Pasted image 20260319174718.png",
+    "images/Pasted image 20260319162021.png",
     "YEAR 3/Embedded systems/Designs/Design 3 04-02-2025.md",
-    "YEAR 3/Embedded systems/Practice/Design 5 practice questions.md",
-    "YEAR 3/Embedded systems/Designs/Design 5 (18-02-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 4. (11-02-2025).md",
-    "YEAR 3/Embedded systems/Practice/Design 3 Questions.md",
     "YEAR 3/Embedded systems/Designs/Design 2 (31-01-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
+    "YEAR 3/Embedded systems/Test/Test 1/Theory/Theory 1.md",
+    "YEAR 3/Embedded systems/Test/Test 1/Theory/Milk design.md",
+    "YEAR 3/Embedded systems/Test/Test 1/Theory/Design 3 theory.md",
+    "YEAR 3/Embedded systems/Test/Test 1/Theory/6 Design Theory.md",
+    "YEAR 3/Embedded systems/Test/Test 1/Theory/8 Design theory.md",
+    "YEAR 3/Embedded systems/Test/Test 1/Theory/5 Design  Theory.md",
+    "YEAR 3/Embedded systems/Test/Test 1/Disa question/1..md",
     "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 5 (18-02-2025).md",
+    "YEAR 3/Embedded systems/Practice/Design 5 practice questions.md",
+    "YEAR 3/Embedded systems/Practice/Design 3 Questions.md",
+    "YEAR 3/Embedded systems/Designs/Design 4. (11-02-2025).md",
+    "YEAR 3/Embedded systems/Designs/Test 1 v1Memo (08-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Test 1 v2Memo (08-04-2025).md",
+    "YEAR 3/Embedded systems/Designs/Test 2 Memo.md",
+    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
     "Untitled.base",
     "Untitled 1.base",
@@ -222,25 +234,12 @@
     "Pasted image 20250222132952.png",
     "Pasted image 20250219101503.png",
     "Pasted image 20250130232743.png",
-    "Pasted image 20241024034229.png",
-    "Pasted image 20241024025313.png",
     "Design 14.2.md",
     "2025-02-22.md",
     "2025-02-09.md",
     "YEAR 3/Embedded systems/Notes/Notes.md",
     "YEAR 3/Embedded systems/Notes/Language Reference.md",
-    "YEAR 3/Embedded systems/Designs/Test 2 Memo.md",
-    "YEAR 3/Embedded systems/Designs/Test 1 v2Memo (08-04-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
-    "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025 Interrupts.md",
-    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
-    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
-    "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/Code.md",
-    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.4 Final Simulation.md",
-    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.3 Combine IR remote and Pot.md",
-    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.1 The Pot.md",
-    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration/2.2  Remote.md",
     "YEAR 3/Embedded systems/Project/Phase 6 FINAL",
     "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/Code",
     "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/AIM",

@@ -104,3 +104,6 @@ You've learned in 3.6.1 that a falling edge (`userIn == LOW && user_prev == HIGH
 After **5 button presses**, print `"--- End of sequence ---"` on a new line and reset the press counter back to 0 so a new sequence can begin.
 
 **Hint:** Use `unsigned long pressStart` set on the rising edge, and calculate `millis() - pressStart` on the falling edge. Use a global `int pressCount` to track how many presses have happened in the current sequence.
+
+
+
