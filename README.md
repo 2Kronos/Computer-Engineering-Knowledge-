@@ -3,7 +3,7 @@
 
 
 ## Overview
-This repository serves as a structured compilation of knowledge, resources, and materials gathered throughout my studies in Computer Engineering. It is managed using Obsidian and contains extensive documentation on topics covered in both my second- and third-year modules. The contents are derived from a combination of university-prescribed materials, academic textbooks, artificial intelligence resources, and supplementary online platforms such as YouTube.
+This repository serves as a structured compilation of knowledge, resources, and materials gathered throughout my studies in Computer Engineering. It is managed using Obsidian and contains extensive documentation on topics covered in both my second- and third-year modules. The contents are derived from a combination of university-prescribed materials, academic textbooks, artificial intelligence resources, and supplementary online platforms such as YouTube
 
 ## Repository Structure
 The repository is systematically organized to facilitate ease of navigation and accessibility. The content is divided into two primary categories based on academic year:
