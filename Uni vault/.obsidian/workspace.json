@@ -11,14 +11,38 @@
             "id": "3af887908070c4ae",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-06 14.27.44.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-06 14.27.44.excalidraw"
+            }
+          },
+          {
+            "id": "e66a603e3554e7bc",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "YEAR 3/Embedded systems/Test/Test 1/Theory/6 Design Theory.md",
+                "file": "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Design Theory"
+              "title": "Design 11 (22-04-2025) Math Functions (Sensors, graphs)"
+            }
+          },
+          {
+            "id": "9c769e519a84f1f5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/download.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "download"
             }
           }
         ]
@@ -41,7 +65,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Ultraso",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,51 +229,51 @@
   },
   "active": "3af887908070c4ae",
   "lastOpenFiles": [
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/5 Design  Theory.md",
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/Design 3 theory.md",
-    "Untitled.md",
-    "WhatsApp Image 2024-09-16 at 23.11.00_6ac626c7.jpg",
-    "WhatsApp Image 2024-09-05 at 11.26.44_1d6bdc91.jpg",
-    "Untitled 1.base",
-    "This Glove Calms Tremors in Parkinson’s Patients.jpeg",
-    "images/`Pasted.md",
-    "images/Pasted image 20250522205417.png",
-    "images/Pasted image 20250527003921.png",
-    "Pasted image 20250130234638.png",
-    "Pasted image 20250130234715.png",
-    "Pasted image 20250217024144.png",
-    "Pasted image 20250222133856.png",
-    "Pasted image 20250324201549.png",
-    "Untitled.base",
-    "YEAR 3/Embedded systems/Designs/Design 3 04-02-2025.md",
-    "YEAR 3/Embedded systems/Designs/Design 2 (31-01-2025).md",
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/Theory 1.md",
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/Milk design.md",
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/6 Design Theory.md",
-    "YEAR 3/Embedded systems/Test/Test 1/Theory/8 Design theory.md",
-    "YEAR 3/Embedded systems/Test/Test 1/Disa question/1..md",
+    "YEAR 3/Embedded systems/Designs/Design 14.1 (15-07-2025) Binary counters with chip.md",
+    "YEAR 3/Embedded systems/Designs/Design 13. (06-05-2025) (2024 VIDEOS).md",
+    "YEAR 3/Embedded systems/Designs/Design 12. (29-04-2025).md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Mock test 1 Sensor.md",
+    "YEAR 3/Embedded systems/Designs/Design 11 (22-04-2025) Math Functions (Sensors, graphs).md",
+    "images/Pasted Image 20260408002250_891.png",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/Emb Sys Mock Test 2 USDS alarm system.pdf",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Important Theory/Design 11.md",
+    "YEAR 3/Embedded systems/Designs/Design 10. 15-04-2025 Interrupts.md",
+    "YEAR 3/Embedded systems/Designs/Design 9. (01-04-2025) STRINGS.md",
+    "YEAR 3/Embedded systems/Designs/Design 8. (11-03-2025).md",
+    "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 6 (25-02-2025).md",
     "YEAR 3/Embedded systems/Designs/Design 5 (18-02-2025).md",
-    "YEAR 3/Embedded systems/Practice/Design 5 practice questions.md",
-    "YEAR 3/Embedded systems/Practice/Design 3 Questions.md",
-    "YEAR 3/Embedded systems/Designs/Design 4. (11-02-2025).md",
-    "YEAR 3/Embedded systems/Designs/Test 1 v1Memo (08-04-2025).md",
-    "YEAR 3/Embedded systems/Designs/Test 1 v2Memo (08-04-2025).md",
-    "YEAR 3/Embedded systems/Designs/Test 2 Memo.md",
-    "YEAR 3/Embedded systems/Designs/Design 1 (28-01-2025).md",
-    "YEAR 3/Embedded systems/Designs/Design 7. (04-03-2025).md",
-    "Design 14.2.md",
-    "2025-02-22.md",
-    "2025-02-09.md",
-    "YEAR 3/Embedded systems/Notes/Notes.md",
+    "YEAR 3/Embedded systems/Designs/Design 20(26-08-2025) Touch screens.md",
+    "YEAR 3/Embedded systems/Designs/Design 16(29-07-2025) servo Motors.md",
+    "YEAR 3/Embedded systems/Designs/Design 15(22-07-2025) stepper Motors.md",
+    "YEAR 3/Embedded systems/Designs/Design 14.2.1.md",
+    "Excalidraw/Drawing 2025-03-06 14.27.44.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-19 21.24.36.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-24 12.08.53.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-01 08.57.04.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-28 06.54.58.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-26 13.25.01.excalidraw.md",
+    "YEAR 3/Embedded systems/Designs/Design 21 IR and LCD.md",
+    "YEAR 3/Embedded systems/Designs/Design 19(19-08-2025) Interrupt functions.md",
+    "images/Pasted Image 20260408005601_829.png",
+    "images/Pasted Image 20260408005421_237.png",
+    "images/Pasted Image 20260408005357_143.png",
+    "images/Pasted Image 20260408004619_121.png",
+    "Excalidraw/Drawing 2025-03-26 13.25.01_0.excalidraw.md",
+    "YEAR 3/Embedded systems/Test/Test 2 Prep/Mock Test/EMB Sys Mock Test 3 DC Motor Controller.pdf",
+    "images/download.jpg",
+    "images/Pasted Image 20260408002548_981.png",
+    "images/Pasted Image 20260408001401_321.png",
+    "images/Pasted Image 20260408001156_785.png",
+    "images/ACHILLES.jpg",
+    "Untitled 1.base",
+    "Untitled.base",
     "YEAR 3/Embedded systems/Project/Phase 6 FINAL",
     "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/Code",
     "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management/AIM",
     "YEAR 3/Embedded systems/Project/Phase 3 Spin cycle and power management",
     "YEAR 3/Embedded systems/Project/Untitled",
     "YEAR 3/Embedded systems/Project/Phase 5 - Spin cycle, power, water management",
-    "YEAR 3/Embedded systems/Project/Phase 2- Power Management Integration",
-    "YEAR 3/Embedded systems/Project/Presentation",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "YEAR 3/Network System/Classes/Chapter 1/Untitled.canvas",

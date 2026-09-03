@@ -1,4 +1,8 @@
 # Circuit link 
+
+https://www.tinkercad.com/things/cOZkSuRDVI8-sensor-mock-test
+
+
 $distance =\frac{duration \times 0.343}{2}$
 
 $Shortest \ distance =\frac{duration \times 0.343}{2}$
@@ -8,6 +12,7 @@ $Shortest \ distance =32.485$
 $Furthest \ distance =\frac{duration \times 0.343}{2}$
 $Furthest \ distance =\frac{19218 \times 0.343}{2}$
 $Furthest \ distance = 3,295.887$
+
 
 standby 3252- 1928
 
